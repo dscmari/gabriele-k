@@ -1,26 +1,120 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-width: 320px;
+  min-height: 100vh;
+  max-width: 2048px;
+  margin: 0 auto 0 auto;
+  background-color: var(--color-custom-beige);
+}
+
+@theme {
+  --color-custom-blue: #14375f; /* cta */
+  --color-custom-bronce: #a27d58;
+  --color-custom-beige: #f0ebe6;
+}
+
+h1 {
+  font-family: var(--font-inter);
+  font-size: 1.5rem; /*text-2-xl*/
+  line-height: calc(2 / 1.5);
+  margin-bottom: 1rem;
+  font-weight: 600; /* semibold */
+}
+
+h2 {
+  font-size: 1.25rem; /*text-xl*/
+  line-height: calc(1.75 / 1.25);
+  margin-bottom: 0.5rem;
+  font-weight: 600; /* semibold */
+}
+
+/* Navbar */
+.burgermenu {
+  width: 40px;
+  height: 30px;
+  position: relative;
+  margin: 1rem;
+  margin-right: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.burgermenu > span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: var(--color-custom-blue);
+}
+
+span:nth-child(1) {
+  top: 0px;
+}
+
+span:nth-child(2) {
+  top: 10px;
+}
+
+span:nth-child(3) {
+  top: 20px;
+}
+
+.top.open {
+  top: 18px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.middle.open {
+  opacity: 0;
+  left: -60px;
+}
+
+.bottom.open {
+  top: 18px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.active {
+  text-decoration: underline;
+  text-underline-offset: 0.4rem; /* Adjust offset if needed */
+  text-decoration-thickness: 0.2em; /* Adjust thickness as desired */
+  transition: text-decoration-color 0.3s ease-in-out; /* Smooth transition effect */
 }
