@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <section className="lg:p-32 xl:py-64 pt-24 flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-center">
+      <section className="lg:p-32 pt-24 flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-center">
         <div className="px-4 lg:px-0 flex flex-col lg:flex-1">
           <span className="font-light text-sm">Finde deine Ruhe</span>
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
@@ -34,11 +34,11 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="bg-custom-blue text-white p-4 py-24 mt-24 lg:mt-0 md:p-16 lg:p-32 xl:py-64 scroll-mt-24">
+      <section className="bg-custom-blue text-white p-4 py-24 mt-24 lg:mt-0 md:p-16 lg:p-32 scroll-mt-24">
         <Features />
       </section>
-      <section id="ueber-uns" className="px-4 pt-24 md:p-16 lg:p-32">
-        <div className="flex flex-col">
+      <section id="ueber-uns" className="pt-24 md:p-16 lg:p-32">
+        <div className="flex flex-col px-4 lg:px-0">
           <span className="lg:mx-auto font-light text-sm">
             Ruhige Nächte, klare Morgen
           </span>
@@ -47,17 +47,17 @@ export default function Home() {
           </h1>
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
             Ausreichend gesunder Schlaf ist elementar für unser Wohlbefinden. Er
-            garantiert Erholung und Leistungsfähigkeit.
+            garantiert Erholung und Leistungsfähigkeit. Oftmals sind belastende Situationen, permanenter Stress oder falsche Angewohnheiten für schlechten Schlaf verantwortlich.
           </p>
         </div>
         <div className="flex flex-col lg:flex-row-reverse lg:flex-row gap-16 mt-12 lg:mt-32">
           <div className="flex-1">
             <Image
-              src="/images/stop_smoking.jpg"
+              src="/images/sleep.jpg"
               alt="Business environment in the office"
               width={800}
               height={600}
-              className="rounded-xl mx-auto"
+              className="lg:rounded-xl"
             />
           </div>
           <AccordeonClean className="flex-1" />

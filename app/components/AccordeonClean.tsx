@@ -1,6 +1,5 @@
 "use client";
-import { Cpu, LineChart, Target, Wrench } from "lucide-react";
-import { data } from "motion/react-client";
+import { Frown, OctagonAlert, Shell, Sun } from "lucide-react";
 
 type Props = {
   className?: string;
@@ -9,29 +8,31 @@ type Props = {
 export default function AccordeonClean({ className }: Props) {
   const home = [
     {
-      id: "impact-1",
-      icon: <Target />,
-      bullet: "Hypnose",
-      text: "text-1",
+      id: "1",
+      icon: <OctagonAlert />,
+      bullet: "Höheres gesundheitliches Risiko",
+      text: "Die Konzentration leidet und das Risiko für Herz-Kreislauf-Erkrankungen und Diabetes steigt. Dazu kommen vermehrt psychische Erkrankungen wie Burnout und Depressionen.",
     },
+
     {
-      id: "impact-2",
-      icon: <Wrench />,
-      bullet: "Hypnose",
-      text: "text-1",
+      id: "2",
+      icon: <Frown />,
+      bullet: "Vermehrt emotionale Probleme",
+      text: "Emotionale Auswirkungen wie Reizbarkeit und Angstzustände wirken sich auf die Familie, die Partnerschaft und das Arbeitsleben aus.",
     },
-    {
-      id: "impact-3",
-      icon: <Cpu />,
-      bullet: "Hypnose",
-      text: "text-1",
+        {
+      id: "3",
+      icon: <Sun />,
+      bullet: "Lebensqualität zurückgewinnen",
+      text: "Zusammen finden wir heraus, welche neuen Gedanken oder Verhaltensweisen hilfreich für Sie sind – damit Sie wieder himmlisch schlafen und einer anhaltenden Schlafstörung entgegenwirken können.",
     },
-    {
-      id: "impact-4",
-      icon: <LineChart />,
-      bullet: "Hypnose",
-      text: "text-1",
+        {
+      id: "4",
+      icon: <Shell />,
+      bullet: "Hypnose kann bei Schlafproblemen helfen",
+      text: "Durch Suggestionen kann u.a. das Unterbewusstsein neu konditioniert werden, sodass das Einschlafen nicht länger mit Stress, sondern mit Ruhe und Sicherheit verbunden wird",
     },
+
   ];
 
   return (

@@ -24,12 +24,14 @@ export default function ATF({ className }: Props) {
           className="mx-auto"
         />
         <h1 className="!text-3xl mt-12 text-custom-blue text-center">
-          Individuelle Hilfe bei Stress, Ängsten & Schlafproblemen
+          Heilpraktikerin für Psychotherapie in Kaufering
         </h1>
         <ContactBtn className="self-center mt-12" />
         <p className="mt-12 text-center font-light text-sm">
-          Für mehr Lebensqualität, innere Balance und einen achtsamen Umgang mit
-          sich selbst – mit bewährten und innovativen Methoden.
+          Ich bin Gabriela Kramer, Ihre Heilpraktikerin für Psychotherapie in
+          Kaufering und der Region Landsberg am Lech. In meiner Praxis
+          unterstütze ich Sie bei Ängsten, Stressbewältigung, Schlafproblemen
+          und anderen mentalen Belastungen.
         </p>
       </div>
       <div
@@ -38,15 +40,15 @@ export default function ATF({ className }: Props) {
       >
         <div className="flex flex-col p-8 rounded-xl bg-custom-beige/90 max-w-4/5 xl:max-w-2/5 absolute top-1/2 -translate-y-1/2 right-1/8">
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
-            Unterstützung bei Stress, Ängsten & Schlafproblemen
+            Heilpraktikerin für Psychotherapie in Kaufering
           </h1>
           <h2>
-            Für mehr Lebensqualität, innere Balance und einen achtsamen Umgang
-            mit sich selbst – mit bewährten und innovativen Methoden
+            Ich bin Gabriela Kramer, Ihre Heilpraktikerin für Psychotherapie in
+            Kaufering und der Region Landsberg am Lech.
           </h2>
           <p className="mb-8 font-light text-sm">
-            Lernen Sie, mit Ihren Herausforderungen angemessen umzugehen und
-            bringen Sie mehr Gelassenheit in Ihr Leben.
+            In meiner Praxis unterstütze ich Sie bei Ängsten, Stressbewältigung,
+            Schlafproblemen und anderen mentalen Belastungen.
           </p>
           <ContactBtn className="self-center" />
         </div>

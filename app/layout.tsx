@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -17,8 +18,8 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Gabriele Kramer",
-  description: "Gabriele Kramer",
+  title: "Gabriela Kramer",
+  description: "Gabriela Kramer",
 };
 
 export default function RootLayout({
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body className={`${manrope.variable} ${inter.variable} antialiased`}>
         <Navbar/>
         <main>{children}</main>
+        <Footer/>
       </body>
     </html>
   );
