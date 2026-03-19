@@ -32,16 +32,16 @@ export default function Navbar({ className }: Props) {
     <div className={`${className}`}>
       {/* Mobile */}
       <div className="lg:hidden px-4 pt-4 md:p-12 w-full">
-        <div className="flex justify-end md:justify-between items-center">
-           <Link href="/">
+        <div className="flex justify-between items-center">
+          <Link href="/">
             <Image
               src="/logo_gk.png"
               alt="Logo"
               width={200}
               height={100}
-              className="hidden md:block w-32"
+              className="w-24 md:w-32"
             />
-          </Link> 
+          </Link>
           <div className="flex items-center gap-4">
             <div className="burgermenu" id="burger-menu" onClick={toggleMenu}>
               <span className="top"></span>
@@ -59,32 +59,49 @@ export default function Navbar({ className }: Props) {
           >
             <div className="flex flex-col items-end  gap-4 py-12 font-semibold ">
               <div className="pb-1 text-neutral-400 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"#"} className="text-right text-charcoalDark">
-                  Item 1
+                <Link href={"/"} className="text-right text-charcoalDark">
+                  Home
+                </Link>
+              </div>
+              <div className="pb-1 text-neutral-400 border-b-2 border-slate-200 w-full flex justify-end">
+                <Link
+                  href={"angst-mindern"}
+                  className="text-right text-charcoalDark"
+                >
+                  Angst & Panik mindern
                 </Link>
               </div>
 
               <div className="pb-1 text-neutral-400 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"#"} className="text-right text-charcoalDark">
-                  Item 1
+                <Link
+                  href={"rauchfrei-werden"}
+                  className="text-right text-charcoalDark"
+                >
+                  Rauchfrei werden
                 </Link>
               </div>
 
               <div className="pb-1 text-neutral-400 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"#"} className="text-right text-charcoalDark">
-                  Item 2
+                <Link
+                  href={"besser-schlafen"}
+                  className="text-right text-charcoalDark"
+                >
+                  Besser schlafen
                 </Link>
               </div>
 
               <div className="pb-1 text-neutral-400 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"#"} className="text-right text-charcoalDark">
-                  Item 3
+                <Link href={"praxis"} className="text-right text-charcoalDark">
+                  Praxis
                 </Link>
               </div>
 
               <div className="pb-1 text-neutral-400 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"#"} className="text-right text-charcoalDark">
-                  Item 4
+                <Link
+                  href={"ueber-mich"}
+                  className="text-right text-charcoalDark"
+                >
+                  Über Mich
                 </Link>
               </div>
             </div>
@@ -92,7 +109,7 @@ export default function Navbar({ className }: Props) {
         ) : null}
       </div>
       {/* Desktop */}
-      <div className="hidden lg:block bg-offwhite w-full max-w-[2048px]">
+      <div className="hidden lg:block w-full max-w-[2048px]">
         <DesktopNavbar />
       </div>
     </div>

@@ -24,31 +24,31 @@ export default function DesktopNavbar({ className }: Props) {
         <div className="flex items-center justify-between w-full text-custom-blue">
           <div className="flex items-center gap-8">
             <Link
-              href={"#"}
+              href={"angst-mindern"}
               className="font-semibold hover:underline underline-offset-4"
             >
               Angst & Panik mindern
             </Link>
             <Link
-              href={"#"}
+              href={"rauchfrei-werden"}
               className="font-semibold hover:underline underline-offset-4"
             >
               Rauchfrei werden
             </Link>
             <Link
-              href={"#"}
+              href={"besser-schlafen"}
               className="font-semibold hover:underline underline-offset-4"
             >
               Besser schlafen
             </Link>
             <Link
-              href={"#"}
+              href={"praxis"}
               className="font-semibold hover:underline underline-offset-4"
             >
-              Die Praxis
+              Praxis
             </Link>
             <Link
-              href={"#"}
+              href={"ueber-mich"}
               className="font-semibold hover:underline underline-offset-4"
             >
               Über Mich
