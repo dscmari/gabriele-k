@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import ContactBtn from "../../buttons/ContactBtn";
+import { Mail, Phone } from "lucide-react";
 
 type Props = {
   className?: string;
@@ -10,6 +11,16 @@ type Props = {
 export default function DesktopNavbar({ className }: Props) {
   return (
     <div className={`mx-auto p-8 ${className}`}>
+      <div className="flex gap-4 justify-end text-sm font-light pb-4">
+        <div className="flex items-center gap-2">
+          <Phone className="shrink-0 size-4" />
+          <span>+49 1520 2076952</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Mail className="shrink-0 size-4" />
+          <span>info@gabrielakramer.de</span>
+        </div>
+      </div>
       <div className="flex items-center gap-16 p-4 ">
         <Link className="z-100" href={"/"}>
           {" "}
@@ -27,13 +38,13 @@ export default function DesktopNavbar({ className }: Props) {
               href={"angst-mindern"}
               className="font-semibold hover:underline underline-offset-4"
             >
-              Angst & Panik mindern
+              Ängste mindern
             </Link>
             <Link
               href={"rauchfrei-werden"}
               className="font-semibold hover:underline underline-offset-4"
             >
-              Rauchfrei werden
+              Stress reduzieren
             </Link>
             <Link
               href={"besser-schlafen"}
@@ -42,16 +53,10 @@ export default function DesktopNavbar({ className }: Props) {
               Besser schlafen
             </Link>
             <Link
-              href={"praxis"}
+              href={"besser-schlafen"}
               className="font-semibold hover:underline underline-offset-4"
             >
-              Praxis
-            </Link>
-            <Link
-              href={"ueber-mich"}
-              className="font-semibold hover:underline underline-offset-4"
-            >
-              Über Mich
+              Zielgewicht erreichen
             </Link>
           </div>
           <div className="flex items-center gap-8">

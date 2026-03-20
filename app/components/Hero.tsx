@@ -24,7 +24,7 @@ export default function ATF({
 
   return (
     <div className={`${className}`}>
-      {pathname === "/" ? (
+      {false ? (
         <div className="md:hidden px-4 h-screen flex flex-col">
           {/* <Image
           src={"/logo_gk.png"}
