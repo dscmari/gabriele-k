@@ -68,16 +68,13 @@ export default function Navbar({ className }: Props) {
                   href={"angst-mindern"}
                   className="text-right text-charcoalDark"
                 >
-                  Angst & Panik mindern
+                  Ängste & Panik mindern
                 </Link>
               </div>
 
               <div className="pb-1 text-neutral-400 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link
-                  href={"rauchfrei-werden"}
-                  className="text-right text-charcoalDark"
-                >
-                  Rauchfrei werden
+                <Link href={"#"} className="text-right text-charcoalDark">
+                  Stress reduzieren
                 </Link>
               </div>
 
@@ -91,8 +88,8 @@ export default function Navbar({ className }: Props) {
               </div>
 
               <div className="pb-1 text-neutral-400 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"praxis"} className="text-right text-charcoalDark">
-                  Praxis
+                <Link href={"#"} className="text-right text-charcoalDark">
+                  Zielgewicht erreichen
                 </Link>
               </div>
 
