@@ -1,41 +1,28 @@
 import { BadgeEuro, CigaretteOff, SearchCheck, ShieldCheck } from "lucide-react";
 import ContactBtn from "./buttons/ContactBtn";
 
+type Bullet = {
+  icon: React.ReactNode
+  header: string
+  text: string
+}
+
+type Data = {
+      headline: string,
+    subheader: string,
+    intro: string,
+    bullets: Bullet[]
+}
+
 type Props = {
   classname?: string;
+  data: Data
 };
 
-export default function Features({ classname }: Props) {
-  const smoke = {
-    headline: "Rauchfrei werden",
-    subheader: "Jetzt den Schalter umlegen",
-    intro:
-      "Sie wollen sich von Ihren Zigaretten trennen und endlich Nichtraucher werden? Lassen Sie sich von mir auf Ihrem Weg zum Nichtraucher mit einer praxiserprobten Behandlungsstrategie begleiten.",
-    bullets: [
-      {
-        icon: <CigaretteOff className="shrink-0" />,
-        header: "Gesünder leben",
-        text: "Bereits kurz nach der letzten Zigarette beginnt Ihr Körper sich zu erholen – Durchblutung, Lungenfunktion und Herzgesundheit verbessern sich spürbar und das Risiko für schwere Erkrankungen sinkt dauerhaft.",
-      },
-      {
-        icon: <ShieldCheck className="shrink-0" />,
-        header: "Abhängigkeit überkommen",
-        text: "Vielleicht haben Sie ja schon einen oder sogar mehrere Anläufe genommen und sind rückfällig geworden? Es ist schwer, geliebte Gewohnheiten zu lassen. ",
-      },
-      {
-        icon: <BadgeEuro className="shrink-0" />,
-        header: "Geld sparen",
-        text: "Ein Raucher gibt im Schnitt über 2.000€ pro Jahr für Zigaretten aus – Geld, das Sie künftig für schönere Dinge nutzen können.",
-      },
-      {
-        icon: <SearchCheck className="shrink-0" />,
-        header: "Vorbild sein",
-        text: "Nichtraucher zu werden schützt nicht nur Sie selbst, sondern auch Ihre Familie und Kinder vor den Folgen des Passivrauchens.",
-      },
-    ],
-  };
+export default function Features({ classname, data }: Props) {
 
-  const { headline, subheader, intro, bullets } = smoke;
+
+  const { headline, subheader, intro, bullets } = data;
 
   return (
     <div

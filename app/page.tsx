@@ -3,14 +3,24 @@ import Hero from "./components/Hero";
 import ContactBtn from "./components/buttons/ContactBtn";
 import AccordeonClean from "./components/AccordeonClean";
 import Features from "./components/Features";
+import { smoke } from "./data/FeaturesData"
 import Accordeon from "./components/Accordeon";
 import ScrollToTopBtn from "./components/buttons/ScrollToTopBtn";
 import Newsletter from "./components/newsletter/Newsletter";
 
 export default function Home() {
+
+  const hero = {
+    title : "Heilpraktikerin für Psychotherapie in Kaufering",
+    subtitle: "Ich bin Gabriela Kramer, Ihre Heilpraktikerin für Psychotherapie in Kaufering und der Region Landsberg am Lech.",
+    intro: "In meiner Praxis unterstütze ich Sie bei Ängsten, Stressbewältigung, Schlafproblemen und anderen mentalen Belastungen.",
+    imgPathDesktop: "/images/portraits/buero_gk.png",
+  }
+  const {title, subtitle, intro, imgPathDesktop} = hero
+
   return (
     <div>
-      <Hero imgPathDesktop="/images/portraits/buero_gk.png" />
+      <Hero imgPathDesktop={imgPathDesktop} title={title} subtitle={subtitle} intro={intro} />
       <section className="lg:p-32 pt-12 flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-center">
         <div className="px-4 lg:px-0 flex flex-col lg:flex-1">
           <span className="font-light text-sm mx-auto lg:mx-0">
@@ -41,7 +51,7 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-custom-blue text-white p-4 py-24 mt-24 lg:mt-0 md:p-16 lg:p-32 scroll-mt-24">
-        <Features />
+        <Features data={smoke} />
       </section>
       <section id="ueber-uns" className="pt-24 md:p-16 lg:pt-32 lg:px-32">
         <div className="flex flex-col px-4 lg:px-0">

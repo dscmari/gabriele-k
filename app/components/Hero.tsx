@@ -9,17 +9,19 @@ type Props = {
   className?: string;
   title?: React.ReactNode;
   subtitle?: string;
-  text?: string;
+  intro?: string;
   imgPathMobile?: string;
   imgPathDesktop?: string;
 };
 
-export default function ATF({
+export default function Hero({
   className,
+  title,
+  subtitle,
+  intro,
   imgPathMobile,
   imgPathDesktop,
 }: Props) {
-  const backgroundimage = imgPathDesktop;
   const pathname = usePathname();
 
   return (
@@ -69,23 +71,26 @@ export default function ATF({
         </div>
       )}
 
-      {pathname === "/" ? (
-        <div
-          className="hidden md:block h-screen relative bg-cover bg-center"
-          style={{ backgroundImage: `url(${backgroundimage})` }}
-        >
+      {true ? (
+        <div className="hidden md:block  h-screen relative">
+          <Image
+            src={imgPathDesktop!}
+            alt={
+              "Hintergrund Bild von Heilpraktikerin für Psychotherapie Gabriele Kramer im Gespräch"
+            }
+            fill
+            className="object-cover"
+            priority
+          />
           <div className="flex flex-col p-8 rounded-xl bg-custom-beige/90 max-w-4/5 xl:max-w-2/5 absolute top-1/2 -translate-y-1/2 right-1/8">
             <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
-              Heilpraktikerin für Psychotherapie in Kaufering
+              {title}
             </h1>
             <h2>
-              Ich bin Gabriela Kramer, Ihre Heilpraktikerin für Psychotherapie
-              in Kaufering und der Region Landsberg am Lech.
+             {subtitle}
             </h2>
             <p className="mb-8 font-light text-sm">
-              In meiner Praxis unterstütze ich Sie bei Ängsten,
-              Stressbewältigung, Schlafproblemen und anderen mentalen
-              Belastungen.
+          {intro}
             </p>
             <ContactBtn className="self-center" />
           </div>
@@ -110,7 +115,7 @@ export default function ATF({
           <div className="flex-1 ">
             <div className="relative bg-custom-blue h-[600px] w-[600px]">
               <Image
-                src={"/images/portraits/gk_blue_vertikal.jpg"}
+                src={imgPathDesktop!}
                 alt={"Portrait von Gabriela Kramer"}
                 width={400}
                 height={400}
