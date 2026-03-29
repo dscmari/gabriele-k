@@ -3,24 +3,52 @@ import Hero from "./components/Hero";
 import ContactBtn from "./components/buttons/ContactBtn";
 import AccordeonClean from "./components/AccordeonClean";
 import Features from "./components/Features";
-import { smoke } from "./data/FeaturesData"
+import { smoke } from "./data/FeaturesData";
 import Accordeon from "./components/Accordeon";
 import ScrollToTopBtn from "./components/buttons/ScrollToTopBtn";
 import Newsletter from "./components/newsletter/Newsletter";
 
 export default function Home() {
-
   const hero = {
-    title : "Heilpraktikerin für Psychotherapie in Kaufering",
-    subtitle: "Ich bin Gabriela Kramer, Ihre Heilpraktikerin für Psychotherapie in Kaufering und der Region Landsberg am Lech.",
-    intro: "In meiner Praxis unterstütze ich Sie bei Ängsten, Stressbewältigung, Schlafproblemen und anderen mentalen Belastungen.",
+    title: "Heilpraktikerin für Psychotherapie in Kaufering",
+    subtitle:
+      "Ich bin Gabriela Kramer, Ihre Heilpraktikerin für Psychotherapie in Kaufering und der Region Landsberg am Lech.",
+    intro:
+      "In meiner Praxis unterstütze ich Sie bei Ängsten, Stressbewältigung, Schlafproblemen und anderen mentalen Belastungen.",
     imgPathDesktop: "/images/portraits/buero_gk.png",
-  }
-  const {title, subtitle, intro, imgPathDesktop} = hero
+  };
+  const { title, subtitle, intro, imgPathDesktop } = hero;
 
   return (
     <div>
-      <Hero imgPathDesktop={imgPathDesktop} title={title} subtitle={subtitle} intro={intro} />
+      <Hero
+        imgPathDesktop={imgPathDesktop}
+        title={title}
+        subtitle={subtitle}
+        intro={intro}
+      />
+      <section className="px-4 lg:px-32 pt-24 lg:pt-32">
+        <div className="text-center">
+          <span className="font-light text-sm mx-auto lg:mx-0">Ablauf</span>
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+            Unser gemeinsamer Weg
+          </h1>
+          <p className="mb-8 font-light text-sm">
+            Ein strukturierter Prozess, der Ihnen von Anfang an Orientierung
+            gibt.
+          </p>
+        </div>
+
+        <div className="pt-24">
+          <Image
+            src="/images/process.png"
+            alt="Graphik zum Ablauf der Zusammenarbeit"
+            height={961}
+            width={914}
+            className="w-[768] mx-auto"
+          />
+        </div>
+      </section>
       <section className="lg:p-32 pt-12 flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-center">
         <div className="px-4 lg:px-0 flex flex-col lg:flex-1">
           <span className="font-light text-sm mx-auto lg:mx-0">
@@ -83,7 +111,9 @@ export default function Home() {
       </section>
       <section className="flex flex-col gap-12 lg:gap-0 lg:flex-row lg:items-center pt-24 lg:pt-32">
         <div className="flex-1 flex flex-col  px-4 lg:px-32">
-          <span className="font-light text-sm mx-auto lg:mx-0">Schnelle Hilfe</span>
+          <span className="font-light text-sm mx-auto lg:mx-0">
+            Schnelle Hilfe
+          </span>
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue text-center lg:text-start">
             Unterstützung während der Therapieplatzsuche
           </h1>
