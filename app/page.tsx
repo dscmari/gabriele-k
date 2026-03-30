@@ -38,7 +38,7 @@ export default function Home() {
             gibt.
           </p>
         </div>
-
+{/*
         <div className="pt-24">
           <Image
             src="/images/process.png"
@@ -48,6 +48,7 @@ export default function Home() {
             className="w-[768] mx-auto"
           />
         </div>
+*/}      
       </section>
       <section className="lg:p-32 pt-12 flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-center">
         <div className="px-4 lg:px-0 flex flex-col lg:flex-1">

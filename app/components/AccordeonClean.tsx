@@ -1,5 +1,5 @@
 "use client";
-import { Frown, OctagonAlert, Shell, Sun } from "lucide-react";
+import { Frown, OctagonAlert, RefreshCcw, Sun } from "lucide-react";
 
 type Props = {
   className?: string;
@@ -20,19 +20,19 @@ export default function AccordeonClean({ className }: Props) {
       bullet: "Vermehrt emotionale Probleme",
       text: "Emotionale Auswirkungen wie Reizbarkeit und Angstzustände wirken sich auf die Familie, die Partnerschaft und das Arbeitsleben aus.",
     },
-        {
+       {
       id: "3",
+      icon: <RefreshCcw />,
+      bullet: "Gedankenkarussell & innere Unruhe stoppen",
+      text: "Schlaflosigkeit entsteht oft nicht im Körper – sondern im Kopf. Kreisende Gedanken, Grübeln über den vergangenen Tag oder die Angst vor dem nächsten Morgen halten das Nervensystem in einem Zustand dauerhafter Alarmbereitschaft. Therapeutisch begleitete Verfahren wie kognitive Umstrukturierung, Achtsamkeit oder Entspannungstechniken helfen Ihnen, diesen inneren Lärm zu beruhigen – und wieder zur natürlichen Schlaffähigkeit zurückzufinden, die in Ihnen angelegt ist.",
+    },
+    {
+      id: "4",
       icon: <Sun />,
       bullet: "Lebensqualität zurückgewinnen",
       text: "Zusammen finden wir heraus, welche neuen Gedanken oder Verhaltensweisen hilfreich für Sie sind – damit Sie wieder himmlisch schlafen und einer anhaltenden Schlafstörung entgegenwirken können.",
     },
-        {
-      id: "4",
-      icon: <Shell />,
-      bullet: "Hypnose kann bei Schlafproblemen helfen",
-      text: "Durch Suggestionen kann u.a. das Unterbewusstsein neu konditioniert werden, sodass das Einschlafen nicht länger mit Stress, sondern mit Ruhe und Sicherheit verbunden wird",
-    },
-
+ 
   ];
 
   return (

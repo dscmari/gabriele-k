@@ -41,7 +41,7 @@ export default function DesktopNavbar({ className }: Props) {
               Ängste & Panik mindern
             </Link>
             <Link
-              href={"rauchfrei-werden"}
+              href={"#"}
               className="font-semibold hover:underline underline-offset-4"
             >
               Stress reduzieren
@@ -53,7 +53,7 @@ export default function DesktopNavbar({ className }: Props) {
               Besser schlafen
             </Link>
             <Link
-              href={"besser-schlafen"}
+              href={"#"}
               className="font-semibold hover:underline underline-offset-4"
             >
               Zielgewicht erreichen

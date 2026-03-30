@@ -58,12 +58,12 @@ export default function Navbar({ className }: Props) {
             onClick={toggleMenu}
           >
             <div className="flex flex-col items-end  gap-4 py-12 font-semibold ">
-              <div className="pb-1 text-neutral-400 border-b-2 border-slate-200 w-full flex justify-end">
+              <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
                 <Link href={"/"} className="text-right text-charcoalDark">
                   Home
                 </Link>
               </div>
-              <div className="pb-1 text-neutral-400 border-b-2 border-slate-200 w-full flex justify-end">
+              <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
                 <Link
                   href={"angst-mindern"}
                   className="text-right text-charcoalDark"
@@ -71,14 +71,12 @@ export default function Navbar({ className }: Props) {
                   Ängste & Panik mindern
                 </Link>
               </div>
-
-              <div className="pb-1 text-neutral-400 border-b-2 border-slate-200 w-full flex justify-end">
+              <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
                 <Link href={"#"} className="text-right text-charcoalDark">
                   Stress reduzieren
                 </Link>
               </div>
-
-              <div className="pb-1 text-neutral-400 border-b-2 border-slate-200 w-full flex justify-end">
+              <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
                 <Link
                   href={"besser-schlafen"}
                   className="text-right text-charcoalDark"
@@ -86,14 +84,13 @@ export default function Navbar({ className }: Props) {
                   Besser schlafen
                 </Link>
               </div>
-
-              <div className="pb-1 text-neutral-400 border-b-2 border-slate-200 w-full flex justify-end">
+              <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
                 <Link href={"#"} className="text-right text-charcoalDark">
                   Zielgewicht erreichen
                 </Link>
               </div>
 
-              <div className="pb-1 text-neutral-400 border-b-2 border-slate-200 w-full flex justify-end">
+              <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
                 <Link
                   href={"ueber-mich"}
                   className="text-right text-charcoalDark"
