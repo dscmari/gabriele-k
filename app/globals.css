@@ -22,9 +22,10 @@ body {
 }
 
 @theme {
-  --color-custom-blue: #14375f; /* cta */
+  --color-custom-blue: #14375f; 
   --color-custom-bronce: #a27d58;
   --color-custom-beige: #f0ebe6;
+  --color-cta: oklch(64.6% 0.222 41.116); /* cta */
 }
 
 h1 {

@@ -33,24 +33,72 @@ export default function Home() {
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
             Unser gemeinsamer Weg
           </h1>
-          <p className="mb-8 font-light text-sm">
-            Ein strukturierter Prozess, der Ihnen von Anfang an Orientierung
-            gibt.
+          <p className="mb-8 font-light text-sm max-w-4xl mx-auto">
+            Veränderung braucht Raum — und Raum braucht Struktur. Deshalb folgt
+            unsere Zusammenarbeit einem klaren Rahmen, der Ihnen von der ersten
+            Begegnung bis zum Abschluss Sicherheit und Orientierung gibt.
           </p>
         </div>
-{/*
-        <div className="pt-24">
+        <div className="flex flex-col lg:flex-row lg:gap-16 pt-12">
+          <div className="lg:flex-1">
+            <Image
+              src="/images/process.png"
+              alt="Graphik zum Ablauf der Zusammenarbeit"
+              height={961}
+              width={914}
+              className="lg:hidden mx-auto"
+            />
+            <Image
+              src="/images/process_desktop.png"
+              alt="Graphik zum Ablauf der Zusammenarbeit"
+              height={961}
+              width={914}
+              className="hidden lg:block lg:w-4xl xl:w-6xl mx-auto"
+            />
+          </div>
+          <div className="pt-12 flex flex-col lg:hidden">
+            <h2 className="text-center lg:text-start !mb-8">
+              Was Sie erwartet
+            </h2>
+            <div className="flex flex-col gap-4 text-sm font-light">
+              <p>
+                Unsere Zusammenarbeit beginnt mit einem kostenlosen Erstgespräch
+                von etwa 20 Minuten — ganz unverbindlich. Sie schildern, was Sie
+                bewegt, und wir spüren gemeinsam, ob die Chemie stimmt.
+              </p>
+              <p>
+                Passt es, folgt eine ausführliche Anamnese: Wir nehmen uns Zeit
+                für Ihre Geschichte, Ihre Ressourcen und das, was Sie sich
+                wünschen. Daraus entsteht ein Behandlungskonzept, das wirklich
+                zu Ihnen passt.
+              </p>
+              <p>
+                In der therapeutischen Begleitung arbeiten wir dann regelmäßig
+                zusammen — mit erprobten Methoden wie Gesprächstherapie,
+                verhaltenstherapeutischen Ansätzen oder traumasensibler Arbeit,
+                je nachdem, was für Sie stimmig ist.
+              </p>
+              <p>
+                Am Ende steht kein abruptes Ende, sondern ein bewusster
+                Abschluss: Wir sichern gemeinsam die Fortschritte, stärken Ihre
+                Eigenverantwortung — und verabschieden uns so, wie die Arbeit
+                war: wertschätzend.
+              </p>
+              <ContactBtn className="self-center lg:self-start mt-8 text-base" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="lg:p-32 pt-12 xl:py-48 flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-center lg:flex-row-reverse">
+        <div className="lg:flex-1">
           <Image
-            src="/images/process.png"
-            alt="Graphik zum Ablauf der Zusammenarbeit"
-            height={961}
-            width={914}
-            className="w-[768] mx-auto"
+            src={"/images/portraits/vr_gk.jpg"}
+            alt="Bild einer Sitzung, in der eine VR-Brille verwendet wird"
+            width={400}
+            height={400}
+            className="object-cover lg:rounded-xl w-96 h-96 mx-auto"
           />
         </div>
-*/}      
-      </section>
-      <section className="lg:p-32 pt-12 flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-center">
         <div className="px-4 lg:px-0 flex flex-col lg:flex-1">
           <span className="font-light text-sm mx-auto lg:mx-0">
             Finde deine Ruhe
@@ -69,20 +117,14 @@ export default function Home() {
           </p>
           <ContactBtn className="self-center lg:self-start" />
         </div>
-        <div className="lg:flex-1 relative ">
-          <Image
-            src={"/images/portraits/vr_gk.jpg"}
-            alt="Bild einer Sitzung, in der eine VR-Brille verwendet wird"
-            width={400}
-            height={400}
-            className="object-cover lg:rounded-xl w-96 h-96 mx-auto lg:mx-0"
-          />
-        </div>
       </section>
       <section className="bg-custom-blue text-white p-4 py-24 mt-24 lg:mt-0 md:p-16 lg:p-32 scroll-mt-24">
         <Features data={smoke} />
       </section>
-      <section id="ueber-uns" className="pt-24 md:p-16 lg:pt-32 lg:px-32">
+      <section
+        id="ueber-uns"
+        className="pt-24 md:p-16 lg:pt-32 xl:pt-48 lg:px-32"
+      >
         <div className="flex flex-col px-4 lg:px-0">
           <span className="mx-auto font-light text-sm">
             Ruhige Nächte, klare Morgen
@@ -97,7 +139,7 @@ export default function Home() {
             schlechten Schlaf verantwortlich.
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row-reverse lg:flex-row gap-16 mt-12 lg:mt-32">
+        <div className="flex flex-col lg:flex-row-reverse lg:flex-row gap-16 mt-12 lg:mt-32 xl:mt-48">
           <div className="flex-1">
             <Image
               src="/images/portraits/gk_blue_vertikal.jpg"
@@ -145,7 +187,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="pt-24 lg:pt-32 lg:px-32">
+      <section className="pt-24 lg:pt-32 xl:pt-48 lg:px-32">
         <div className="flex flex-col px-4 lg:px-0">
           <span className="mx-auto font-light text-sm">FAQs</span>
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue text-center">
@@ -161,7 +203,7 @@ export default function Home() {
           <Accordeon />
         </div>
       </section>
-      <section className="px-4 pt-24 pb-24 lg:px-32 lg:pt-32 lg:pb-32">
+      <section className="px-4 pt-24 pb-24 lg:px-32 lg:pt-32 xl:pt-48 lg:pb-32 xl:pb-48">
         <Newsletter />
       </section>
       <ScrollToTopBtn />
