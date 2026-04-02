@@ -58,6 +58,12 @@ export default function DesktopNavbar({ className }: Props) {
             >
               Zielgewicht erreichen
             </Link>
+            <Link
+              href={"methoden"}
+              className="font-semibold hover:underline underline-offset-4"
+            >
+              Methoden
+            </Link>
           </div>
           <div className="flex items-center gap-8">
             <ContactBtn className="hover:bg-gold" />

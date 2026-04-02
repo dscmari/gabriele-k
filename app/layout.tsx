@@ -3,6 +3,7 @@ import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/Footer";
+import ScrollToTopBtn from "./components/buttons/ScrollToTopBtn";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -30,9 +31,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${manrope.variable} ${inter.variable} antialiased`}>
-        <Navbar/>
+        <Navbar />
         <main>{children}</main>
-        <Footer/>
+        <Footer />
+        <ScrollToTopBtn />
       </body>
     </html>
   );

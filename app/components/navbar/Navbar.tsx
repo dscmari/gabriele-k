@@ -64,10 +64,7 @@ export default function Navbar({ className }: Props) {
                 </Link>
               </div>
               <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link
-                  href={"angst-mindern"}
-                  className="text-right"
-                >
+                <Link href={"angst-mindern"} className="text-right">
                   Ängste & Panik mindern
                 </Link>
               </div>
@@ -77,10 +74,7 @@ export default function Navbar({ className }: Props) {
                 </Link>
               </div>
               <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link
-                  href={"besser-schlafen"}
-                  className="text-right"
-                >
+                <Link href={"besser-schlafen"} className="text-right">
                   Besser schlafen
                 </Link>
               </div>
@@ -89,12 +83,13 @@ export default function Navbar({ className }: Props) {
                   Zielgewicht erreichen
                 </Link>
               </div>
-
               <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link
-                  href={"ueber-mich"}
-                  className="text-right"
-                >
+                <Link href={"methoden"} className="text-right">
+                  Methoden
+                </Link>
+              </div>
+              <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
+                <Link href={"ueber-mich"} className="text-right">
                   Über Mich
                 </Link>
               </div>

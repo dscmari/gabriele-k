@@ -96,8 +96,11 @@ export default function PhobiaSection() {
           Lebensqualität ein. Eines haben jedoch fast alle gemeinsam –
           unbehandelt verschwinden Phobien selten von selbst.
         </p>
-        <h2 id="koerperliche-belastungen" className="scroll-mt-16 text-custom-blue">
-          Körperliche Symptome
+        <h2
+          id="koerperliche-belastungen"
+          className="scroll-mt-16 text-custom-blue"
+        >
+          Herzrasen, Zittern und Schwindel
         </h2>
         <p>
           Typisch ist, dass der Körper sehr schnell in Alarmbereitschaft geht.
@@ -116,8 +119,11 @@ export default function PhobiaSection() {
           der Zeit immer größer.
         </p>
 
-        <h2 id="psychosoziale-belastungen" className="scroll-mt-16 text-custom-blue">
-          Psychosoziale Belastungen
+        <h2
+          id="psychosoziale-belastungen"
+          className="scroll-mt-16 text-custom-blue"
+        >
+          Intensive Ängste und Hilflosigkeit
         </h2>
         <p>
           Neben den körperlichen Reaktionen zeigt sich eine Phobie auch auf
@@ -141,7 +147,7 @@ export default function PhobiaSection() {
         </p>
 
         <h2 id="was-koennen-sie-tun" className="scroll-mt-16 text-custom-blue">
-          Was können Sie tun?
+          Ängste behandeln und verstehen
         </h2>
         <p>
           Mit einer Phobie sind Sie weder schwach noch überempfindlich. Angst

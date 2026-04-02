@@ -7,6 +7,10 @@ import {
   Moon,
   Plane,
   Users,
+  TrendingUp,
+  RefreshCcw,
+  CloudRain,
+  Earth,
 } from "lucide-react";
 
 export const smoke = {
@@ -63,6 +67,35 @@ export const anxiety = {
       icon: <Moon className="shrink-0" />,
       header: "Angst vor der Zukunft",
       text: "Was kommt noch alles auf mich zu? Wenn Sorgen um Job, Familie oder Gesundheit nicht mehr abschalten lassen und der Alltag zur Last wird.",
+    },
+  ],
+};
+
+export const sleep = {
+  headline: "Schlafstörungen verstehen",
+  subheader: "Jetzt Schlafstörungen bekämpfen",
+  intro:
+    "Wenn Sie unter Ein- und Durchschlafstörungen leiden, kann das sehr belastend sein. Schlafstörungen rauben Kraft, mindern die Konzentration und wirken sich oft auch auf Stimmung, Belastbarkeit und den Alltag aus.",
+  bullets: [
+    {
+      icon: <TrendingUp className="shrink-0" />,
+      header: "Schleichender Beginn",
+      text: "Ein- und Durchschlafstörungen entwickeln sich häufig schleichend. Vielleicht gab es in letzter Zeit vermehrten Stress, berufliche Belastungen, private Sorgen oder anhaltenden inneren Druck.",
+    },
+    {
+      icon: <RefreshCcw className="shrink-0" />,
+      header: "Gedankenkarussell",
+      text: "Irgendwann wird das Einschlafen selbst zum Thema. Viele Menschen mit Schlafstörungen kennen das Gedankenkarussell am Abend, die innere Anspannung oder den nächtlichen Blick auf die Uhr.",
+    },
+    {
+      icon: <CloudRain className="shrink-0" />,
+      header: "Psychische Belastung",
+      text: "Häufig stehen dabei nicht körperliche Ursachen im Mittelpunkt, sondern innere Unruhe, Grübeln, Stress oder seelische Belastungen.",
+    },
+    {
+      icon: <Earth className="shrink-0" />,
+      header: "Ganzheitliche Betrachtung",
+      text: "Auch belastende Gedanken, Stressmuster und die aktuelle Lebenssituation spielen häufig eine wichtige Rolle bei Schlafproblemen.",
     },
   ],
 };

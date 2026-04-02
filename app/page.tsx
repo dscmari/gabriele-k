@@ -206,7 +206,6 @@ export default function Home() {
       <section className="px-4 pt-24 pb-24 lg:px-32 lg:pt-32 xl:pt-48 lg:pb-32 xl:pb-48">
         <Newsletter />
       </section>
-      <ScrollToTopBtn />
     </div>
   );
 }
