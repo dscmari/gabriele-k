@@ -82,8 +82,8 @@ export default function Hero({
             className="object-cover"
             priority
           />
-          <div className="flex flex-col p-8 rounded-xl bg-custom-beige/90 max-w-4/5 xl:max-w-2/5 absolute top-1/2 -translate-y-1/2 right-1/8">
-            <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+          <div className="flex flex-col p-8 rounded-xl bg-custom-beige/90 max-w-4/5 xl:max-w-2/5 absolute top-1/2 -translate-y-1/2 right-1/8 text-custom-blue">
+            <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide ">
               {title}
             </h1>
             <h2>

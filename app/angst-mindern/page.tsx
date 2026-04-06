@@ -1,11 +1,13 @@
 import Image from "next/image";
 import Hero from "../components/Hero";
 import Features from "../components/Features";
-import { anxiety } from "../data/FeaturesData";
+import { anxietyFeatures } from "../data/FeaturesData";
+import { anxietyBlog } from "../data/BlogData";
 import Accordeon from "../components/Accordeon";
 import ContactBtn from "../components/buttons/ContactBtn";
 import Link from "next/link";
 import Blog from "../components/Blog";
+import Newsletter from "../components/newsletter/Newsletter";
 
 export default function page() {
   const hero = {
@@ -59,7 +61,7 @@ export default function page() {
         </div>
       </section>
       <section className="bg-custom-blue text-white p-4 py-24 mt-16 md:p-16 lg:p-32 scroll-mt-24">
-        <Features data={anxiety} />
+        <Features data={anxietyFeatures} />
       </section>
       <section className="lg:pt-32 xl:pt-48 lg:px-32 pt-12 flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-center">
         <div className="lg:flex-1">
@@ -107,7 +109,7 @@ export default function page() {
             Unterstützung selten von alleine verschwindet.
           </p>
         </div>
-        <Blog />
+        <Blog data={anxietyBlog} />
       </section>
       <section className="py-24 lg:p-32 xl:py-48">
         <div className="flex flex-col px-4 lg:px-0">
@@ -124,6 +126,9 @@ export default function page() {
         <div className="px-4 pt-12 lg:pt-24">
           <Accordeon />
         </div>
+      </section>
+      <section className="px-4 pt-24 pb-24 lg:px-32 lg:pt-32 xl:pt-48 lg:pb-32 xl:pb-48">
+        <Newsletter />
       </section>
     </div>
   );

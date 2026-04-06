@@ -14,7 +14,7 @@ export default function Home() {
     subtitle:
       "Ich bin Gabriela Kramer, Ihre Heilpraktikerin für Psychotherapie in Kaufering und der Region Landsberg am Lech.",
     intro:
-      "In meiner Praxis unterstütze ich Sie bei Ängsten, Stressbewältigung, Schlafproblemen und anderen mentalen Belastungen.",
+      "In meiner Praxis unterstütze ich Sie bei Ängsten, Stressbewältigung, Schlafproblemen und anderen mentalen Belastungen. Ich biete Ihnen eine entspannte und vertrauensvolle Arbeitsatmosphäre sowie flexible Behandlungszeiten – auch am Abend oder am Wochenende.",
     imgPathDesktop: "/images/portraits/buero_gk.png",
   };
   const { title, subtitle, intro, imgPathDesktop } = hero;
@@ -139,7 +139,7 @@ export default function Home() {
             schlechten Schlaf verantwortlich.
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row-reverse lg:flex-row gap-16 mt-12 lg:mt-32 xl:mt-48">
+        <div className="flex flex-col lg:flex-row-reverse lg:flex-row gap-16 mt-12 lg:mt-16 xl:mt-32">
           <div className="flex-1">
             <Image
               src="/images/portraits/gk_blue_vertikal.jpg"

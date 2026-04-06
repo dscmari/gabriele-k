@@ -43,6 +43,10 @@ h2 {
   font-weight: 600; /* semibold */
 }
 
+span, h1, h2, h3, p {
+  cursor: default;
+}
+
 /* Navbar */
 .burgermenu {
   width: 40px;

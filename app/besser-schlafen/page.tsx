@@ -2,7 +2,7 @@ import Hero from "../components/Hero";
 import Image from "next/image";
 import ContactBtn from "../components/buttons/ContactBtn";
 import Features from "../components/Features";
-import { anxiety, sleep } from "../data/FeaturesData";
+import { sleep } from "../data/FeaturesData";
 import Accordeon from "../components/Accordeon";
 import Newsletter from "../components/newsletter/Newsletter";
 

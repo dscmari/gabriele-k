@@ -11,6 +11,9 @@ import {
   RefreshCcw,
   CloudRain,
   Earth,
+  GitBranch,
+  Shell,
+  FileQuestionMark,
 } from "lucide-react";
 
 export const smoke = {
@@ -42,7 +45,7 @@ export const smoke = {
   ],
 };
 
-export const anxiety = {
+export const anxietyFeatures = {
   headline: "Spezifische Ängste",
   subheader: "Jetzt Ängste bekämpfen",
   intro:
@@ -99,3 +102,33 @@ export const sleep = {
     },
   ],
 };
+
+export const methodsFeatures = {
+  headline: "Therapeutische Verfahren",
+  subheader: "Erprobte Methoden",
+  intro:
+    "Individuell abgestimmte Verfahren, die gezielt auf Ihre Bedürfnisse eingehen – für nachhaltige Veränderung und mehr Lebensqualität.",
+  bullets: [
+    {
+      icon: <GitBranch className="shrink-0" />,
+      header: "Verhaltenstherapie",
+      text: "Die Verhaltenstherapie hilft Ihnen dabei, belastende Gedanken und Verhaltensmuster zu erkennen und gezielt zu verändern – durch praktische Übungen und konkrete Strategien, die Sie direkt in Ihrem Alltag anwenden können.",
+    },
+    {
+      icon: <Shell className="shrink-0" />,
+      header: "Hypnose",
+      text: "Hypnose versetzt Sie in einen Zustand tiefer Entspannung, in dem unbewusste Muster leichter zugänglich werden – so können festgefahrene Reaktionen sanft und nachhaltig verändert werden.",
+    },
+    {
+      icon: <FileQuestionMark className="shrink-0" />,
+      header: "Verfahren 3",
+      text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, nam quas mollitia quisquam minima consequuntur quaerat doloremque et eius optio dolores ex. Omnis eius, aut velit explicabo illum aliquid unde",
+    },
+    {
+      icon: <FileQuestionMark className="shrink-0" />,
+      header: "Verfahren 4",
+      text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, nam quas mollitia quisquam minima consequuntur quaerat doloremque et eius optio dolores ex. Omnis eius, aut velit explicabo illum aliquid unde.",
+    },
+  ],
+};
+
