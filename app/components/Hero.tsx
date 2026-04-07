@@ -57,7 +57,7 @@ export default function Hero({
           />
           <div className="absolute inset-0 bg-black/50"></div>
           <div className="absolute translate-y-1/3 flex flex-col z-10 text-white">
-            <h1 className="!text-3xl mt-12 text-white text-center">
+            <h1 className="!text-3xl mt-12 !text-white text-center">
               Heilpraktikerin für Psychotherapie in Kaufering
             </h1>
             <ContactBtn className="self-center mt-12" />
@@ -94,7 +94,7 @@ export default function Hero({
       ) : (
         <div className="hidden md:block px-4 lg:px-32 lg:flex lg:items-center lg:gap-32 xl:gap-64 h-screen">
           <div className="flex-1 bg-custom-beige flex flex-col">
-            <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+            <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide">
               Heilpraktikerin für Psychotherapie in Kaufering
             </h1>
             <h2 className="z-10">
