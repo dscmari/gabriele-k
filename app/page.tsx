@@ -5,8 +5,8 @@ import AccordeonClean from "./components/AccordeonClean";
 import Features from "./components/Features";
 import { smoke } from "./data/FeaturesData";
 import Accordeon from "./components/Accordeon";
-import ScrollToTopBtn from "./components/buttons/ScrollToTopBtn";
 import Newsletter from "./components/newsletter/Newsletter";
+import { faqsHome } from "./data/FAQsData";
 
 export default function Home() {
   const hero = {
@@ -200,7 +200,7 @@ export default function Home() {
           </p>
         </div>
         <div className="px-4 pt-12 lg:pt-24">
-          <Accordeon />
+          <Accordeon faqs={faqsHome} />
         </div>
       </section>
       <section className="px-4 pt-24 pb-24 lg:px-32 lg:pt-32 xl:pt-48 lg:pb-32 xl:pb-48">

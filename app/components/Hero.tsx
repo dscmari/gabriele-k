@@ -82,17 +82,13 @@ export default function Hero({
             className="object-cover"
             priority
           />
-          <div className="flex flex-col p-8 rounded-xl bg-custom-beige/90 max-w-4/5 xl:max-w-2/5 absolute top-1/2 -translate-y-1/2 right-1/8 text-custom-blue">
+          <div className="flex flex-col p-8 rounded-xl bg-custom-beige/90 max-w-4/5 xl:max-w-3/5 absolute top-1/2 -translate-y-1/2 right-1/8 text-custom-blue">
             <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide ">
               {title}
             </h1>
-            <h2>
-             {subtitle}
-            </h2>
-            <p className="mb-8 font-light text-sm">
-          {intro}
-            </p>
-            <ContactBtn className="self-center" />
+            <h2 className="lg:!text-xl xl:!text-4xl/14">{subtitle}</h2>
+          <p className="mb-8 xl:text-lg">{intro}</p>
+            <ContactBtn className="self-start" />
           </div>
         </div>
       ) : (

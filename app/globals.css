@@ -22,7 +22,7 @@ body {
 }
 
 @theme {
-  --color-custom-blue: #14375f; 
+  --color-custom-blue: #14375f;
   --color-custom-bronce: #a27d58;
   --color-custom-beige: #f0ebe6;
   --color-cta: oklch(64.6% 0.222 41.116); /* cta */
@@ -34,6 +34,7 @@ h1 {
   line-height: calc(2 / 1.5);
   margin-bottom: 1rem;
   font-weight: 600; /* semibold */
+  color: var(--color-custom-blue);
 }
 
 h2 {
@@ -41,9 +42,14 @@ h2 {
   line-height: calc(1.75 / 1.25);
   margin-bottom: 0.5rem;
   font-weight: 600; /* semibold */
+  color: var(--color-custom-blue);
 }
 
-span, h1, h2, h3, p {
+span,
+h1,
+h2,
+h3,
+p {
   cursor: default;
 }
 

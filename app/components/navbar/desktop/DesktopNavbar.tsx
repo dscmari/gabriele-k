@@ -41,7 +41,7 @@ export default function DesktopNavbar({ className }: Props) {
               Ängste & Panik mindern
             </Link>
             <Link
-              href={"#"}
+              href={"stress-reduzieren"}
               className="font-semibold hover:underline underline-offset-4"
             >
               Stress reduzieren

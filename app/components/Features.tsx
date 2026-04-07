@@ -30,7 +30,7 @@ export default function Features({ classname, data }: Props) {
     >
       <div className="flex-1 flex flex-col items-center lg:items-start gap-4">
         <span className="font-light text-sm">{subheader}</span>
-        <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide">
+        <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide !text-white">
           {headline}
         </h1>
         <p className="lg:text-base/8 text-center lg:text-start">{intro}</p>
@@ -42,7 +42,7 @@ export default function Features({ classname, data }: Props) {
             <div key={index} className="flex flex-col gap-4">
               <div className="flex gap-4 lg:flex-col">
                 {bullet.icon}
-                <h2>{bullet.header}</h2>
+                <h2 className="!text-white">{bullet.header}</h2>
               </div>
               <p className="lg:text-base/8">{bullet.text}</p>
             </div>

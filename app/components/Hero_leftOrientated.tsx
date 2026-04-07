@@ -40,7 +40,7 @@ export default function Hero({
         />
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="absolute translate-y-1/3 flex flex-col z-10 text-white">
-          <h1 className="!text-3xl mt-12 text-white text-center">{title}</h1>
+          <h1 className="!text-3xl mt-12 !text-white text-center">{title}</h1>
           <ContactBtn className="self-center mt-12" />
           <p className="mt-12 text-center font-light px-4">{intro}</p>
         </div>
@@ -60,7 +60,7 @@ export default function Hero({
         )}
 
         <div className="flex flex-col p-8 bg-custom-beige/90 rounded-xl max-w-4/5 xl:max-w-3/5 absolute top-1/2 -translate-y-1/2 left-1/8 text-custom-blue">
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-6xl/18 !font-bold tracking-wide">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide">
             {title}
           </h1>
           <h2 className="lg:!text-xl xl:!text-4xl/14">{subtitle}</h2>

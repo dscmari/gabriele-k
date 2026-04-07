@@ -14,6 +14,10 @@ import {
   GitBranch,
   Shell,
   FileQuestionMark,
+  Check,
+  Swords,
+  HeartCrack,
+  Focus,
 } from "lucide-react";
 
 export const smoke = {
@@ -128,6 +132,35 @@ export const methodsFeatures = {
       icon: <FileQuestionMark className="shrink-0" />,
       header: "Verfahren 4",
       text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, nam quas mollitia quisquam minima consequuntur quaerat doloremque et eius optio dolores ex. Omnis eius, aut velit explicabo illum aliquid unde.",
+    },
+  ],
+};
+
+export const stressFeatures = {
+  headline: "Grundlagen von Stress",
+  subheader: "Woher kommt's?",
+  intro:
+    "Stress entwickelt sich oft schleichend. Der Kopf bleibt aktiv, der Körper in Spannung, und das Abschalten fällt immer schwerer. Was anfangs noch wie eine vorübergehende Belastung wirkt, kann sich mit der Zeit zu einem Zustand entwickeln, der den ganzen Alltag prägt.",
+  bullets: [
+    {
+      icon: <Swords className="shrink-0" />,
+      header: "Stress aktiv angehen",
+      text: "Anhaltender Stress verschwindet oft nicht von selbst. Er fordert Kraft, Aufmerksamkeit und auf Dauer häufig auch Gesundheit und Leistungsfähigkeit.",
+    },
+    {
+      icon: <HeartCrack className="shrink-0" />,
+      header: "Stressfolgen",
+      text: "Ständige Anspannung kann auch mit anderen Beschwerden zusammenhängen und diese verstärken. Das betrifft zum Beispiel Schlafprobleme, Ängste und Grübeln.",
+    },
+    {
+      icon: <Focus className="shrink-0" />,
+      header: "Individuelle Betrachtung",
+      text: "Entscheidend ist oft, die persönliche Gesamtsituation zu verstehen. Was fordert Sie im Alltag besonders? Welche innere Haltung trägt dazu bei, dass Sie zu lange durchhalten? ",
+    },
+    {
+      icon: <Check className="shrink-0" />,
+      header: "Mein Ansatz",
+      text: "Gemeinsam schauen wir darauf, was Sie belastet, was Ihre Anspannung aufrechterhält und wo Sie vielleicht schon länger über Ihre eigenen Grenzen hinausgehen.",
     },
   ],
 };

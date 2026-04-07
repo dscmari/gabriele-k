@@ -21,7 +21,7 @@ export default function WebsiteCheck({ isGeo, className }: Props) {
               height={200}
             />
             <div className="xl:absolute p-8 bottom-0 leading-8 font-semibold text-white">
-              <h1 className="">
+              <h1 className="!text-white">
                 Heilpraktikerin für Psychotherapie in Kaufering
               </h1>
               <p className="text-sm font-light dark:text-custom-white">
