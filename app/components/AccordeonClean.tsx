@@ -47,7 +47,7 @@ export default function AccordeonClean({ className }: Props) {
           />
           <label
             htmlFor={e.id}
-            className="flex items-center gap-4 p-4 cursor-pointer font-semibold select-none"
+            className="flex items-center gap-4 p-4 cursor-pointer font-semibold select-none text-custom-blue"
           >
             {e.icon}
             <h2 className="pointer-events-none !text-base lg:!text-xl !m-0">
@@ -57,7 +57,7 @@ export default function AccordeonClean({ className }: Props) {
           <div className="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out group-has-[:checked]:grid-rows-[1fr]">
             <div className="overflow-hidden">
               <div className="p-4 lg:pl-12 dark:bg-darkmode-blue">
-                <p className="whitespace-pre-line font-light">{e.text}</p>
+                <p className="whitespace-pre-line">{e.text}</p>
               </div>
             </div>
           </div>

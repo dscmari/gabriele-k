@@ -61,7 +61,7 @@ export default function page() {
           />
         </div>
       </section>
-      <section className="bg-custom-blue text-white p-4 py-24 mt-16 md:p-16 lg:p-32 scroll-mt-24">
+      <section className="p-4 py-24 mt-16 md:p-16 lg:p-32 scroll-mt-24">
         <Features data={anxietyFeatures} />
       </section>
       <section className="lg:pt-32 xl:pt-48 lg:px-32 pt-12 flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-center">

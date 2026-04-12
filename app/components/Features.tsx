@@ -1,27 +1,30 @@
-import { BadgeEuro, CigaretteOff, SearchCheck, ShieldCheck } from "lucide-react";
+import {
+  BadgeEuro,
+  CigaretteOff,
+  SearchCheck,
+  ShieldCheck,
+} from "lucide-react";
 import ContactBtn from "./buttons/ContactBtn";
 
 type Bullet = {
-  icon: React.ReactNode
-  header: string
-  text: string
-}
+  icon: React.ReactNode;
+  header: string;
+  text: string;
+};
 
 type Data = {
-      headline: string,
-    subheader: string,
-    intro: string,
-    bullets: Bullet[]
-}
+  headline: string;
+  subheader: string;
+  intro: string;
+  bullets: Bullet[];
+};
 
 type Props = {
   classname?: string;
-  data: Data
+  data: Data;
 };
 
 export default function Features({ classname, data }: Props) {
-
-
   const { headline, subheader, intro, bullets } = data;
 
   return (
@@ -40,8 +43,9 @@ export default function Features({ classname, data }: Props) {
         {bullets.map((bullet, index) => {
           return (
             <div key={index} className="flex flex-col gap-4">
-              <div className="flex gap-4 lg:flex-col">
+              <div className="flex gap-4 lg:flex-col text-white">
                 {bullet.icon}
+
                 <h2 className="!text-white">{bullet.header}</h2>
               </div>
               <p className="lg:text-base/8">{bullet.text}</p>

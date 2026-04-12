@@ -99,7 +99,43 @@ export default function page() {
           <Accordeon faqs={faqsHypnosis} />
         </div>
       </section>
-      <section className="px-4 lg:px-32 pt-24 lg:pt-32">
+      <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-12 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
+        <div className="lg:flex-1 relative ">
+          <Image
+            src={"/images/portraits/buero_2.jpg"}
+            alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
+            width={800}
+            height={800}
+            className="object-cover lg:rounded-xl mx-auto"
+          />
+        </div>
+        <div className="px-4 lg:px-0 flex flex-col lg:flex-1">
+          <span className="font-light text-sm mx-auto lg:mx-0">
+            Wenn belastende Erlebnisse im Weg stehen
+          </span>
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+            EMDR
+          </h1>
+          <h2>Eye Movement Desensitization and Reprocessing - Was ist EMDR?</h2>
+          <p className="mb-4">
+            EMDR ist eine wissenschaftlich anerkannte psychotherapeutische
+            Methode, die ursprünglich zur Behandlung von Traumata entwickelt
+            wurde. Dabei folgen Sie mit den Augen den Fingerbewegungen des
+            Therapeuten – oder anderen rhythmischen Reizen wie Tönen oder
+            leichten Berührungen.
+          </p>
+          <p className="mb-8">
+            Diese bilaterale Stimulation beider Gehirnhälften hilft dabei,
+            belastende Erinnerungen neu zu verarbeiten und emotional zu
+            entlasten. Was sich ungewöhnlich anhört, ist gut erforscht – die WHO
+            empfiehlt EMDR ausdrücklich zur Behandlung von Traumafolgestörungen.
+            Inzwischen wird die Methode auch bei Ängsten, Phobien und anderen
+            psychischen Belastungen erfolgreich eingesetzt.
+          </p>
+          <ContactBtn className="self-center lg:self-start" />
+        </div>
+      </section>
+      <section className="px-4 lg:px-32 pt-24 lg:pt-32 xl:pt-48">
         <div className="text-center">
           <span className="font-light text-sm mx-auto lg:mx-0">
             Muster erkennen und neu gestalten
@@ -117,6 +153,41 @@ export default function page() {
           </p>
         </div>
         <Blog data={methodsBlog} />
+      </section>
+      <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-12 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
+        <div className="lg:flex-1 relative ">
+          <Image
+            src={"/images/portraits/buero_0.png"}
+            alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
+            width={800}
+            height={800}
+            className="object-cover lg:rounded-xl mx-auto"
+          />
+        </div>
+        <div className="px-4 lg:px-0 flex flex-col lg:flex-1">
+          <span className="font-light text-sm mx-auto lg:mx-0">
+            Einfach. Jederzeit. Wirkungsvoll.
+          </span>
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+            Atemtechniken
+          </h1>
+          <h2>Der Atem als Schlüssel zur inneren Ruhe</h2>
+          <p className="mb-4">
+            Atmen tun wir ständig – aber bewusstes Atmen ist etwas anderes.
+            Gezielte Atemtechniken sind eine der wirksamsten und zugänglichsten
+            Methoden, um das Nervensystem direkt zu beeinflussen. Sie senken
+            Stress, beruhigen den Geist und bringen den Körper in einen Zustand
+            der Entspannung.
+          </p>
+          <p className="mb-8">
+            In meiner Praxis zeige ich Ihnen Atemübungen, die sich einfach in
+            den Alltag integrieren lassen – ob in einer kurzen Pause, vor dem
+            Einschlafen oder in stressigen Momenten. Regelmäßig angewendet
+            stärken sie langfristig die Resilienz und verbessern das allgemeine
+            Wohlbefinden spürbar.
+          </p>
+          <ContactBtn className="self-center lg:self-start" />
+        </div>
       </section>
       <section className="pt-24 lg:pt-32 xl:pt-48 lg:px-32">
         <div className="flex flex-col px-4 lg:px-0">

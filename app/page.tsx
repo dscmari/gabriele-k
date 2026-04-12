@@ -12,10 +12,10 @@ export default function Home() {
   const hero = {
     title: "Heilpraktikerin für Psychotherapie in Kaufering",
     subtitle:
-      "Ich bin Gabriela Kramer, Ihre Heilpraktikerin für Psychotherapie in Kaufering und der Region Landsberg am Lech.",
+      "Ich bin Gabriela Kramer, Ihre Heilpraktikerin für Psychotherapie in Kaufering und der Region Landsberg am Lech",
     intro:
       "In meiner Praxis unterstütze ich Sie bei Ängsten, Stressbewältigung, Schlafproblemen und anderen mentalen Belastungen. Ich biete Ihnen eine entspannte und vertrauensvolle Arbeitsatmosphäre sowie flexible Behandlungszeiten – auch am Abend oder am Wochenende.",
-    imgPathDesktop: "/images/portraits/buero_gk.png",
+    imgPathDesktop: "/images/portraits/buero_0.png",
   };
   const { title, subtitle, intro, imgPathDesktop } = hero;
 
@@ -27,7 +27,78 @@ export default function Home() {
         subtitle={subtitle}
         intro={intro}
       />
-      <section className="px-4 lg:px-32 pt-24 lg:pt-32">
+      <section className="lg:px-32 lg:pt-32 pt-12 xl:pt-48 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center lg:flex-row-reverse">
+        <div className="lg:flex-1">
+          <Image
+            src={"/images/portraits/buero_1.jpg"}
+            alt="Bild einer Sitzung, in der eine VR-Brille verwendet wird"
+            width={800}
+            height={400}
+            className="object-cover lg:rounded-xl  mx-auto"
+          />
+        </div>
+        <div className="px-4 lg:px-0 flex flex-col lg:flex-1">
+          <span className="font-light text-sm mx-auto lg:mx-0">
+            Finde deine Ruhe
+          </span>
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+            Panik & Ängste mindern
+          </h1>
+          <h2>
+            Angst ist eine natürliche Reaktion des Körpers – doch wenn sie
+            überhandnimmt, kann sie den Alltag stark belasten
+          </h2>
+          <p className="mb-4">
+            Panikattacken, soziale Ängste oder diffuse Anspannung ohne klaren
+            Grund – Angst zeigt sich auf viele Arten. Was sie gemeinsam haben:
+            Sie entsteht im Nervensystem und lässt sich dort auch gezielt
+            ansprechen.
+          </p>
+          <p className="mb-8">
+            In unserer Arbeit lernen Sie, Ihre Angstreaktionen besser zu
+            verstehen und Schritt für Schritt zu regulieren. So gewinnen Sie
+            mehr innere Ruhe und Handlungsspielraum zurück.
+          </p>
+          <ContactBtn className="self-center lg:self-start" />
+        </div>
+      </section>
+      <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-12 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
+        <div className="lg:flex-1 relative ">
+          <Image
+            src={"/images/portraits/buero_2.jpg"}
+            alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
+            width={800}
+            height={800}
+            className="object-cover lg:rounded-xl mx-auto"
+          />
+        </div>
+        <div className="px-4 lg:px-0 flex flex-col lg:flex-1">
+          <span className="font-light text-sm mx-auto lg:mx-0">
+            Erreiche dein Wohlfühlgewicht
+          </span>
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+            Gesund abnehmen
+          </h1>
+          <h2>Gewicht im Gleichgewicht - Ihr Weg zum Wohlfühlgewicht!</h2>
+          <p className="mb-4">
+            Abnehmen beginnt oft nicht auf dem Teller, sondern im Kopf. Denn
+            Essverhalten, Stress, Gewohnheiten und emotionale Belastungen hängen
+            häufig eng zusammen. Mit Gewicht im Gleichgewicht begleite ich Sie
+            dabei, diese Zusammenhänge besser zu verstehen und neue,
+            alltagstaugliche Wege zu entwickeln.
+          </p>
+          <p className="mb-4">
+            Im Fokus stehen keine starren Regeln, sondern ein bewussterer Umgang
+            mit sich selbst, dem Essen und den eigenen Belastungen.
+          </p>
+          <p className="mb-8">
+            Für Menschen, die ihr Wohlfühlgewicht erreichen möchten und dabei
+            mehr suchen als das nächste Abnehmprogramm.
+          </p>
+          <ContactBtn className="self-center lg:self-start" />
+        </div>
+      </section>
+      <section className="px-4 lg:px-32 pt-24 lg:pt-32 xl:pt-48">
         <div className="text-center">
           <span className="font-light text-sm mx-auto lg:mx-0">Ablauf</span>
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
@@ -49,7 +120,7 @@ export default function Home() {
               className="lg:hidden mx-auto"
             />
             <Image
-              src="/images/process_desktop.png"
+              src="/images/roadmap_2.png"
               alt="Graphik zum Ablauf der Zusammenarbeit"
               height={961}
               width={914}
@@ -89,38 +160,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="lg:p-32 pt-12 xl:py-48 flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-center lg:flex-row-reverse">
-        <div className="lg:flex-1">
-          <Image
-            src={"/images/portraits/vr_gk.jpg"}
-            alt="Bild einer Sitzung, in der eine VR-Brille verwendet wird"
-            width={400}
-            height={400}
-            className="object-cover lg:rounded-xl w-96 h-96 mx-auto"
-          />
-        </div>
-        <div className="px-4 lg:px-0 flex flex-col lg:flex-1">
-          <span className="font-light text-sm mx-auto lg:mx-0">
-            Finde deine Ruhe
-          </span>
-          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
-            Panik & Ängste mindern
-          </h1>
-          <h2>
-            Angst ist eine natürliche Reaktion des Körpers – doch wenn sie
-            überhandnimmt, kann sie den Alltag stark belasten
-          </h2>
-          <p className="mb-8 font-light text-sm">
-            In unserer Arbeit lernen Sie, Ihre Angstreaktionen besser zu
-            verstehen und Schritt für Schritt zu regulieren. So gewinnen Sie
-            mehr innere Ruhe und Handlungsspielraum zurück.
-          </p>
-          <ContactBtn className="self-center lg:self-start" />
-        </div>
-      </section>
-      <section className="bg-custom-blue text-white p-4 py-24 mt-24 lg:mt-0 md:p-16 lg:p-32 scroll-mt-24">
-        <Features data={smoke} />
-      </section>
       <section
         id="ueber-uns"
         className="pt-24 md:p-16 lg:pt-32 xl:pt-48 lg:px-32"
@@ -130,7 +169,7 @@ export default function Home() {
             Ruhige Nächte, klare Morgen
           </span>
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue text-center">
-            Besser Schlafen
+            Mehr Energie durch besseren Schlaf
           </h1>
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
             Ausreichend gesunder Schlaf ist elementar für unser Wohlbefinden. Er
@@ -142,18 +181,50 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row-reverse lg:flex-row gap-16 mt-12 lg:mt-16 xl:mt-32">
           <div className="flex-1">
             <Image
-              src="/images/portraits/gk_blue_vertikal.jpg"
+              src="/images/portraits/buero_0.png"
               alt="Business environment in the office"
-              width={400}
-              height={400}
-              className="object-cover lg:rounded-xl w-96 h-96 mx-auto lg:mx-0"
+              width={800}
+              height={800}
+              className="object-cover lg:rounded-xl mx-auto lg:mx-0"
             />
           </div>
           <AccordeonClean className="flex-1" />
         </div>
       </section>
-      <section className="flex flex-col gap-12 lg:gap-0 lg:flex-row lg:items-center pt-24 lg:pt-32">
-        <div className="flex-1 flex flex-col  px-4 lg:px-32">
+      <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-12 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
+        <div className="lg:flex-1 relative ">
+          <Image
+            src={"/images/stress.jpg"}
+            alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
+            width={800}
+            height={800}
+            className="object-cover lg:rounded-xl mx-auto"
+          />
+        </div>
+        <div className="px-4 lg:px-0 flex flex-col lg:flex-1">
+          <span className="font-light text-sm mx-auto lg:mx-0">
+            Wenn der druck nicht nachlässt
+          </span>
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+            Stress reduzieren
+          </h1>
+          <h2>Wenn der Alltag zu viel wird</h2>
+          <p className="mb-4">
+            Stress ist eine der häufigsten Ursachen für Schlafprobleme,
+            Erschöpfung und emotionale Belastung. Er entsteht oft schleichend –
+            und bleibt, wenn er keine Ventile findet. Genau hier setzen wir an.
+          </p>
+          <p className="mb-8">
+            In meiner Praxis begleite ich Sie dabei, Stressauslöser zu erkennen,
+            das Nervensystem gezielt zu beruhigen und langfristig mehr innere
+            Ruhe in den Alltag zu bringen – mit erprobten Methoden wie
+            Atemtechniken, EMDR und Hypnose.
+          </p>
+          <ContactBtn className="self-center lg:self-start" />
+        </div>
+      </section>
+      <section className="flex flex-col gap-12 lg:gap-16 lg:flex-row lg:items-center pt-24 lg:pt-32 lg:px-32 xl:pt-48">
+        <div className="flex-1 flex flex-col ">
           <span className="font-light text-sm mx-auto lg:mx-0">
             Schnelle Hilfe
           </span>
@@ -167,7 +238,6 @@ export default function Home() {
                 Monate <br /> Wartezeit
               </span>
             </div>
-
             <p className="flex-2 lg:text-base/8">
               Lange Wartezeiten auf einen kassengestützten Psychotherapieplatz
               sind leider die Regel. Bei Ängsten, Panik, Schlafproblemen, Stress
@@ -179,13 +249,16 @@ export default function Home() {
         </div>
         <div className="lg:flex-1">
           <Image
-            src={"/images/portraits/writing_gk.jpg"}
-            alt="Bild einer Sitzung, in der eine VR-Brille verwendet wird"
-            width={400}
-            height={400}
-            className="object-cover lg:rounded-xl w-96 h-96 mx-auto lg:mx-0"
+            src={"/images/portraits/buero_3.jpg"}
+            alt="Bild von Gaby Kramer, Heilpraktikerin für Psychotherapie"
+            width={800}
+            height={800}
+            className="object-cover lg:rounded-xl mx-auto lg:mx-0"
           />
         </div>
+      </section>
+      <section className="bg-custom-blue text-white p-4 lg:px-32 lg:p-32 mt-12 lg:mt-32 xl:mt-48 scroll-mt-24">
+        <Features data={smoke} />
       </section>
       <section className="pt-24 lg:pt-32 xl:pt-48 lg:px-32">
         <div className="flex flex-col px-4 lg:px-0">

@@ -53,10 +53,16 @@ export default function DesktopNavbar({ className }: Props) {
               Besser schlafen
             </Link>
             <Link
-              href={"#"}
+              href={"gesund-abnehmen"}
               className="font-semibold hover:underline underline-offset-4"
             >
-              Zielgewicht erreichen
+              Gesund abnehmen
+            </Link>
+            <Link
+              href={"ueber-mich"}
+              className="font-semibold hover:underline underline-offset-4"
+            >
+              Über mich
             </Link>
             <Link
               href={"methoden"}

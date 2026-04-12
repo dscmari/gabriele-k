@@ -86,7 +86,7 @@ export default function Hero({
             <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide ">
               {title}
             </h1>
-            <h2 className="lg:!text-xl xl:!text-4xl/14">{subtitle}</h2>
+            <h2 className="lg:!text-xl xl:!text-4xl/12">{subtitle}</h2>
           <p className="mb-8 xl:text-lg">{intro}</p>
             <ContactBtn className="self-start" />
           </div>

@@ -13,7 +13,7 @@ export default function page() {
     subtitle: "Hilfe bei Ein- und Durchschlafstörungen",
     intro:
       "Sie sind abends hundemüde, liegen im Bett und können trotzdem nicht einschlafen. Oder Sie wachen nachts immer wieder auf und finden nicht mehr in den Schlaf. Wenn Sie unter Ein- und Durchschlafstörungen leiden, kann das sehr belastend sein.",
-    imgPathDesktop: "/images/portraits/buero_gk.png",
+    imgPathDesktop: "/images/portraits/buero_0.png",
   };
   const { title, subtitle, intro, imgPathDesktop } = hero;
   return (

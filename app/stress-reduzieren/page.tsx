@@ -16,7 +16,7 @@ export default function page() {
       "Wenn Stress zum Dauerzustand wird und Sie nur noch weiter machen",
     intro:
       "Stress gehört zum Leben – aber wenn er nicht mehr aufhört, wenn Sie morgens schon erschöpft aufwachen und abends nicht abschalten können, wird er zur Belastung. Hier finden Sie Unterstützung, um wieder Boden unter den Füßen zu spüren.",
-    imgPathDesktop: "/images/portraits/buero_gk.png",
+    imgPathDesktop: "/images/portraits/buero_1.jpg",
   };
   const { title, subtitle, intro, imgPathDesktop } = hero;
   return (
@@ -42,13 +42,13 @@ export default function page() {
         </div>
         <SixBoxLayout boxes={stress} className="pt-12 lg:pt-24" />
       </section>
-      <section className="bg-custom-blue text-white p-4 py-24 mt-24 lg:mt-16 md:p-16 lg:p-32 scroll-mt-24">
+      <section className="bg-custom-blue text-white p-4 py-24 mt-24 lg:mt-32 xl:mt-48 md:p-16 lg:p-32 scroll-mt-24">
         <Features data={stressFeatures} />
       </section>
       <section className="lg:pt-32 lg:px-32 pt-12 xl:pt-48 flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-center lg:flex-row-reverse">
         <div className="lg:flex-1">
           <Image
-            src={"/images/portraits/buero_sitting.jpg"}
+            src={"/images/portraits/buero_2.jpg"}
             alt="Bild einer Sitzung, in der eine VR-Brille verwendet wird"
             width={400}
             height={800}
