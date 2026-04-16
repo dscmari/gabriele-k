@@ -100,7 +100,7 @@ export default function page() {
           <span className="lg:mx-auto font-light text-sm">
             Heilpraktikerin für Psychotherapie
           </span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide lg:text-center">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide lg:text-center lg:mx-auto max-w-3xl">
             8 Jahre Erfahrung als Heilpraktikerin für Psychotherapie in
             Kaufering
           </h1>
