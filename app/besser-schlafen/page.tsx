@@ -63,7 +63,7 @@ export default function page() {
         <div className="lg:flex-1">
           <Image
             src={"/images/portraits/writing_gk.jpg"}
-            alt="Bild einer Sitzung, in der eine VR-Brille verwendet wird"
+            alt="Portrait von Heilpraktikerin für Psychotherapie Gaby Kramer"
             width={400}
             height={400}
             className="object-cover lg:rounded-xl mx-auto"

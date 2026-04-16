@@ -28,7 +28,7 @@ export default function Accordeon({ className, faqs }: Props) {
               className="flex justify-between items-center p-4 cursor-pointer font-semibold select-none"
             >
               <span className="pointer-events-none text-custom-blue">{faq.question}</span>
-             <ChevronDown className="shrink-0 transition-transform duration-300 group-has-[:checked]:scale-y-[-1] group-has-[:checked]:text-custom-red" />
+             <ChevronDown className="text-slate-400 shrink-0 transition-transform duration-300 group-has-[:checked]:scale-y-[-1] group-has-[:checked]:text-custom-blue" />
             </label>
             <div className="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out group-has-[:checked]:grid-rows-[1fr]">
               <div className="overflow-hidden">

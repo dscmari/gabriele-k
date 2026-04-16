@@ -1,21 +1,65 @@
 import Image from "next/image";
-import Timeline from "../components/Timeline";
+import Timeline from "../components/cv/Timeline";
+import TimelineCV from "../components/cv/TimelineCV";
+import Qualifications from "../components/cv/Qualifications";
+import Accordeon from "../components/Accordeon";
+import Newsletter from "../components/newsletter/Newsletter";
+import { faqsHome } from "../data/FAQsData";
 
 export default function page() {
   return (
     <div>
-      <section className="pt-12 lg:pt-32 lg:px-32 flex flex-col gap-8 lg:flex-row ">
-        {" "}
-        <div className="min-w-sm">
-          <Image
-            src={"/images/portraits/sitting_front_gk_small.jpg"}
-            alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
-            width={350}
-            height={525}
-            className="object-cover"
-          />
-        </div>
-        <div className="mt-16">
+      <section className="">
+        <div className="pt-12 lg:pt-32 md:px-16 lg:px-32 flex flex-col gap-8 lg:gap-16 md:flex-row">
+          <div className="w-full md:flex-1 min-w-sm ">
+            <Image
+              src={"/images/portraits/sitting_front_gk_small.jpg"}
+              alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
+              width={400}
+              height={600}
+              className="object-cover"
+            />
+          </div>
+          <div className="hidden 2xl:block px-4 lg:px-0 lg:mt-16">
+            <span className="font-light text-sm mx-auto lg:mx-0">
+              Über mich
+            </span>
+            <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide">
+              Mein Weg
+            </h1>
+            <div className="flex flex-col gap-4">
+              <p>
+                Über viele Jahre war ich im Automobilvertrieb einer Premiummarke
+                tätig. In diesem anspruchsvollen Umfeld stand ich unter
+                permanentem Druck. Auch in den anschließenden Jahren als
+                selbstständige systemische Organisationsentwicklerin gehörte
+                Stress zu meinem Alltag. In dieser Zeit lebte ich einen sehr
+                ungesunden Umgang mit Stress. Ein daraus resultierendes
+                Angstsyndrom riss mein Leben schlagartig aus den Angeln und
+                führte schließlich dazu, dass ich meine Denk- und
+                Verhaltensmuster reflektieren und verändern konnte.
+              </p>
+              <p>
+                Zugleich wurde mir bewusst, dass das, was ich selbst erlebt und
+                erlitten hatte, viele Menschen betrifft. Deshalb setzte ich mich
+                zunehmend mit den Themen Stress und Ängsten auseinander. Ich
+                bildete mich zur zertifizierten Stresskompetenz-Trainerin weiter
+                und absolvierte Ausbildungen zur Heilpraktikerin für
+                Psychotherapie sowie wissenschaftlich anerkannter
+                Therapieverfahren.
+              </p>
+              <p>
+                In Kombination mit meinen Erfahrungen und den Kenntnissen aus
+                früheren Ausbildungen als Organisationsentwicklerin,
+                Wirtschaftsmediatorin, Business-Trainerin und -Coach verfüge ich
+                über ein weitreichendes persönliches und methodisches Spektrum
+                zur professionellen Begleitung meiner Klienten.
+              </p>
+            </div>
+          </div>
+          <Timeline className="hidden md:block md:flex-1 lg:mr-32 xl:mr-48 2xl:mr-0" />
+        </div>{" "}
+        <div className="hidden md:block  2xl:hidden md:px-16 lg:px-32 mt-16">
           <span className="font-light text-sm mx-auto lg:mx-0">Über mich</span>
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide">
             Mein Weg
@@ -50,7 +94,56 @@ export default function page() {
             </p>
           </div>
         </div>
-        <Timeline />
+      </section>
+      <section className="pt-24 lg:pt-32 xl:pt-48 ">
+        <div className="flex flex-col px-4 md:px-16 lg:px-32">
+          <span className="lg:mx-auto font-light text-sm">
+            Heilpraktikerin für Psychotherapie
+          </span>
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide lg:text-center">
+            8 Jahre Erfahrung als Heilpraktikerin für Psychotherapie in
+            Kaufering
+          </h1>
+          <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
+            Mit über 8 Jahren Erfahrung als Heilpraktikerin für Psychotherapie
+            begleite ich Menschen in herausfordernden Lebensphasen – einfühlsam,
+            kompetent und auf Augenhöhe.
+          </p>
+        </div>
+        <TimelineCV className="mt-12 lg:mt-24" />
+      </section>
+      <section className="pt-24 lg:pt-32 xl:pt-48 px-4 md:px-16 lg:px-32">
+        <div className="flex flex-col">
+          <span className="font-light text-sm">Zertifizierungen</span>
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide">
+            Zusätzliche Aus- und Weiterbildungen
+          </h1>
+          <p className="max-w-4xl font-light text-sm">
+            Nach meiner fundierten Ausbildung zur Heilpraktikerin für
+            Psychotherapie habe ich mich kontinuierlich weitergebildet.
+            Besonders am Herzen liegen mir folgende Schwerpunkte:
+          </p>
+        </div>
+        <Qualifications className="mt-12 max-w-2xl" />
+      </section>
+      <section className="pt-24 lg:pt-32 xl:pt-48 px-4 md:px-16 lg:px-32">
+        <div className="flex flex-col">
+          <span className="mx-auto font-light text-sm">FAQs</span>
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue text-center">
+            Häufig gestellte Fragen
+          </h1>
+          <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
+            Hier kriegst du einen Überblick über häufig gestellte Fragen zur
+            Zusammenarbeit mit Gabriela Kramer, Heilpraktikerin für
+            Psychothrapie.
+          </p>
+        </div>
+        <div className="pt-12 lg:pt-24">
+          <Accordeon faqs={faqsHome} />
+        </div>
+      </section>
+      <section className="px-4 md:px-16 lg:px-32 pt-24 pb-24 lg:pt-32 xl:pt-48 lg:pb-32 xl:pb-48">
+        <Newsletter />
       </section>
     </div>
   );

@@ -161,7 +161,6 @@ export default function Home() {
         </div>
       </section>
       <section
-        id="ueber-uns"
         className="pt-24 md:p-16 lg:pt-32 xl:pt-48 lg:px-32"
       >
         <div className="flex flex-col px-4 lg:px-0">

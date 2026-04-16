@@ -33,7 +33,7 @@ export default function DesktopNavbar({ className }: Props) {
           />
         </Link>
         <div className="flex items-center justify-between w-full text-custom-blue">
-          <div className="flex items-center gap-8">
+          <div className="flex items-center xl:gap-4 2xl:gap-8">
             <Link
               href={"angst-mindern"}
               className="font-semibold hover:underline underline-offset-4"

@@ -4,6 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "motion/react";
 import DesktopNavbar from "./desktop/DesktopNavbar";
+import { Contact } from "lucide-react";
+import ContactBtn from "../buttons/ContactBtn";
 
 type Props = {
   className?: string;
@@ -31,7 +33,7 @@ export default function Navbar({ className }: Props) {
   return (
     <div className={`${className}`}>
       {/* Mobile */}
-      <div className="lg:hidden px-4 pt-4 md:p-12 w-full">
+      <div className="xl:hidden px-4 pt-4 md:p-12 w-full">
         <div className="flex justify-between items-center">
           <Link href="/">
             <Image
@@ -92,13 +94,13 @@ export default function Navbar({ className }: Props) {
                 <Link href={"ueber-mich"} className="text-right">
                   Über Mich
                 </Link>
-              </div>
+              </div>      
             </div>
           </motion.div>
         ) : null}
       </div>
       {/* Desktop */}
-      <div className="hidden lg:block w-full max-w-[2048px]">
+      <div className="hidden xl:block w-full max-w-[2048px]">
         <DesktopNavbar />
       </div>
     </div>
