@@ -25,13 +25,9 @@ export default function Hero({
 
   return (
     <div className={`${className}`}>
-      <div className="md:hidden h-screen w-full relative">
+      <div className="lg:hidden h-screen w-full relative">
         <Image
-          src={
-            imgPathMobile
-              ? imgPathMobile
-              : "/images/portraits/gaby_4.jpg"
-          }
+          src={imgPathMobile ? imgPathMobile : "/images/portraits/gaby_4.jpg"}
           alt="Gabriele Kramer Logo"
           width={400}
           height={800}
@@ -44,7 +40,7 @@ export default function Hero({
           <p className="mt-12 text-center font-light px-4">{intro}</p>
         </div>
       </div>
-      <div className="hidden md:block  h-screen relative">
+      <div className="hidden lg:block  h-screen relative">
         {imgPathDesktop && (
           <div>
             <Image
@@ -62,7 +58,9 @@ export default function Hero({
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide dark:!text-custom-blue">
             {title}
           </h1>
-          <h2 className="lg:!text-xl xl:!text-4xl/14 dark:!text-custom-blue">{subtitle}</h2>
+          <h2 className="lg:!text-xl xl:!text-4xl/14 dark:!text-custom-blue">
+            {subtitle}
+          </h2>
           <p className="mb-8 xl:text-lg">{intro}</p>
           <ContactBtn className="self-start" />
         </div>

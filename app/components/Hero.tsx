@@ -26,7 +26,7 @@ export default function Hero({
   return (
     <div className={`${className}`}>
       {/* mobile */}
-      <div className="md:hidden h-screen w-full relative">
+      <div className="lg:hidden h-screen w-full relative">
         <Image
           src={"/images/portraits/gaby_4.jpg"}
           alt="Gabriele Kramer Logo"
@@ -46,7 +46,7 @@ export default function Hero({
         </div>
       </div>
       {/* desktop */}
-      <div className="hidden md:block h-screen relative">
+      <div className="hidden lg:block h-screen relative">
         <Image
           src={imgPathDesktop!}
           alt={
