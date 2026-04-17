@@ -19,7 +19,6 @@ export default function Hero({
   title,
   subtitle,
   intro,
-  imgPathMobile,
   imgPathDesktop,
 }: Props) {
   const pathname = usePathname();
@@ -27,9 +26,9 @@ export default function Hero({
   return (
     <div className={`${className}`}>
       {/* mobile */}
-      <div className="md:hidden h-screen w-full relative mt-8">
+      <div className="md:hidden h-screen w-full relative">
         <Image
-          src={"/images/portraits/sitting_front_gk_small.jpg"}
+          src={"/images/portraits/gaby_4.jpg"}
           alt="Gabriele Kramer Logo"
           width={400}
           height={800}
@@ -37,19 +36,16 @@ export default function Hero({
         />
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="absolute translate-y-1/3 flex flex-col z-10 text-white">
-          <h1 className="!text-3xl mt-12 !text-white text-center">
-            Heilpraktikerin für Psychotherapie in Kaufering
+          <h1 className="!text-3xl mt-12 !text-white dark:text-darkmode-white text-center">
+            {title}
           </h1>
           <ContactBtn className="self-center mt-12" />
           <p className="mt-12 text-center font-light px-4">
-            Ich bin Gabriela Kramer, Ihre Heilpraktikerin für Psychotherapie in
-            Kaufering und der Region Landsberg am Lech. In meiner Praxis
-            unterstütze ich Sie bei Ängsten, Stressbewältigung, Schlafproblemen
-            und anderen mentalen Belastungen.
+          {intro}
           </p>
         </div>
       </div>
-{/* desktop */}
+      {/* desktop */}
       <div className="hidden md:block h-screen relative">
         <Image
           src={imgPathDesktop!}
@@ -61,10 +57,10 @@ export default function Hero({
           priority
         />
         <div className="flex flex-col p-8 rounded-xl bg-custom-beige/90 max-w-4/5 xl:max-w-3/5 absolute top-1/2 -translate-y-1/2 right-1/8 text-custom-blue">
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide ">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide dark:!text-custom-blue">
             {title}
           </h1>
-          <h2 className="lg:!text-xl xl:!text-4xl/12">{subtitle}</h2>
+          <h2 className="lg:!text-xl xl:!text-4xl/12 dark:!text-custom-blue">{subtitle}</h2>
           <p className="mb-8 xl:text-lg">{intro}</p>
           <ContactBtn className="self-start" />
         </div>

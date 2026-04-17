@@ -32,7 +32,7 @@ export default function DesktopNavbar({ className }: Props) {
             className="w-36"
           />
         </Link>
-        <div className="flex items-center justify-between w-full text-custom-blue">
+        <div className="flex items-center justify-between w-full text-custom-blue dark:text-darkmode-white">
           <div className="flex items-center xl:gap-4 2xl:gap-8">
             <Link
               href={"angst-mindern"}

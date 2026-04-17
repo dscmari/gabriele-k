@@ -70,7 +70,7 @@ export default function Blog({data}: Props) {
                 onClick={() => setActiveId(id)} // sofort umschalten beim Klick
                 className={`block pl-4 border-l-2 border-custom-blue transition-all duration-200 ${
                   activeId === id
-                    ? "border-black font-medium text-custom-blue"
+                    ? "border-black font-medium text-custom-blue dark:text-darkmode-white"
                     : "border-transparent text-gray-400 hover:text-custom-blue"
                 }`}
               >
@@ -88,7 +88,7 @@ export default function Blog({data}: Props) {
             className="flex flex-col gap-4 max-w-xl lg:text-base/8 pt-8"
           >
             {" "}
-            <h2 id={e.id} className="scroll-mt-16 text-custom-blue">
+            <h2 id={e.id} className="scroll-mt-16 text-custom-blue dark:text-darkmode-white">
               {e.header}
             </h2>
             {e.texts?.map((e, index) => (

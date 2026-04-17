@@ -33,7 +33,7 @@ export default function Navbar({ className }: Props) {
   return (
     <div className={`${className}`}>
       {/* Mobile */}
-      <div className="xl:hidden px-4 pt-4 md:p-12 w-full">
+      <div className="xl:hidden px-4 pt-4 md:p-12 w-full dark:bg-custom-beige pb-4">
         <div className="flex justify-between items-center">
           <Link href="/">
             <Image
@@ -59,7 +59,7 @@ export default function Navbar({ className }: Props) {
             transition={{ ease: "easeOut", duration: 1 }}
             onClick={toggleMenu}
           >
-            <div className="flex flex-col items-end  gap-4 py-12 font-semibold ">
+            <div className="flex flex-col items-end  gap-4 py-12 font-semibold text-custom-blue">
               <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
                 <Link href={"/"} className="text-right">
                   Home

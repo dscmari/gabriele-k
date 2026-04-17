@@ -38,7 +38,7 @@ export default function AccordeonClean({ className }: Props) {
   return (
     <div className={`flex flex-col gap-4 ${className}`}>
       {home.map((e, index) => (
-        <div key={e.id} className="group border-b border-slate-300">
+        <div key={e.id} className="group border-b border-slate-300 dark:border-slate-600">
           <input
             type="checkbox"
             id={e.id}
@@ -47,7 +47,7 @@ export default function AccordeonClean({ className }: Props) {
           />
           <label
             htmlFor={e.id}
-            className="flex items-center gap-4 p-4 cursor-pointer font-semibold select-none text-custom-blue"
+            className="flex items-center gap-4 p-4 cursor-pointer font-semibold select-none text-custom-blue dark:text-darkmode-white"
           >
             {e.icon}
             <h2 className="pointer-events-none !text-base lg:!text-xl !m-0">
@@ -56,7 +56,7 @@ export default function AccordeonClean({ className }: Props) {
           </label>
           <div className="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out group-has-[:checked]:grid-rows-[1fr]">
             <div className="overflow-hidden">
-              <div className="p-4 lg:pl-12 dark:bg-darkmode-blue">
+              <div className="p-4 lg:pl-12">
                 <p className="whitespace-pre-line">{e.text}</p>
               </div>
             </div>

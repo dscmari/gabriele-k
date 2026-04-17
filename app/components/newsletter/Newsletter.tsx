@@ -9,13 +9,13 @@ type Props = {
 
 export default function WebsiteCheck({ isGeo, className }: Props) {
   return (
-    <section className={` dark ${className}`}>
+    <section className={`${className}`}>
       <div className="xl:flex xl:gap-16">
         <div className="hidden xl:block mx-auto">
           <div className="xl:relative">
             <Image
-              src="/images/portraits/sitting_front_gk_small.jpg"
-              alt=""
+              src="/images/portraits/gaby_4.jpg"
+              alt="Portrait von Heilpraktikerin für Psychotherapie Gabriela Kramer"
               className="w-full rounded-tr-4xl rounded-b-4xl"
               width={400}
               height={200}

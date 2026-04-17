@@ -25,8 +25,8 @@ export default function page() {
         subtitle={subtitle}
         intro={intro}
       />
-      <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-12 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
-        <div className="lg:flex-1 relative ">
+      <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-12 flex flex-col flex-col-reverse gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
+        <div className="lg:flex-1 relative mt-12 lg:mt-0 ">
           <Image
             src={"/images/portraits/buero_2.jpg"}
             alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
@@ -42,7 +42,7 @@ export default function page() {
           <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
             Gesund abnehmen
           </h1>
-          <h2>Gewicht im Gleichgewicht - Abnehmen beginnt im Kopf</h2>
+          <h2 className="text-center lg:text-start">Gewicht im Gleichgewicht - Abnehmen beginnt im Kopf</h2>
           <p className="mb-4">
             Der Wunsch nach dem eigenen Wohlfühlgewicht hat oft mit mehr zu tun
             als nur mit Ernährung. Stress, Gewohnheiten, emotionale Belastungen
@@ -88,7 +88,7 @@ export default function page() {
         <SixBoxLayout boxes={weightSixBoxData} className="pt-12 lg:pt-24" />
       </section>
       <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-12 flex flex-col gap-8 xl:gap-16 lg:flex-row-reverse lg:gap-16 lg:items-center">
-        <div className="lg:flex-1 relative ">
+        <div className="lg:flex-1 relative mt-24 lg:mt-0">
           <Image
             src={"/images/portraits/buero_0.png"}
             alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"

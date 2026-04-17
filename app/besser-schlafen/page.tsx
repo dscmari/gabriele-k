@@ -48,21 +48,21 @@ export default function page() {
         </div>
         <div className="lg:flex-1 relative ">
           <Image
-            src={"/images/portraits/sitting_front_gk_small.jpg"}
+            src={"/images/portraits/gaby_2.jpg"}
             alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
-            width={350}
-            height={525}
+            width={400}
+            height={500}
             className="object-cover lg:rounded-xl mx-auto"
           />
         </div>
       </section>
-      <section className="bg-custom-blue text-white p-4 py-24 mt-16 md:p-16 lg:p-32 scroll-mt-24">
+      <section className="bg-custom-blue text-white p-4 py-24 dark:py-0 mt-16 md:p-16 lg:p-32 scroll-mt-24">
         <Features data={sleep} />
       </section>
       <section className="lg:pt-32 xl:pt-48 lg:px-32 pt-12 flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-center">
         <div className="lg:flex-1">
           <Image
-            src={"/images/portraits/writing_gk.jpg"}
+            src={"/images/portraits/gaby_3.jpg"}
             alt="Portrait von Heilpraktikerin für Psychotherapie Gaby Kramer"
             width={400}
             height={400}

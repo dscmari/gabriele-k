@@ -10,10 +10,10 @@ export default function page() {
   return (
     <div>
       <section className="">
-        <div className="pt-12 lg:pt-32 md:px-16 lg:px-32 flex flex-col gap-8 lg:gap-16 md:flex-row">
+        <div className="lg:pt-32 md:px-16 lg:px-32 flex flex-col gap-8 lg:gap-16 md:flex-row">
           <div className="w-full md:flex-1 min-w-sm ">
             <Image
-              src={"/images/portraits/sitting_front_gk_small.jpg"}
+              src={"/images/portraits/gaby_4.jpg"}
               alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
               width={400}
               height={600}
@@ -59,9 +59,11 @@ export default function page() {
           </div>
           <Timeline className="hidden md:block md:flex-1 lg:mr-32 xl:mr-48 2xl:mr-0" />
         </div>{" "}
-        <div className="hidden md:block  2xl:hidden md:px-16 lg:px-32 mt-16">
-          <span className="font-light text-sm mx-auto lg:mx-0">Über mich</span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
+        <div className="2xl:hidden px-4 md:px-16 lg:px-32 mt-16">
+          <span className="font-light text-sm block text-center md:text-start">
+            Über mich
+          </span>
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-center md:text-start">
             Mein Weg
           </h1>
           <div className="flex flex-col gap-4">
@@ -109,9 +111,7 @@ export default function page() {
             kompetent und auf Augenhöhe.
           </p>
         </div>
-
-          <Qualifications qualifications={jobs} className="mt-12 max-w-3xl" />
-  
+        <Qualifications qualifications={jobs} className="mt-12 max-w-3xl" />
       </section>
       <section className="pt-24 lg:pt-32 xl:pt-48 px-4 md:px-16 lg:px-32">
         <div className="flex flex-col">

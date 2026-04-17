@@ -41,7 +41,7 @@ export default function Home() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Finde deine Ruhe
           </span>
-          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Panik & Ängste mindern
           </h1>
           <h2>
@@ -66,7 +66,7 @@ export default function Home() {
         <div className="lg:flex-1 relative ">
           <Image
             src={"/images/portraits/buero_2.jpg"}
-            alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
+            alt="Foto Heilpraktikerin für Psychotherapie Gaby Kramer im Gespräch mit einer Klientin"
             width={800}
             height={800}
             className="object-cover lg:rounded-xl mx-auto"
@@ -76,7 +76,7 @@ export default function Home() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Erreiche dein Wohlfühlgewicht
           </span>
-          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Gesund abnehmen
           </h1>
           <h2>Gewicht im Gleichgewicht - Ihr Weg zum Wohlfühlgewicht!</h2>
@@ -101,7 +101,7 @@ export default function Home() {
       <section className="px-4 lg:px-32 pt-24 lg:pt-32 xl:pt-48">
         <div className="text-center">
           <span className="font-light text-sm mx-auto lg:mx-0">Ablauf</span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue">
             Unser gemeinsamer Weg
           </h1>
           <p className="mb-8 font-light text-sm max-w-4xl mx-auto">
@@ -167,7 +167,7 @@ export default function Home() {
           <span className="mx-auto font-light text-sm">
             Ruhige Nächte, klare Morgen
           </span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue text-center">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue text-center">
             Mehr Energie durch besseren Schlaf
           </h1>
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
@@ -178,7 +178,7 @@ export default function Home() {
           </p>
         </div>
         <div className="flex flex-col lg:flex-row-reverse lg:flex-row gap-16 mt-12 lg:mt-16 xl:mt-32">
-          <div className="flex-1">
+          <div className="lg:flex-1">
             <Image
               src="/images/portraits/buero_0.png"
               alt="Business environment in the office"
@@ -187,11 +187,11 @@ export default function Home() {
               className="object-cover lg:rounded-xl mx-auto lg:mx-0"
             />
           </div>
-          <AccordeonClean className="flex-1" />
+          <AccordeonClean className="lg:flex-1" />
         </div>
       </section>
       <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-12 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
-        <div className="lg:flex-1 relative ">
+        <div className="lg:flex-1 relative mt-24 lg:mt-0">
           <Image
             src={"/images/stress.jpg"}
             alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
@@ -204,7 +204,7 @@ export default function Home() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Wenn der druck nicht nachlässt
           </span>
-          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue">
             Stress reduzieren
           </h1>
           <h2>Wenn der Alltag zu viel wird</h2>
@@ -227,17 +227,17 @@ export default function Home() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Schnelle Hilfe
           </span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue text-center lg:text-start">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue text-center lg:text-start">
             Unterstützung während der Therapieplatzsuche
           </h1>
           <div className="flex flex-col items-center lg:flex-row lg:items-start gap-8 pt-8">
-            <div className="flex-1 flex flex-col items-end font-semibold text-custom-blue">
+            <div className="flex-1 flex flex-col items-end font-semibold text-custom-blue dark">
               <span className="text-9xl">3+</span>
               <span>
                 Monate <br /> Wartezeit
               </span>
             </div>
-            <p className="flex-2 lg:text-base/8">
+            <p className="flex-2 lg:text-base/8 px-4 md:px-0">
               Lange Wartezeiten auf einen kassengestützten Psychotherapieplatz
               sind leider die Regel. Bei Ängsten, Panik, Schlafproblemen, Stress
               oder belastenden Gedanken wünschen sich viele Betroffene schnelle
@@ -248,7 +248,7 @@ export default function Home() {
         </div>
         <div className="lg:flex-1">
           <Image
-            src={"/images/portraits/buero_3.jpg"}
+            src={"/images/portraits/gaby_2.jpg"}
             alt="Bild von Gaby Kramer, Heilpraktikerin für Psychotherapie"
             width={800}
             height={800}
@@ -256,13 +256,13 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="bg-custom-blue text-white p-4 lg:px-32 lg:p-32 mt-12 lg:mt-32 xl:mt-48 scroll-mt-24">
+      <section className="bg-custom-blue text-white px-4 py-12 md:p-16 lg:p-32 mt-12 lg:mt-32 xl:mt-48">
         <Features data={smoke} />
       </section>
       <section className="pt-24 lg:pt-32 xl:pt-48 lg:px-32">
         <div className="flex flex-col px-4 lg:px-0">
           <span className="mx-auto font-light text-sm">FAQs</span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue text-center">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue text-center">
             Häufig gestellte Fragen
           </h1>
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">

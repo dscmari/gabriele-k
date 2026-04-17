@@ -53,15 +53,15 @@ export default function page() {
         </div>
         <div className="lg:flex-1 relative ">
           <Image
-            src={"/images/portraits/sitting_front_gk_small.jpg"}
+            src={"/images/portraits/gaby_3.jpg"}
             alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
-            width={350}
-            height={525}
+            width={400}
+            height={800}
             className="object-cover lg:rounded-xl mx-auto"
           />
         </div>
       </section>
-      <section className="bg-custom-blue text-white p-4 py-24 mt-16 md:p-16 lg:p-32 scroll-mt-24">
+      <section className="bg-custom-blue text-white p-4 py-24 dark:py-8 mt-16 md:p-16 lg:p-32 scroll-mt-24">
         <Features data={anxietyFeatures} />
       </section>
       <section className="lg:pt-32 xl:pt-48 lg:px-32 pt-12 flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-center">
@@ -112,7 +112,7 @@ export default function page() {
         </div>
         <Blog data={anxietyBlog} />
       </section>
-      <section className="py-24 lg:p-32 xl:py-48">
+      <section className="pt-24 lg:pt-32 xl:pt-48">
         <div className="flex flex-col px-4 lg:px-0">
           <span className="mx-auto font-light text-sm">FAQs</span>
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue text-center">
@@ -128,7 +128,7 @@ export default function page() {
           <Accordeon faqs={faqsHome} />
         </div>
       </section>
-      <section className="px-4 pt-24 pb-24 lg:px-32 lg:pt-32 xl:pt-48 lg:pb-32 xl:pb-48">
+      <section className="px-4 pt-24 pb-24 lg:px-32 lg:pt-32 xl:pt-48 lg:pb-32 xl:pb-48 dark:bg-custom-blue">
         <Newsletter />
       </section>
     </div>

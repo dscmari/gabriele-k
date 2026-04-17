@@ -29,7 +29,7 @@ export default function Features({ classname, data }: Props) {
 
   return (
     <div
-      className={`flex flex-col xl:flex-row xl:items-start gap-12 lg:gap-32 ${classname}`}
+      className={`flex flex-col xl:flex-row xl:items-start gap-12 lg:gap-16 xl:gap-32 ${classname}`}
     >
       <div className="flex-1 flex flex-col items-center lg:items-start gap-4">
         <span className="font-light text-sm">{subheader}</span>

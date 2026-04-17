@@ -18,12 +18,12 @@ export default function SixBoxLayout({className, boxes}: Props) {
           {boxes.map((e, index) => (
             <div
               key={index}
-              className="xl:aspect-square flex flex-col justify-between p-8 bg-white rounded-xl dark"
+              className="xl:aspect-square flex flex-col justify-between p-8 bg-white dark:bg-darkmode-black rounded-xl dark"
             >
               <div className="flex flex-col pt-4">
                 {e.icon}
                 <h2 className="pt-8">{e.title}</h2>
-                <p className="lg:text-sm">{e.text}</p>
+                <p className="lg:text-sm dark:text-custom">{e.text}</p>
               </div>
               {/* <button className="self-start rounded-xl text-custom-red bg-custom-red-op px-4 py-2 mt-8 text-sm">
                 Mehr Infos

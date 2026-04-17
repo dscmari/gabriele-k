@@ -20,9 +20,9 @@ export default function Qualifications({ className, qualifications }: Props) {
       {/* mobile */}
       <div className="lg:hidden flex flex-col gap-4 mt-8">
         {qualifications.map((e, index) => (
-          <div key={index} className="flex flex-col">
-            <span className="font-semibold text-custom-blue">{e.title}</span>
-            <span className="font-semibold text-custom-blue">{e.date}</span>
+          <div key={index} className="flex flex-col text-custom-blue dark:text-darkmode-white">
+            <span className="font-semibold">{e.title}</span>
+            <span className="font-semibold">{e.date}</span>
             <p className="pt-2">{e.description}</p>
           </div>
         ))}
@@ -31,7 +31,7 @@ export default function Qualifications({ className, qualifications }: Props) {
       <div className={`hidden lg:flex flex-col gap-4 ${className}`}>
         {qualifications.map((e, index) => (
           <div key={index} className="flex flex-col gap-2">
-            <div className="flex items-center justify-between text-custom-blue font-bold text-lg">
+            <div className="flex items-center justify-between text-custom-blue dark:text-darkmode-white font-bold text-lg">
               <span>{e.title}</span>
               <span>{e.date}</span>
             </div>

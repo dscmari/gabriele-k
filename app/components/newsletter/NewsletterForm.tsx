@@ -30,7 +30,7 @@ export default function WebsiteCheckForm() {
     >
       <div className="flex flex-col gap-4">
         <div className="flex flex-col gap-4 font-semibold lg:mt-4 text-custom-blue">
-          <label htmlFor="website">
+          <label htmlFor="website" className="dark:text-darkmode-white">
             Name<span>*</span>
           </label>
           <input
@@ -45,7 +45,7 @@ export default function WebsiteCheckForm() {
           )}
         </div>
         <div className="flex flex-col gap-4 font-semibold text-custom-blue">
-          <label htmlFor="email">
+          <label htmlFor="email" className="dark:text-darkmode-white">
             Email-Adresse<span>*</span>
           </label>
           <input

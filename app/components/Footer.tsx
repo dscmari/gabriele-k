@@ -10,7 +10,7 @@ type Props = {
 export default function Footer({ className }: Props) {
   const pathname = usePathname();
   return (
-    <footer className={`text-white bg-custom-blue ${className}`}>
+    <footer className={`text-white bg-custom-blue dark:border-t-2 border-slate-500 ${className}`}>
       <div className="p-4 lg:pt-32 lg:px-32 grid grid-cols-1 gap-12 lg:grid-cols-4">
         <div className="flex flex-col items-center lg:items-start gap-2 order-2 lg:order-1">
           <span>Gabriela Kramer</span>

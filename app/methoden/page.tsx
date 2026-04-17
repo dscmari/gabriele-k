@@ -29,10 +29,10 @@ export default function page() {
         subtitle={subtitle}
         intro={intro}
       />
-      <section className="bg-custom-blue text-white p-4 py-24 mt-16 md:p-16 lg:p-32 scroll-mt-24">
+      <section className="bg-custom-blue text-white p-4 py-24 dark:py-0 mt-16 md:p-16 lg:p-32 scroll-mt-24">
         <Features data={methodsFeatures} />
       </section>
-      <section className="lg:p-32 pt-12 flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-center">
+      <section className="lg:p-32 pt-24 flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-center">
         <div className="px-4 lg:px-0 flex flex-col lg:flex-1">
           <span className="font-light text-sm mx-auto lg:mx-0">
             Tiefe Entspannung
@@ -75,9 +75,9 @@ export default function page() {
           </div>
           <ContactBtn className="self-center lg:self-start" />
         </div>
-        <div className="lg:flex-1 relative ">
+        <div className="lg:flex-1 relative mt-12 lg:mt-0">
           <Image
-            src={"/images/portraits/sitting_front_gk_small.jpg"}
+            src={"/images/portraits/gaby_2.jpg"}
             alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
             width={400}
             height={400}
