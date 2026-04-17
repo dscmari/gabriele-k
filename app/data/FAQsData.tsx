@@ -3,7 +3,7 @@ export const faqsHome = [
     id: "faq-1",
     question: "Was genau macht eine Heilpraktikerin für Psychotherapie?",
     answer:
-      "Als Heilpraktikerin für Psychotherapie verfüge ich über die Heilerlaubnis nach dem Heilpraktikergesetz und darf psychische Beschwerden und Erkrankungen diagnostizieren und behandeln. In meiner Praxis arbeite ich mit wissenschaftlich fundierten Methoden, unter anderem mit Interventionen aus der Verhaltenstherapie, Hypnose und EMDR. Mein Ziel ist es, belastende Denk und Verhaltensmuster zu verändern und Sie dabei zu unterstützen, wieder mehr Stabilität, Klarheit und Handlungsspielraum in Ihrem Leben zu gewinnen.",
+      "Als Heilpraktikerin für Psychotherapie verfüge ich über die Heilerlaubnis nach dem Heilpraktikergesetz und diagnostiziere und behandele psychische Beschwerden und Erkrankungen. In meiner Praxis arbeite ich mit wissenschaftlich fundierten Methoden, unter anderem mit Interventionen aus der Verhaltenstherapie, Hypnose und EMDR. Mein Ziel ist es, belastende Denk- und Verhaltensmuster zu verändern und Sie dabei zu unterstützen, wieder mehr Stabilität, Klarheit und Handlungsspielraum in Ihrem Leben zu gewinnen.",
   },
   {
     id: "faq-2",

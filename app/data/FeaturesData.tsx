@@ -115,21 +115,23 @@ export const methodsFeatures = {
   intro:
     "Individuell abgestimmte Verfahren, die gezielt auf Ihre Bedürfnisse eingehen – für nachhaltige Veränderung und mehr Lebensqualität.",
   bullets: [
+        {
+      icon: <Shell className="shrink-0" size={36} />,
+      header: "Hypnose",
+      text: "Hypnose versetzt Sie in einen Zustand tiefer Entspannung, in dem unbewusste Muster leichter zugänglich werden – so können festgefahrene Reaktionen sanft und nachhaltig verändert werden.",
+    },
+       {
+      icon: <ScanEye className="shrink-0" size={36} />,
+      header: "EMDR",
+      text: "Eye Movement Desensitization and Reprocessing ist eine psychotherapeutische Methode, die ursprünglich zur Behandlung von Traumata entwickelt wurde.",
+    },
     {
       icon: <GitBranch className="shrink-0" size={36} />,
       header: "Verhaltenstherapie",
       text: "Die Verhaltenstherapie hilft Ihnen belastende Gedanken und Verhaltensmuster zu erkennen und gezielt zu verändern – durch praktische Übungen und konkrete Strategien.",
     },
-    {
-      icon: <Shell className="shrink-0" size={36} />,
-      header: "Hypnose",
-      text: "Hypnose versetzt Sie in einen Zustand tiefer Entspannung, in dem unbewusste Muster leichter zugänglich werden – so können festgefahrene Reaktionen sanft und nachhaltig verändert werden.",
-    },
-    {
-      icon: <ScanEye className="shrink-0" size={36} />,
-      header: "EMDR",
-      text: "Eye Movement Desensitization and Reprocessing ist eine psychotherapeutische Methode, die ursprünglich zur Behandlung von Traumata entwickelt wurde.",
-    },
+
+ 
     {
       icon: <Wind className="shrink-0" size={36} />,
       header: "Atemtechniken",

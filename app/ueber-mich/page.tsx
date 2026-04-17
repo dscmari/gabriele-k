@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Timeline from "../components/cv/Timeline";
-import TimelineCV from "../components/cv/TimelineCV";
 import Qualifications from "../components/cv/Qualifications";
 import Accordeon from "../components/Accordeon";
 import Newsletter from "../components/newsletter/Newsletter";
 import { faqsHome } from "../data/FAQsData";
+import { educations, jobs } from "../data/QualificationsData";
 
 export default function page() {
   return (
@@ -24,7 +24,7 @@ export default function page() {
             <span className="font-light text-sm mx-auto lg:mx-0">
               Über mich
             </span>
-            <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide">
+            <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
               Mein Weg
             </h1>
             <div className="flex flex-col gap-4">
@@ -61,7 +61,7 @@ export default function page() {
         </div>{" "}
         <div className="hidden md:block  2xl:hidden md:px-16 lg:px-32 mt-16">
           <span className="font-light text-sm mx-auto lg:mx-0">Über mich</span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Mein Weg
           </h1>
           <div className="flex flex-col gap-4">
@@ -95,27 +95,28 @@ export default function page() {
           </div>
         </div>
       </section>
-      <section className="pt-24 lg:pt-32 xl:pt-48 ">
-        <div className="flex flex-col px-4 md:px-16 lg:px-32">
-          <span className="lg:mx-auto font-light text-sm">
+      <section className="pt-24 lg:pt-32 xl:pt-48 px-4 md:px-16 lg:px-32">
+        <div className="flex flex-col">
+          <span className="font-light text-sm">
             Heilpraktikerin für Psychotherapie
           </span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide lg:text-center lg:mx-auto max-w-3xl">
-            8 Jahre Erfahrung als Heilpraktikerin für Psychotherapie in
-            Kaufering
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
+            Über 8 Jahre Berufserfahrung als Heilpraktikerin
           </h1>
-          <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
+          <p className="font-light text-sm">
             Mit über 8 Jahren Erfahrung als Heilpraktikerin für Psychotherapie
             begleite ich Menschen in herausfordernden Lebensphasen – einfühlsam,
             kompetent und auf Augenhöhe.
           </p>
         </div>
-        <TimelineCV className="mt-12 lg:mt-24" />
+
+          <Qualifications qualifications={jobs} className="mt-12 max-w-3xl" />
+  
       </section>
       <section className="pt-24 lg:pt-32 xl:pt-48 px-4 md:px-16 lg:px-32">
         <div className="flex flex-col">
           <span className="font-light text-sm">Zertifizierungen</span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Zusätzliche Aus- und Weiterbildungen
           </h1>
           <p className="max-w-4xl font-light text-sm">
@@ -124,12 +125,15 @@ export default function page() {
             Besonders am Herzen liegen mir folgende Schwerpunkte:
           </p>
         </div>
-        <Qualifications className="mt-12 max-w-2xl" />
+        <Qualifications
+          qualifications={educations}
+          className="mt-12 max-w-3xl"
+        />
       </section>
       <section className="pt-24 lg:pt-32 xl:pt-48 px-4 md:px-16 lg:px-32">
         <div className="flex flex-col">
           <span className="mx-auto font-light text-sm">FAQs</span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue text-center">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue text-center">
             Häufig gestellte Fragen
           </h1>
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">

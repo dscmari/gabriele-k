@@ -8,6 +8,7 @@ import Accordeon from "../components/Accordeon";
 import Newsletter from "../components/newsletter/Newsletter";
 import ContactBtn from "../components/buttons/ContactBtn";
 import { faqsHome, faqsHypnosis } from "../data/FAQsData";
+import Process from "../components/Process";
 
 export default function page() {
   const hero = {
@@ -78,25 +79,31 @@ export default function page() {
           <Image
             src={"/images/portraits/sitting_front_gk_small.jpg"}
             alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
-            width={350}
-            height={525}
+            width={400}
+            height={400}
             className="object-cover lg:rounded-xl mx-auto"
           />
         </div>
       </section>
-      <section className="lg:px-32">
-        <div className="flex flex-col px-4 lg:px-0">
-          <span className="mx-auto font-light text-sm">FAQs</span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue text-center">
-            Häufig gestellte Fragen zur Hypnose
-          </h1>
-          <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
-            Hypnose nutze ich nicht als schnelle Technik, sondern als Teil einer
-            sorgfältigen psychotherapeutischen Begleitung.
-          </p>
+      <section className="lg:px-32 flex flex-col xl:flex-row gap-24 xl:gap-8 2xl:gap-16">
+        <div className="xl:flex-1 mt-24 lg:mt-0">
+          <Process className="lg:mt-0" />
         </div>
-        <div className="px-4 pt-12 lg:pt-24">
-          <Accordeon faqs={faqsHypnosis} />
+        <div className="xl:flex-1">
+          <div className="flex flex-col px-4 lg:px-0">
+            <span className="mx-auto font-light text-sm">FAQs</span>
+            <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue text-center">
+              Häufig gestellte Fragen zur Hypnose
+            </h1>
+            <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
+              Hypnose nutze ich nicht als schnelle Technik, sondern als Teil
+              einer sorgfältigen psychotherapeutischen Begleitung.
+            </p>
+          </div>
+          <div className="px-4 lg:px-0 pt-12 lg:pt-24">
+            <Accordeon faqs={faqsHypnosis} />
+          </div>
+          <ContactBtn className="mx-4 mt-12"/>
         </div>
       </section>
       <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-12 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
