@@ -231,7 +231,7 @@ export default function Home() {
             Unterstützung während der Therapieplatzsuche
           </h1>
           <div className="flex flex-col items-center lg:flex-row lg:items-start gap-8 pt-8">
-            <div className="flex-1 flex flex-col items-end font-semibold text-custom-blue dark">
+            <div className="flex-1 flex flex-col items-end font-semibold text-custom-blue dark:text-darkmode-white">
               <span className="text-9xl">3+</span>
               <span>
                 Monate <br /> Wartezeit

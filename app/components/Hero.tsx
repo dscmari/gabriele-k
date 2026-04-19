@@ -26,7 +26,7 @@ export default function Hero({
   return (
     <div className={`${className}`}>
       {/* mobile */}
-      <div className="lg:hidden h-screen w-full relative">
+      <div className="sm:hidden h-screen w-full relative">
         <Image
           src={"/images/portraits/gaby_4.jpg"}
           alt="Gabriele Kramer Logo"
@@ -34,15 +34,58 @@ export default function Hero({
           height={800}
           className="object-cover h-full w-full absolute"
         />
-        <div className="absolute inset-0 bg-black/50"></div>
-        <div className="absolute translate-y-1/3 flex flex-col z-10 text-white">
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute translate-y-1/2 flex flex-col z-10 text-white">
           <h1 className="!text-3xl mt-12 !text-white dark:text-darkmode-white text-center">
             {title}
           </h1>
           <ContactBtn className="self-center mt-12" />
-          <p className="mt-12 text-center font-light px-4">
-          {intro}
-          </p>
+          <p className="mt-12 text-center font-light px-4">{intro}</p>
+        </div>
+      </div>
+      {/* tablet */}
+      <div className="hidden sm:flex flex-col justify-center gap-32 lg:hidden h-[75vh] ">
+        <div className="flex flex-col p-8 rounded-xl dark:bg-custom-beige/90 max-w-4/5 mx-auto xl:max-w-3/5 dark:!text-custom-blue text-center">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide dark:!text-custom-blue">
+            {title}
+          </h1>
+          <h2 className="lg:!text-xl xl:!text-4xl/12 dark:!text-custom-blue">
+            {subtitle}
+          </h2>
+          <p className="mb-8 xl:text-lg text-custom-blue">{intro}</p>
+          <ContactBtn className="self-center" />
+        </div>
+        <div className="flex justify-around gap-8 px-16 text-custom-blue dark:text-darkmode-white">
+          <div className="flex flex-col gap-4 flex-1">
+            <div className="flex items-center gap-4">
+              <span className="block w-6 h-1 bg-current" />
+              <h2 className="!m-0">Ängste verstehen</h2>
+            </div>
+            <p>
+              Lernen Sie, Ihre Angstreaktionen besser zu verstehen und Schritt
+              für Schritt zu regulieren.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4 flex-1">
+            <div className="flex items-center gap-4">
+              <span className="block w-6 h-1 bg-current" />
+              <h2 className="!m-0">Stress reduzieren</h2>
+            </div>
+            <p>
+              Erkennen Sie Warnzeichen und entwickeln Sie einen stimmigeren
+              Umgang mit Stress.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4 flex-1">
+            <div className="flex items-center gap-4">
+              <span className="block w-6 h-1 bg-current" />
+              <h2 className="!m-0">Besser schlafen</h2>
+            </div>
+            <p>
+              Entlasten Sie ihren Schlaf, indem Sie Ihre Schlafstörungen besser
+              verstehen.
+            </p>
+          </div>
         </div>
       </div>
       {/* desktop */}
@@ -60,7 +103,9 @@ export default function Hero({
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide dark:!text-custom-blue">
             {title}
           </h1>
-          <h2 className="lg:!text-xl xl:!text-4xl/12 dark:!text-custom-blue">{subtitle}</h2>
+          <h2 className="lg:!text-xl xl:!text-4xl/12 dark:!text-custom-blue">
+            {subtitle}
+          </h2>
           <p className="mb-8 xl:text-lg">{intro}</p>
           <ContactBtn className="self-start" />
         </div>
