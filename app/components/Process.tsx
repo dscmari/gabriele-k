@@ -46,15 +46,15 @@ export default function Process({ className }: Props) {
   ];
 
   return (
-      <div className="bg-slate-100 dark:bg-custom-blue lg:rounded-2xl px-4 py-24 dark:py-0 md:p-8 text-custom-blue dark:text-darkmode-white">
+      <div className="bg-slate-100 dark:bg-custom-blue lg:rounded-2xl md:p-8 text-custom-blue dark:text-darkmode-white">
       <p className="font-light">Wie läuft eine Hypnosesitzung ab?</p>
       <div className="relative mt-8">
-        <div className="absolute left-6 lg:left-8 mt-8 -translate-x-1/2 top-0 bottom-0 w-[1px] bg-custom-beige border border-custom-blue border-dashed" />
+        <div className="absolute left-6 sm:left-8 mt-8 -translate-x-1/2 top-0 bottom-0 w-[1px] bg-custom-beige border border-custom-blue border-dashed" />
 
         <div className="flex flex-col gap-12">
           {hypnoseData.map((e, index) => (
             <div key={index} className="flex gap-4 md:gap-12">
-              <div className="bg-white rounded-full w-12 h-12 lg:w-16 lg:h-16 shrink-0 grow-0 flex items-center justify-center z-10">
+              <div className="bg-white rounded-full w-12 h-12 sm:w-16 sm:h-16 shrink-0 grow-0 flex items-center justify-center z-10">
                 {e.icon}
               </div>
               <div>

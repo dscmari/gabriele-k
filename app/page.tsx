@@ -37,14 +37,14 @@ export default function Home() {
             className="object-cover lg:rounded-xl  mx-auto"
           />
         </div>
-        <div className="px-4 lg:px-0 flex flex-col lg:flex-1">
+        <div className="px-4 pt-24 lg:pt-0 sm:px-16 lg:px-0 flex flex-col lg:flex-1">
           <span className="font-light text-sm mx-auto lg:mx-0">
             Finde deine Ruhe
           </span>
           <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Panik & Ängste mindern
           </h1>
-          <h2>
+          <h2 className="text-center lg:text-start">
             Angst ist eine natürliche Reaktion des Körpers – doch wenn sie
             überhandnimmt, kann sie den Alltag stark belasten
           </h2>
@@ -62,7 +62,7 @@ export default function Home() {
           <ContactBtn className="self-center lg:self-start" />
         </div>
       </section>
-      <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-12 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
+      <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-24 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
         <div className="lg:flex-1 relative ">
           <Image
             src={"/images/portraits/buero_2.jpg"}
@@ -72,14 +72,14 @@ export default function Home() {
             className="object-cover lg:rounded-xl mx-auto"
           />
         </div>
-        <div className="px-4 lg:px-0 flex flex-col lg:flex-1">
+        <div className="px-4 pt-24 lg:pt-0 sm:px-16 lg:px-0 flex flex-col lg:flex-1">
           <span className="font-light text-sm mx-auto lg:mx-0">
             Erreiche dein Wohlfühlgewicht
           </span>
           <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Gesund abnehmen
           </h1>
-          <h2>Gewicht im Gleichgewicht - Ihr Weg zum Wohlfühlgewicht!</h2>
+          <h2 className="text-center lg:text-start">Gewicht im Gleichgewicht - Ihr Weg zum Wohlfühlgewicht!</h2>
           <p className="mb-4">
             Abnehmen beginnt oft nicht auf dem Teller, sondern im Kopf. Denn
             Essverhalten, Stress, Gewohnheiten und emotionale Belastungen hängen
@@ -98,13 +98,13 @@ export default function Home() {
           <ContactBtn className="self-center lg:self-start" />
         </div>
       </section>
-      <section className="px-4 lg:px-32 pt-24 lg:pt-32 xl:pt-48">
+      <section className="px-4 sm:px-16 lg:px-32 pt-24 lg:pt-32 xl:pt-48">
         <div className="text-center">
           <span className="font-light text-sm mx-auto lg:mx-0">Ablauf</span>
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue">
             Unser gemeinsamer Weg
           </h1>
-          <p className="mb-8 font-light text-sm max-w-4xl mx-auto">
+          <p className="mb-8 max-w-4xl mx-auto">
             Veränderung braucht Raum — und Raum braucht Struktur. Deshalb folgt
             unsere Zusammenarbeit einem klaren Rahmen, der Ihnen von der ersten
             Begegnung bis zum Abschluss Sicherheit und Orientierung gibt.
@@ -131,7 +131,7 @@ export default function Home() {
             <h2 className="text-center lg:text-start !mb-8">
               Was Sie erwartet
             </h2>
-            <div className="flex flex-col gap-4 text-sm font-light">
+            <div className="flex flex-col gap-4">
               <p>
                 Unsere Zusammenarbeit beginnt mit einem kostenlosen Erstgespräch
                 von etwa 20 Minuten — ganz unverbindlich. Sie schildern, was Sie
@@ -161,7 +161,7 @@ export default function Home() {
         </div>
       </section>
       <section
-        className="pt-24 md:p-16 lg:pt-32 xl:pt-48 lg:px-32"
+        className="pt-24 sm:px-16 lg:pt-32 xl:pt-48 lg:px-32"
       >
         <div className="flex flex-col px-4 lg:px-0">
           <span className="mx-auto font-light text-sm">
@@ -170,7 +170,7 @@ export default function Home() {
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue text-center">
             Mehr Energie durch besseren Schlaf
           </h1>
-          <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
+          <p className="max-w-4xl lg:text-center mx-auto">
             Ausreichend gesunder Schlaf ist elementar für unser Wohlbefinden. Er
             garantiert Erholung und Leistungsfähigkeit. Oftmals sind belastende
             Situationen, permanenter Stress oder falsche Angewohnheiten für
@@ -200,14 +200,14 @@ export default function Home() {
             className="object-cover lg:rounded-xl mx-auto"
           />
         </div>
-        <div className="px-4 lg:px-0 flex flex-col lg:flex-1">
+        <div className="px-4 sm:px-16 lg:px-0 pt-24 lg:pt-0 flex flex-col lg:flex-1">
           <span className="font-light text-sm mx-auto lg:mx-0">
-            Wenn der druck nicht nachlässt
+           Druck
           </span>
           <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue">
             Stress reduzieren
           </h1>
-          <h2>Wenn der Alltag zu viel wird</h2>
+          <h2 className="text-center lg:text-start">Wenn der Alltag zu viel wird</h2>
           <p className="mb-4">
             Stress ist eine der häufigsten Ursachen für Schlafprobleme,
             Erschöpfung und emotionale Belastung. Er entsteht oft schleichend –
@@ -237,7 +237,7 @@ export default function Home() {
                 Monate <br /> Wartezeit
               </span>
             </div>
-            <p className="flex-2 lg:text-base/8 px-4 md:px-0">
+            <p className="flex-2 lg:text-base/8 px-4 sm:px-16 lg:px-0">
               Lange Wartezeiten auf einen kassengestützten Psychotherapieplatz
               sind leider die Regel. Bei Ängsten, Panik, Schlafproblemen, Stress
               oder belastenden Gedanken wünschen sich viele Betroffene schnelle
@@ -260,9 +260,9 @@ export default function Home() {
         <Features data={smoke} />
       </section>
       <section className="pt-24 lg:pt-32 xl:pt-48 lg:px-32">
-        <div className="flex flex-col px-4 lg:px-0">
+        <div className="flex flex-col px-4 sm:px-16 text-center lg:px-0">
           <span className="mx-auto font-light text-sm">FAQs</span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue text-center">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-center">
             Häufig gestellte Fragen
           </h1>
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
@@ -271,11 +271,11 @@ export default function Home() {
             Psychothrapie.
           </p>
         </div>
-        <div className="px-4 pt-12 lg:pt-24">
+        <div className="px-4 sm:px-16 lg:px-32 pt-12 lg:pt-24">
           <Accordeon faqs={faqsHome} />
         </div>
       </section>
-      <section className="px-4 pt-24 pb-24 lg:px-32 lg:pt-32 xl:pt-48 lg:pb-32 xl:pb-48">
+      <section className="px-4 sm:px-16 pt-24 pb-24 lg:px-32 lg:pt-32 xl:pt-48 lg:pb-32 xl:pb-48">
         <Newsletter />
       </section>
     </div>

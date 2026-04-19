@@ -36,19 +36,19 @@ export default function Features({ classname, data }: Props) {
         <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide !text-white">
           {headline}
         </h1>
-        <p className="lg:text-base/8 text-center lg:text-start">{intro}</p>
+        <p className="lg:text-base/8 text-center lg:text-start !text-darkmode-white">{intro}</p>
         <ContactBtn className="mx-auto lg:mx-0 bg-custom-bronce mt-8" />
       </div>
       <div className="flex-2 grid grid-cols-1 xl:grid-cols-2 gap-16 mt-4">
         {bullets.map((bullet, index) => {
           return (
             <div key={index} className="flex flex-col gap-4">
-              <div className="flex gap-4 lg:flex-col text-white">
+              <div className="flex gap-4 lg:flex-col !text-darkmode-white">
                 {bullet.icon}
 
                 <h2 className="!text-white">{bullet.header}</h2>
               </div>
-              <p className="lg:text-base/8">{bullet.text}</p>
+              <p className="lg:text-base/8 !text-darkmode-white">{bullet.text}</p>
             </div>
           );
         })}

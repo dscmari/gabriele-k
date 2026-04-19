@@ -10,14 +10,14 @@ export default function page() {
   return (
     <div>
       <section className="">
-        <div className="lg:pt-32 md:px-16 lg:px-32 flex flex-col gap-8 lg:gap-16 md:flex-row">
+        <div className="pt-32 md:px-16 lg:px-32 flex flex-col gap-8 lg:gap-16 md:flex-row">
           <div className="w-full md:flex-1 min-w-sm ">
             <Image
               src={"/images/portraits/gaby_4.jpg"}
               alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
               width={400}
               height={600}
-              className="object-cover"
+              className="object-cover sm:rounded-tr-xl mx-auto md:mx-0"
             />
           </div>
           <div className="hidden 2xl:block px-4 lg:px-0 lg:mt-16">
@@ -59,7 +59,7 @@ export default function page() {
           </div>
           <Timeline className="hidden md:block md:flex-1 lg:mr-32 xl:mr-48 2xl:mr-0" />
         </div>{" "}
-        <div className="2xl:hidden px-4 md:px-16 lg:px-32 mt-16">
+        <div className="2xl:hidden px-4 md:px-16 lg:px-32 mt-24">
           <span className="font-light text-sm block text-center md:text-start">
             Über mich
           </span>

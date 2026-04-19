@@ -56,13 +56,13 @@ export default function Footer({ className }: Props) {
             </Link>
           </div>
         </div>
-        <div className="lg:col-span-2 order-1 lg:order-3 mt-12 lg:mt-0 flex flex-col">
-          <h1 className="text-center lg:text-start !text-white"> Heilpraktikerin für Psychotherapie in Kaufering</h1>
-          <p className="mb-2">
+        <div className="lg:col-span-2 order-1 lg:order-3 mt-12 lg:mt-0 flex flex-col ">
+          <h1 className="text-center lg:text-start !text-darkmode-white"> Heilpraktikerin für Psychotherapie in Kaufering</h1>
+          <p className="mb-2 !text-darkmode-white text-center lg:textstart">
             Ich bin Gabriela Kramer, Ihre Heilpraktikerin für Psychotherapie in
             Kaufering und der Region Landsberg am Lech.
           </p>
-          <p className="mb-2">
+          <p className="mb-2 !text-darkmode-white text-center lg:textstart">
             In meiner Praxis unterstütze ich Sie bei Ängsten, Stressbewältigung,
             Schlafproblemen und anderen mentalen Belastungen.
           </p>

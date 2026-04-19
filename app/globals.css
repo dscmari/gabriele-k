@@ -42,8 +42,12 @@ h1 {
 h2 {
   font-size: 1.25rem; /*text-xl*/
   line-height: calc(1.75 / 1.25);
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   font-weight: 600; /* semibold */
+  color: var(--color-custom-blue);
+}
+
+p{
   color: var(--color-custom-blue);
 }
 
@@ -138,7 +142,7 @@ span:nth-child(3) {
      background-color: var(--color-custom-blue);
     color: var(--color-darkmode-white);
   }
-  h1, h2 {
+  h1, h2, p {
     color: var(--color-darkmode-white);
   }
 }

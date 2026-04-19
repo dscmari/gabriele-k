@@ -52,14 +52,14 @@ export default function Hero({
           <h2 className="lg:!text-xl xl:!text-4xl/12 dark:!text-custom-blue">
             {subtitle}
           </h2>
-          <p className="mb-8 xl:text-lg text-custom-blue">{intro}</p>
+          <p className="mb-8 xl:text-lg dark:!text-custom-blue">{intro}</p>
           <ContactBtn className="self-center" />
         </div>
-        <div className="flex justify-around gap-8 px-16 text-custom-blue dark:text-darkmode-white">
+        <div className="flex justify-around gap-8 px-16 ">
           <div className="flex flex-col gap-4 flex-1">
             <div className="flex items-center gap-4">
               <span className="block w-6 h-1 bg-current" />
-              <h2 className="!m-0">Ängste verstehen</h2>
+              <h2 className="!m-0">Ängste</h2>
             </div>
             <p>
               Lernen Sie, Ihre Angstreaktionen besser zu verstehen und Schritt
@@ -69,7 +69,7 @@ export default function Hero({
           <div className="flex flex-col gap-4 flex-1">
             <div className="flex items-center gap-4">
               <span className="block w-6 h-1 bg-current" />
-              <h2 className="!m-0">Stress reduzieren</h2>
+              <h2 className="!m-0">Stress</h2>
             </div>
             <p>
               Erkennen Sie Warnzeichen und entwickeln Sie einen stimmigeren
@@ -79,7 +79,7 @@ export default function Hero({
           <div className="flex flex-col gap-4 flex-1">
             <div className="flex items-center gap-4">
               <span className="block w-6 h-1 bg-current" />
-              <h2 className="!m-0">Besser schlafen</h2>
+              <h2 className="!m-0">Schlaf</h2>
             </div>
             <p>
               Entlasten Sie ihren Schlaf, indem Sie Ihre Schlafstörungen besser
@@ -111,7 +111,7 @@ export default function Hero({
         </div>
       </div>
 
-      <Breadcrumbs className="block px-4 pt-8 lg:px-32 lg:pt-16 font-semibold" />
+      <Breadcrumbs className="block px-4 pt-8 sm:px-16 lg:px-32 lg:pt-16 font-semibold" />
     </div>
   );
 }

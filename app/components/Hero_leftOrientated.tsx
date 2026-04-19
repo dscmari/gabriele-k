@@ -25,7 +25,8 @@ export default function Hero({
 
   return (
     <div className={`${className}`}>
-      <div className="lg:hidden h-screen w-full relative">
+      {/* mobile */}
+      <div className="sm:hidden h-screen w-full relative">
         <Image
           src={imgPathMobile ? imgPathMobile : "/images/portraits/gaby_4.jpg"}
           alt="Gabriele Kramer Logo"
@@ -40,6 +41,52 @@ export default function Hero({
           <p className="mt-12 text-center font-light px-4">{intro}</p>
         </div>
       </div>
+      {/* tablet */}
+      <div className="hidden sm:flex flex-col justify-center gap-32 lg:hidden h-[75vh] ">
+        <div className="flex flex-col p-8 rounded-xl dark:bg-custom-beige/90 max-w-4/5 mx-auto xl:max-w-3/5 dark:!text-custom-blue text-center">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide dark:!text-custom-blue">
+            {title}
+          </h1>
+          <h2 className="lg:!text-xl xl:!text-4xl/12 dark:!text-custom-blue">
+            {subtitle}
+          </h2>
+          <p className="mb-8 xl:text-lg dark:!text-custom-blue">{intro}</p>
+          <ContactBtn className="self-center" />
+        </div>
+        <div className="flex justify-around gap-8 px-16 ">
+          <div className="flex flex-col gap-4 flex-1">
+            <div className="flex items-center gap-4">
+              <span className="block w-6 h-1 bg-current" />
+              <h2 className="!m-0">Ängste</h2>
+            </div>
+            <p>
+              Lernen Sie, Ihre Angstreaktionen besser zu verstehen und Schritt
+              für Schritt zu regulieren.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4 flex-1">
+            <div className="flex items-center gap-4">
+              <span className="block w-6 h-1 bg-current" />
+              <h2 className="!m-0">Stress</h2>
+            </div>
+            <p>
+              Erkennen Sie Warnzeichen und entwickeln Sie einen stimmigeren
+              Umgang mit Stress.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4 flex-1">
+            <div className="flex items-center gap-4">
+              <span className="block w-6 h-1 bg-current" />
+              <h2 className="!m-0">Schlaf</h2>
+            </div>
+            <p>
+              Entlasten Sie ihren Schlaf, indem Sie Ihre Schlafstörungen besser
+              verstehen.
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* desktop */}
       <div className="hidden lg:block  h-screen relative">
         {imgPathDesktop && (
           <div>
@@ -66,7 +113,7 @@ export default function Hero({
         </div>
       </div>
 
-      <Breadcrumbs className="block px-4 pt-8 lg:px-32 lg:pt-16 font-semibold" />
+      <Breadcrumbs className="block px-4 pt-8 sm:px-16 lg:px-32 lg:pt-16 font-semibold" />
     </div>
   );
 }

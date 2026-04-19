@@ -29,11 +29,11 @@ export default function page() {
         subtitle={subtitle}
         intro={intro}
       />
-      <section className="bg-custom-blue text-white p-4 py-24 dark:py-0 mt-16 md:p-16 lg:p-32 scroll-mt-24">
+      <section className="bg-custom-blue text-white p-4 py-24 dark:py-0 mt-24 md:p-16 lg:p-32 scroll-mt-24">
         <Features data={methodsFeatures} />
       </section>
       <section className="lg:p-32 pt-24 flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-center">
-        <div className="px-4 lg:px-0 flex flex-col lg:flex-1">
+        <div className="px-4 sm:px-16 lg:px-0 flex flex-col lg:flex-1">
           <span className="font-light text-sm mx-auto lg:mx-0">
             Tiefe Entspannung
           </span>
@@ -41,7 +41,7 @@ export default function page() {
             Hypnose
           </h1>
           <div className="flex flex-col gap-4 mb-8 lg:mt-4">
-            <h2 className="text-custom-blue !mb-0">
+            <h2 className="!mb-0 text-center lg:text-start">
               Ist das bei meinem Anliegen überhaupt sinnvoll?
             </h2>
             <p>
@@ -58,7 +58,7 @@ export default function page() {
               ist, was für Sie in Ihrer Situation stimmig und fachlich sinnvoll
               ist.
             </p>
-            <h2 className="text-custom-blue !mb-0">
+            <h2 className="!mb-0 text-center lg:text-start">
               Verliere ich bei der Hypnose die Kontrolle?
             </h2>
             <p>
@@ -75,7 +75,7 @@ export default function page() {
           </div>
           <ContactBtn className="self-center lg:self-start" />
         </div>
-        <div className="lg:flex-1 relative mt-12 lg:mt-0">
+        <div className="lg:flex-1 relative mt-24 lg:mt-0">
           <Image
             src={"/images/portraits/gaby_2.jpg"}
             alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
@@ -90,7 +90,7 @@ export default function page() {
           <Process className="lg:mt-0" />
         </div>
         <div className="xl:flex-1">
-          <div className="flex flex-col px-4 lg:px-0">
+          <div className="flex flex-col px-4 sm:px-16 lg:px-0">
             <span className="mx-auto font-light text-sm">FAQs</span>
             <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue text-center">
               Häufig gestellte Fragen zur Hypnose
@@ -100,13 +100,13 @@ export default function page() {
               einer sorgfältigen psychotherapeutischen Begleitung.
             </p>
           </div>
-          <div className="px-4 lg:px-0 pt-12 lg:pt-24">
+          <div className="px-4 sm:px-16 lg:px-0 pt-12 lg:pt-24">
             <Accordeon faqs={faqsHypnosis} />
           </div>
-          <ContactBtn className="mx-4 mt-12"/>
+          <ContactBtn className="block mx-auto lg:mx-4 mt-12 w-fit" />
         </div>
       </section>
-      <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-12 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
+      <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-24 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
         <div className="lg:flex-1 relative ">
           <Image
             src={"/images/portraits/buero_2.jpg"}
@@ -116,14 +116,16 @@ export default function page() {
             className="object-cover lg:rounded-xl mx-auto"
           />
         </div>
-        <div className="px-4 lg:px-0 flex flex-col lg:flex-1">
+        <div className="px-4 sm:px-16 pt-24 lg:px-0 flex flex-col lg:flex-1">
           <span className="font-light text-sm mx-auto lg:mx-0">
             Wenn belastende Erlebnisse im Weg stehen
           </span>
           <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
             EMDR
           </h1>
-          <h2>Eye Movement Desensitization and Reprocessing - Was ist EMDR?</h2>
+          <h2 className="text-center lg:text-start">
+            Eye Movement Desensitization and Reprocessing - Was ist EMDR?
+          </h2>
           <p className="mb-4">
             EMDR ist eine wissenschaftlich anerkannte psychotherapeutische
             Methode, die ursprünglich zur Behandlung von Traumata entwickelt
@@ -142,7 +144,7 @@ export default function page() {
           <ContactBtn className="self-center lg:self-start" />
         </div>
       </section>
-      <section className="px-4 lg:px-32 pt-24 lg:pt-32 xl:pt-48">
+      <section className="px-4 sm:px-16 lg:px-32 pt-24 lg:pt-32 xl:pt-48">
         <div className="text-center">
           <span className="font-light text-sm mx-auto lg:mx-0">
             Muster erkennen und neu gestalten
@@ -151,7 +153,7 @@ export default function page() {
             Verhaltenstherapie
           </h1>
           <h2>Herkunft, Anwendung und wichtige Hinweise</h2>
-          <p className="mb-8 font-light text-sm max-w-4xl mx-auto">
+          <p className="mb-8 max-w-4xl mx-auto">
             Die Verhaltenstherapie ist ein gut strukturiertes
             psychotherapeutisches Verfahren, das sich mit erlernten Denk- und
             Verhaltensmustern beschäftigt. In meiner Praxis in Kaufering nutze
@@ -161,7 +163,7 @@ export default function page() {
         </div>
         <Blog data={methodsBlog} />
       </section>
-      <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-12 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
+      <section className="xl:pt-48 pt-24 lg:pt-32 lg:px-32 pt-12 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
         <div className="lg:flex-1 relative ">
           <Image
             src={"/images/portraits/buero_0.png"}
@@ -171,14 +173,16 @@ export default function page() {
             className="object-cover lg:rounded-xl mx-auto"
           />
         </div>
-        <div className="px-4 lg:px-0 flex flex-col lg:flex-1">
+        <div className="px-4 sm:px-16 pt-24 lg:p-0 flex flex-col lg:flex-1">
           <span className="font-light text-sm mx-auto lg:mx-0">
             Einfach. Jederzeit. Wirkungsvoll.
           </span>
           <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
             Atemtechniken
           </h1>
-          <h2>Der Atem als Schlüssel zur inneren Ruhe</h2>
+          <h2 className="text-center lg:text-start">
+            Der Atem als Schlüssel zur inneren Ruhe
+          </h2>
           <p className="mb-4">
             Atmen tun wir ständig – aber bewusstes Atmen ist etwas anderes.
             Gezielte Atemtechniken sind eine der wirksamsten und zugänglichsten
@@ -197,9 +201,9 @@ export default function page() {
         </div>
       </section>
       <section className="pt-24 lg:pt-32 xl:pt-48 lg:px-32">
-        <div className="flex flex-col px-4 lg:px-0">
+        <div className="flex flex-col px-4 sm:px-16 text-center lg:px-0">
           <span className="mx-auto font-light text-sm">FAQs</span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue text-center">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-center">
             Häufig gestellte Fragen
           </h1>
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
@@ -208,11 +212,11 @@ export default function page() {
             Psychothrapie.
           </p>
         </div>
-        <div className="px-4 pt-12 lg:pt-24">
+        <div className="px-4 sm:px-16 lg:px-32 pt-12 lg:pt-24">
           <Accordeon faqs={faqsHome} />
         </div>
       </section>
-      <section className="px-4 pt-24 pb-24 lg:px-32 lg:pt-32 xl:pt-48 lg:pb-32 xl:pb-48">
+      <section className="px-4 sm:px-16 pt-24 pb-24 lg:px-32 lg:pt-32 xl:pt-48 lg:pb-32 xl:pb-48">
         <Newsletter />
       </section>
     </div>

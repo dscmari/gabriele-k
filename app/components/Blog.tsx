@@ -74,7 +74,7 @@ export default function Blog({data}: Props) {
                     : "border-transparent text-gray-400 hover:text-custom-blue"
                 }`}
               >
-                {label}
+                <span className="text-xl">{label}</span>
               </Link>
             </li>
           ))}
@@ -85,10 +85,10 @@ export default function Blog({data}: Props) {
         {sections.map((e, index) => (
           <div
             key={index}
-            className="flex flex-col gap-4 max-w-xl lg:text-base/8 pt-8"
+            className="flex flex-col gap-4 lg:max-w-xl lg:text-base/8 pt-8"
           >
             {" "}
-            <h2 id={e.id} className="scroll-mt-16 text-custom-blue dark:text-darkmode-white">
+            <h2 id={e.id} className="scroll-mt-16 text-center lg:text-start">
               {e.header}
             </h2>
             {e.texts?.map((e, index) => (

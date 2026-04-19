@@ -24,7 +24,7 @@ export default function WebsiteCheck({ isGeo, className }: Props) {
               <h1 className="!text-white">
                 Heilpraktikerin für Psychotherapie in Kaufering
               </h1>
-              <p className="text-sm font-light dark:text-custom-white">
+              <p className="text-sm font-light !text-white">
                 Ich bin Gabriela Kramer, Ihre Heilpraktikerin für Psychotherapie
                 in Kaufering und der Region Landsberg am Lech.
               </p>
