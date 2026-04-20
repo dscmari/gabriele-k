@@ -39,7 +39,7 @@ export default function page() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Wohlfühlgewicht
           </span>
-          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Gesund abnehmen
           </h1>
           <h2 className="text-center lg:text-start">
@@ -69,7 +69,7 @@ export default function page() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Viele Ebenen
           </span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 max-w-5xl !font-bold tracking-wide text-custom-blue">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 max-w-5xl !font-bold">
             Gewicht im Gleichgewicht - Unterstützung bei allen Aspekten des
             Abnehmens
           </h1>
@@ -103,7 +103,7 @@ export default function page() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Vorgehensweise
           </span>
-          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Unser Ablauf
           </h1>
           <h2 className="text-center lg:text-start">Am Anfang steht ein ausführliches Erstgespräch</h2>

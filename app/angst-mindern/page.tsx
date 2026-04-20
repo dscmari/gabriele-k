@@ -8,6 +8,7 @@ import ContactBtn from "../components/buttons/ContactBtn";
 import Blog from "../components/Blog";
 import Newsletter from "../components/newsletter/Newsletter";
 import { faqsHome } from "../data/FAQsData";
+import Hero_leftOrientated from "../components/Hero_leftOrientated";
 
 export default function page() {
   const hero = {
@@ -23,7 +24,7 @@ export default function page() {
   return (
     <div>
       {" "}
-      <Hero
+      <Hero_leftOrientated
         imgPathDesktop={imgPathDesktop}
         title={title}
         subtitle={subtitle}
@@ -43,7 +44,7 @@ export default function page() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Finde deine Ruhe
           </span>
-          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Ängste verstehen und loslassen
           </h1>
           <h2>
@@ -78,7 +79,7 @@ export default function page() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Deine Angst hat einen Namen
           </span>
-          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Phobien erkennen und überwinden
           </h1>
           <h2 className="text-center lg:text-start">
@@ -98,7 +99,7 @@ export default function page() {
       <section className="pt-24 lg:pt-32 xl:pt-48 px-4 sm:px-16 lg:px-32">
         <div className="flex flex-col px-4 lg:px-0">
           <span className="mx-auto font-light text-sm">Ängste verstehen</span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue text-center">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-center">
             Mehr über Phobien erfahren
           </h1>
           <p className="max-w-4xl lg:text-center mx-auto">

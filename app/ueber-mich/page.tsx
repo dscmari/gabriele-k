@@ -10,7 +10,7 @@ export default function page() {
   return (
     <div>
       <section className="">
-        <div className="pt-32 md:px-16 lg:px-32 flex flex-col gap-8 lg:gap-16 md:flex-row">
+        <div className="sm:pt-24 lg:pt-32 md:px-16 lg:px-32 flex flex-col gap-8 lg:gap-16 md:flex-row">
           <div className="w-full md:flex-1 min-w-sm ">
             <Image
               src={"/images/portraits/gaby_4.jpg"}
@@ -133,7 +133,7 @@ export default function page() {
       <section className="pt-24 lg:pt-32 xl:pt-48 px-4 md:px-16 lg:px-32">
         <div className="flex flex-col">
           <span className="mx-auto font-light text-sm">FAQs</span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue text-center">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-center">
             Häufig gestellte Fragen
           </h1>
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">

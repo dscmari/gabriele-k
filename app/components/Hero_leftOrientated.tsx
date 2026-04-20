@@ -48,7 +48,7 @@ export default function Hero({
       {/* tablet */}
       <div className="hidden sm:flex flex-col justify-center gap-32 lg:hidden h-[75vh] ">
         <div className="flex flex-col p-8 rounded-xl dark:bg-custom-beige/90 max-w-4/5 mx-auto xl:max-w-3/5 dark:!text-custom-blue text-center">
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide dark:!text-custom-blue">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold dark:!text-custom-blue">
             {title}
           </h1>
           <h2 className="lg:!text-xl xl:!text-4xl/12 dark:!text-custom-blue">
@@ -106,7 +106,7 @@ export default function Hero({
         )}
 
         <div className="flex flex-col p-8 bg-custom-beige/90 rounded-xl max-w-4/5 xl:max-w-3/5 absolute top-1/2 -translate-y-1/2 left-1/8 text-custom-blue">
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide dark:!text-custom-blue">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold dark:!text-custom-blue">
             {title}
           </h1>
           <h2 className="lg:!text-xl xl:!text-4xl/14 dark:!text-custom-blue">

@@ -37,7 +37,7 @@ export default function page() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Tiefe Entspannung
           </span>
-          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Hypnose
           </h1>
           <div className="flex flex-col gap-4 mb-8 lg:mt-4">
@@ -92,7 +92,7 @@ export default function page() {
         <div className="xl:flex-1">
           <div className="flex flex-col px-4 sm:px-16 lg:px-0">
             <span className="mx-auto font-light text-sm">FAQs</span>
-            <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue text-center">
+            <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-center">
               Häufig gestellte Fragen zur Hypnose
             </h1>
             <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
@@ -120,7 +120,7 @@ export default function page() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Wenn belastende Erlebnisse im Weg stehen
           </span>
-          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             EMDR
           </h1>
           <h2 className="text-center lg:text-start">
@@ -149,7 +149,7 @@ export default function page() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Muster erkennen und neu gestalten
           </span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Verhaltenstherapie
           </h1>
           <h2>Herkunft, Anwendung und wichtige Hinweise</h2>
@@ -177,7 +177,7 @@ export default function page() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Einfach. Jederzeit. Wirkungsvoll.
           </span>
-          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Atemtechniken
           </h1>
           <h2 className="text-center lg:text-start">

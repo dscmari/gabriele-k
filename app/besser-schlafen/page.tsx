@@ -6,6 +6,7 @@ import { sleep } from "../data/FeaturesData";
 import Accordeon from "../components/Accordeon";
 import Newsletter from "../components/newsletter/Newsletter";
 import { faqsHome } from "../data/FAQsData";
+import Hero_leftOrientated from "../components/Hero_leftOrientated";
 
 export default function page() {
   const hero = {
@@ -18,7 +19,7 @@ export default function page() {
   const { title, subtitle, intro, imgPathDesktop } = hero;
   return (
     <div>
-      <Hero
+      <Hero_leftOrientated
         imgPathDesktop={imgPathDesktop}
         title={title}
         subtitle={subtitle}
@@ -38,7 +39,7 @@ export default function page() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Ruhige Nächte, klare Morgen
           </span>
-          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Besser schlafen
           </h1>
           <h2 className="text-center lg:text-start">
@@ -74,7 +75,7 @@ export default function page() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Hol dir einen Schlaf zurück
           </span>
-          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Schlafstörungen überwinden
           </h1>
           <h2>

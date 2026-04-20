@@ -7,6 +7,7 @@ import { smoke } from "./data/FeaturesData";
 import Accordeon from "./components/Accordeon";
 import Newsletter from "./components/newsletter/Newsletter";
 import { faqsHome } from "./data/FAQsData";
+import Hero_leftOrientated from "./components/Hero_leftOrientated";
 
 export default function Home() {
   const hero = {
@@ -21,7 +22,7 @@ export default function Home() {
 
   return (
     <div>
-      <Hero
+      <Hero_leftOrientated
         imgPathDesktop={imgPathDesktop}
         title={title}
         subtitle={subtitle}

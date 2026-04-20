@@ -32,7 +32,7 @@ export default function page() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Entspannung fehlt
           </span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Woran Sie Stress erkennen können?
           </h1>
           <h2>
@@ -59,7 +59,7 @@ export default function page() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Finde deine Ruhe
           </span>
-          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide text-custom-blue">
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Haltung zu Stress entwickeln
           </h1>
           <div className="flex flex-col gap-4 mb-8 lg:mt-4">
