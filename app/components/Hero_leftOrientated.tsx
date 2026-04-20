@@ -34,11 +34,15 @@ export default function Hero({
           height={800}
           className="object-cover h-full w-full absolute"
         />
-        <div className="absolute inset-0 bg-black/50"></div>
-        <div className="absolute translate-y-1/3 flex flex-col z-10 text-white">
-          <h1 className="!text-3xl mt-12 !text-white text-center">{title}</h1>
-          <ContactBtn className="self-center mt-12" />
-          <p className="mt-12 text-center font-light px-4">{intro}</p>
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute translate-y-1/2 flex flex-col z-10 text-white">
+          <h1 className="!text-3xl mt-12 !text-white dark:text-darkmode-white text-center px-4">
+            {title}
+          </h1>
+          <ContactBtn className="self-center mt-8" />
+          <p className="mt-8 text-sm/5 text-center font-light px-4 !text-darkmode-white">
+            {intro}
+          </p>
         </div>
       </div>
       {/* tablet */}

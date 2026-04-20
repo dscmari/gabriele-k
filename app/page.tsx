@@ -98,8 +98,8 @@ export default function Home() {
           <ContactBtn className="self-center lg:self-start" />
         </div>
       </section>
-      <section className="px-4 sm:px-16 lg:px-32 pt-24 lg:pt-32 xl:pt-48">
-        <div className="text-center">
+      <section className="sm:px-16 lg:px-32 pt-24 lg:pt-32 xl:pt-48">
+        <div className="text-center px-4 sm:px-0">
           <span className="font-light text-sm mx-auto lg:mx-0">Ablauf</span>
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue">
             Unser gemeinsamer Weg
@@ -127,7 +127,7 @@ export default function Home() {
               className="hidden lg:block lg:w-4xl xl:w-6xl mx-auto"
             />
           </div>
-          <div className="pt-12 flex flex-col lg:hidden">
+          <div className="pt-12 px-4 sm:px-0 flex flex-col lg:hidden">
             <h2 className="text-center lg:text-start !mb-8">
               Was Sie erwartet
             </h2>
@@ -246,7 +246,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="lg:flex-1">
+        <div className="lg:flex-1 sm:max-w-lg sm:mx-auto">
           <Image
             src={"/images/portraits/gaby_2.jpg"}
             alt="Bild von Gaby Kramer, Heilpraktikerin für Psychotherapie"
