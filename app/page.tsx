@@ -80,7 +80,9 @@ export default function Home() {
           <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Gesund abnehmen
           </h1>
-          <h2 className="text-center lg:text-start">Gewicht im Gleichgewicht - Ihr Weg zum Wohlfühlgewicht!</h2>
+          <h2 className="text-center lg:text-start">
+            Gewicht im Gleichgewicht - Ihr Weg zum Wohlfühlgewicht!
+          </h2>
           <p className="mb-4">
             Abnehmen beginnt oft nicht auf dem Teller, sondern im Kopf. Denn
             Essverhalten, Stress, Gewohnheiten und emotionale Belastungen hängen
@@ -113,13 +115,16 @@ export default function Home() {
         </div>
         <div className="flex flex-col lg:flex-row lg:gap-16 pt-12">
           <div className="lg:flex-1">
-            <Image
-              src="/images/process.png"
-              alt="Graphik zum Ablauf der Zusammenarbeit"
-              height={961}
-              width={914}
-              className="lg:hidden mx-auto"
-            />
+            <div className="dark:bg-white px-4 sm:px-16 dark:py-24">
+              <Image
+                src="/images/roadmap_mobile.png"
+                alt="Graphik zum Ablauf der Zusammenarbeit"
+                height={500}
+                width={500}
+                className="lg:hidden mx-auto"
+              />
+            </div>
+
             <Image
               src="/images/roadmap_2.png"
               alt="Graphik zum Ablauf der Zusammenarbeit"
@@ -161,9 +166,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section
-        className="pt-24 sm:px-16 lg:pt-32 xl:pt-48 lg:px-32"
-      >
+      <section className="pt-24 sm:px-16 lg:pt-32 xl:pt-48 lg:px-32">
         <div className="flex flex-col px-4 lg:px-0">
           <span className="mx-auto font-light text-sm">
             Ruhige Nächte, klare Morgen
@@ -202,13 +205,13 @@ export default function Home() {
           />
         </div>
         <div className="px-4 sm:px-16 lg:px-0 pt-24 lg:pt-0 flex flex-col lg:flex-1">
-          <span className="font-light text-sm mx-auto lg:mx-0">
-           Druck
-          </span>
+          <span className="font-light text-sm mx-auto lg:mx-0">Druck</span>
           <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue">
             Stress reduzieren
           </h1>
-          <h2 className="text-center lg:text-start">Wenn der Alltag zu viel wird</h2>
+          <h2 className="text-center lg:text-start">
+            Wenn der Alltag zu viel wird
+          </h2>
           <p className="mb-4">
             Stress ist eine der häufigsten Ursachen für Schlafprobleme,
             Erschöpfung und emotionale Belastung. Er entsteht oft schleichend –
