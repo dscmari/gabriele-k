@@ -26,31 +26,31 @@ export default function Footer({ className }: Props) {
           <div className="flex flex-col items-center lg:items-start gap-2">
             <Link
               href={"#"}
-              className="font-semibold hover:underline underline-offset-4"
+              className="font-semibold underline underline-offset-4"
             >
               Angst & Panik mindern
             </Link>
             <Link
               href={"#"}
-              className="font-semibold hover:underline underline-offset-4"
+              className="font-semibold underline underline-offset-4"
             >
               Rauchfrei werden
             </Link>
             <Link
               href={"#"}
-              className="font-semibold hover:underline underline-offset-4"
+              className="font-semibold underline underline-offset-4"
             >
               Besser schlafen
             </Link>
             <Link
               href={"#"}
-              className="font-semibold hover:underline underline-offset-4"
+              className="font-semibold underline underline-offset-4"
             >
               Die Praxis
             </Link>
             <Link
               href={"#"}
-              className="font-semibold hover:underline underline-offset-4"
+              className="font-semibold underline underline-offset-4"
             >
               Über Mich
             </Link>
@@ -58,11 +58,11 @@ export default function Footer({ className }: Props) {
         </div>
         <div className="lg:col-span-2 order-1 lg:order-3 mt-12 lg:mt-0 flex flex-col ">
           <h1 className="text-center lg:text-start !text-darkmode-white"> Heilpraktikerin für Psychotherapie in Kaufering</h1>
-          <p className="mb-2 !text-darkmode-white text-center lg:textstart">
+          <p className="mb-2 !text-darkmode-white text-center lg:text-start">
             Ich bin Gabriela Kramer, Ihre Heilpraktikerin für Psychotherapie in
             Kaufering und der Region Landsberg am Lech.
           </p>
-          <p className="mb-2 !text-darkmode-white text-center lg:textstart">
+          <p className="mb-2 !text-darkmode-white text-center lg:text-start">
             In meiner Praxis unterstütze ich Sie bei Ängsten, Stressbewältigung,
             Schlafproblemen und anderen mentalen Belastungen.
           </p>
@@ -70,13 +70,13 @@ export default function Footer({ className }: Props) {
         </div>
       </div>
       <div className="px-4 lg:px-32 pt-4 lg:pt-16 flex flex-col lg:flex-row items-center lg:justify-center gap-2 lg:gap-8">
-        <Link href={"#"} className="underline">
+        {/* <Link href={"#"} className="underline">
           Allgemeine Geschäftsbedingungen
-        </Link>
-        <Link href={"#"} className="underline">
+        </Link> */}
+        <Link href={"datenschutz"} className="underline">
           Datenschutzerklärung
         </Link>
-        <Link href={"#"} className="underline">
+        <Link href={"impressum"} className="underline">
           Impressum
         </Link>
       </div>
