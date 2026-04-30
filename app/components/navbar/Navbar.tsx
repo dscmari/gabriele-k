@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "motion/react";
 import DesktopNavbar from "./desktop/DesktopNavbar";
-import { Contact } from "lucide-react";
 import ContactBtn from "../buttons/ContactBtn";
 
 type Props = {
@@ -66,13 +65,13 @@ export default function Navbar({ className }: Props) {
                 </Link>
               </div>
               <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"angst-mindern"} className="text-right">
-                  Ängste & Panik mindern
+                <Link href={"angst-regulieren"} className="text-right">
+                  Ängste & Panik regulieren
                 </Link>
               </div>
               <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"stress-reduzieren"} className="text-right">
-                  Stress reduzieren
+                <Link href={"stress-bewältigen"} className="text-right">
+                  Stress bewältigen
                 </Link>
               </div>
               <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
@@ -94,7 +93,8 @@ export default function Navbar({ className }: Props) {
                 <Link href={"ueber-mich"} className="text-right">
                   Über Mich
                 </Link>
-              </div>      
+              </div>
+              <ContactBtn />
             </div>
           </motion.div>
         ) : null}

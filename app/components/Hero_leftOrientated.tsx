@@ -105,7 +105,7 @@ export default function Hero({
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide dark:!text-custom-blue">
             {title}
           </h1>
-          <h2 className="lg:!text-xl xl:!text-4xl/14 dark:!text-custom-blue">
+          <h2 className="lg:!text-xl xl:!text-4xl/12 dark:!text-custom-blue">
             {subtitle}
           </h2>
           <p className="mb-8 xl:text-lg dark:!text-custom-blue">{intro}</p>

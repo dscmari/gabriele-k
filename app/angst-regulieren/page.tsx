@@ -12,11 +12,11 @@ import Hero_leftOrientated from "../components/Hero_leftOrientated";
 
 export default function page() {
   const hero = {
-    title: "Ängste und Panik mindern",
+    title: "Ängste & Panik regulieren",
     subtitle:
-      "Angst ist eine natürliche Reaktion des Körpers – doch wenn sie überhandnimmt, kann sie den Alltag stark belasten",
+      "Angst ist eine natürliche Reaktion des Körpers. Sie kann schützen, warnen und aktivieren. Wenn Angst jedoch überhandnimmt, kann sie den Alltag stark belasten",
     intro:
-      "In unserer Arbeit lernen Sie, Ihre Angstreaktionen besser zu verstehen und Schritt für Schritt zu regulieren. So gewinnen Sie mehr innere Ruhe und Handlungsspielraum zurück.",
+      "In unserer gemeinsamen Arbeit lernen Sie, Ihre Angstreaktionen besser zu verstehen und Schritt für Schritt zu regulieren. So gewinnen Sie mehr innere Ruhe und Handlungsspielraum zurück.",
     imgPathDesktop: "/images/portraits/vr_gk.jpg",
   };
   const { title, subtitle, intro, imgPathDesktop } = hero;
@@ -31,7 +31,7 @@ export default function page() {
         intro={intro}
       />
       <section className="lg:p-32 pt-12 flex flex-col gap-8 lg:flex-row-reverse lg:gap-16 lg:items-center">
-               <div className="lg:flex-1 relative pt-24 lg:pt-0">
+        <div className="lg:flex-1 relative pt-24 lg:pt-0">
           <Image
             src={"/images/portraits/gaby_3.jpg"}
             alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
@@ -42,15 +42,17 @@ export default function page() {
         </div>
         <div className="px-4 sm:px-16 lg:px-0 flex flex-col lg:flex-1 pt-24 lg:pt-0">
           <span className="font-light text-sm mx-auto lg:mx-0">
-            Finde deine Ruhe
+            Wieder mehr Sicherheit im Alltag erleben
           </span>
           <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Ängste verstehen und loslassen
           </h1>
           <h2>
-            Wenn bestimmte Situationen, Orte, Tiere oder Gegenstände bei Ihnen
-            starke Angst auslösen, kann das den Alltag sehr belasten. Vielleicht
-            vermeiden Sie manches schon länger, um sich sicherer zu fühlen.
+            Wenn Ängste, Sorgen oder Panikreaktionen Ihren Alltag belasten, kann
+            das sehr verunsichern. Vielleicht kreisen Ihre Gedanken immer wieder
+            um mögliche Gefahren oder Sie erleben plötzlich auftretende
+            Panikattacken. Auch bestimmte Situationen, Orte, Tiere oder
+            Gegenstände können starke Angst auslösen.
           </h2>
           <p className="mb-8">
             In meiner Praxis in Kaufering finden Sie einen geschützten Rahmen,
@@ -60,7 +62,6 @@ export default function page() {
           </p>
           <ContactBtn className="self-center lg:self-start" />
         </div>
- 
       </section>
       <section className="bg-custom-blue text-white p-4 py-24 dark:py-8 mt-24 lg:mt-32 md:p-16 lg:p-32 scroll-mt-24">
         <Features data={anxietyFeatures} />

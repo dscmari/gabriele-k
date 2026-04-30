@@ -3,10 +3,9 @@ import {
   ShieldCheck,
   BadgeEuro,
   SearchCheck,
-  BoxSelect,
+ Infinity,
   Moon,
   Plane,
-  Users,
   TrendingUp,
   RefreshCcw,
   CloudRain,
@@ -20,6 +19,7 @@ import {
   Focus,
   ScanEye,
   Wind,
+  Bug,
 } from "lucide-react";
 
 export const smoke = {
@@ -52,30 +52,30 @@ export const smoke = {
 };
 
 export const anxietyFeatures = {
-  headline: "Spezifische Ängste",
-  subheader: "Jetzt Ängste bekämpfen",
+  headline: "Angst hat viele Gesichter",
+  subheader: "Ängste verstehen",
   intro:
-    "Bestimmte Situationen, Orte oder Gedanken lösen bei Ihnen starke Angstreaktionen aus? Mit gezielten Methoden helfe ich Ihnen, Ihre spezifischen Ängste zu verstehen und Schritt für Schritt zu überwinden.",
+    "Zeigt sich Ihre Angst durch Sorgen und Grübeln, durch plötzlich auftretende Panikattacken oder im Kontakt mit bestimmten Auslösern? Dabei können Orte, soziale Begegnungen, Tiere oder körperliche Empfindungen eine Rolle spielen. Mit gezielten Methoden helfe ich Ihnen, Ihre Ängste zu verstehen und Schritt für Schritt zu überwinden.",
   bullets: [
     {
-      icon: <BoxSelect className="shrink-0" size={36} />,
-      header: "Angst vor Enge",
-      text: "Aufzüge, volle Busse oder geschlossene Räume – das Gefühl, nicht entkommen zu können, löst sofort Panik aus und schränkt den Alltag spürbar ein.",
+      icon: <Infinity className="shrink-0" size={36} />,
+      header: "Anhaltende Sorgen und Ängste",
+      text: "Ihre Gedanken kreisen immer wieder um mögliche Gefahren, Probleme oder Zukunftsszenarien. Gedanken lassen sich kaum beruhigen, Unruhe und innere Anspannung bleiben.",
     },
     {
-      icon: <Users className="shrink-0" size={36} />,
-      header: "Angst vor Menschen",
-      text: "In Gesellschaft fühlt es sich eng an – Blicke, Gespräche oder Menschenmengen lösen ein Unbehagen aus, das Sie am liebsten vermeiden würden.",
+      icon: <RefreshCcw className="shrink-0" size={36} />,
+      header: "Wiederkehrende Panikattacken",
+      text: "Sie erleben plötzlich auftretende Panikattacken mit Herzrasen, Atemnot, Zittern oder dem Gefühl, die Kontrolle zu verlieren. Die körperlichen Reaktionen fühlen sich bedrohlich an, auch wenn keine akute Gefahr besteht.",
     },
     {
       icon: <Plane className="shrink-0" size={36} />,
-      header: "Angst vor dem Fliegen",
-      text: "Schon der Gedanke ans Einsteigen reicht aus – Reisen werden gemieden, Urlaubspläne scheitern, und das Gefühl der Kontrolle fehlt völlig.",
+      header: "Angst vor bestimmten Situationen",
+      text: "Vielleicht kennen Sie Situationen wie Fliegen, Höhe, Dunkelheit oder medizinische Untersuchungen, die bei Ihnen starke Angst auslösen. Oft entsteht dadurch der Wunsch, diese Situationen möglichst zu vermeiden.",
     },
     {
-      icon: <Moon className="shrink-0" size={36} />,
-      header: "Angst vor der Zukunft",
-      text: "Was kommt noch alles auf mich zu? Wenn Sorgen um Job, Familie oder Gesundheit nicht mehr abschalten lassen und der Alltag zur Last wird.",
+      icon: <Bug className="shrink-0" size={36} />,
+      header: "Angst vor bestimmten Tieren oder Dingen",
+      text: "Manche Tiere oder Dinge lösen bei Ihnen möglicherweise eine intensive Angstreaktion aus, auch wenn keine akute Gefahr besteht. Dazu können zum Beispiel Hunde, Spinnen, Insekten, Spritzen oder Blut gehören.",
     },
   ],
 };

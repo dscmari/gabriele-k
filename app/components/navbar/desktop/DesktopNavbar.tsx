@@ -35,16 +35,16 @@ export default function DesktopNavbar({ className }: Props) {
         <div className="flex items-center justify-between w-full text-custom-blue dark:text-darkmode-white">
           <div className="flex items-center xl:gap-4 2xl:gap-8">
             <Link
-              href={"angst-mindern"}
+              href={"angst-regulieren"}
               className="font-semibold hover:underline underline-offset-4"
             >
-              Ängste & Panik mindern
+              Ängste & Panik regulieren 
             </Link>
             <Link
-              href={"stress-reduzieren"}
+              href={"stress-bewältigen"}
               className="font-semibold hover:underline underline-offset-4"
             >
-              Stress reduzieren
+              Stress bewältigen
             </Link>
             <Link
               href={"besser-schlafen"}

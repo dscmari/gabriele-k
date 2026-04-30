@@ -3,7 +3,6 @@ import Image from "next/image";
 import Breadcrumbs from "./Breadcrumps";
 import ContactBtn from "./buttons/ContactBtn";
 import { usePathname } from "next/navigation";
-import { div } from "motion/react-client";
 
 type Props = {
   className?: string;
@@ -103,14 +102,13 @@ export default function Hero({
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold dark:!text-custom-blue">
             {title}
           </h1>
-          <h2 className="lg:!text-xl xl:!text-4xl/12 dark:!text-custom-blue">
+          <h2 className="lg:!text-xl xl:!text-4xl dark:!text-custom-blue">
             {subtitle}
           </h2>
           <p className="mb-8 xl:text-lg">{intro}</p>
           <ContactBtn className="self-start" />
         </div>
       </div>
-
       <Breadcrumbs className="block px-4 pt-8 sm:px-16 lg:px-32 lg:pt-16 font-semibold" />
     </div>
   );

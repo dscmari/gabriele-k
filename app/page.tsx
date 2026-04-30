@@ -8,6 +8,8 @@ import Accordeon from "./components/Accordeon";
 import Newsletter from "./components/newsletter/Newsletter";
 import { faqsHome } from "./data/FAQsData";
 import Hero_leftOrientated from "./components/Hero_leftOrientated";
+import FourBoxLayout from "./components/FourBoxLayout";
+import { therapyFourBox } from "./data/FourBoxData";
 
 export default function Home() {
   const hero = {
@@ -15,7 +17,7 @@ export default function Home() {
     subtitle:
       "Ich bin Gabriela Kramer, Ihre Heilpraktikerin für Psychotherapie in Kaufering und der Region Landsberg am Lech",
     intro:
-      "In meiner Praxis unterstütze ich Sie bei Ängsten, Stressbewältigung, Schlafproblemen und anderen mentalen Belastungen. Ich biete Ihnen eine entspannte und vertrauensvolle Arbeitsatmosphäre sowie flexible Behandlungszeiten – auch am Abend oder am Wochenende.",
+      "In meiner Praxis für Psychotherapie und Hypnose unterstütze ich Sie bei Ängsten, Stressbewältigung, Schlafproblemen und anderen mentalen Belastungen. Ich biete Ihnen eine entspannte und vertrauensvolle Arbeitsatmosphäre sowie flexible Behandlungszeiten – auch am Abend oder am Wochenende.",
     imgPathDesktop: "/images/portraits/buero_0.png",
   };
   const { title, subtitle, intro, imgPathDesktop } = hero;
@@ -40,27 +42,91 @@ export default function Home() {
         </div>
         <div className="px-4 pt-24 lg:pt-0 sm:px-16 lg:px-0 flex flex-col lg:flex-1">
           <span className="font-light text-sm mx-auto lg:mx-0">
-            Finde deine Ruhe
+            Wieder mehr Sicherheit im Alltag erleben
           </span>
           <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
-            Panik & Ängste mindern
+            Ängste & Panik regulieren
           </h1>
           <h2 className="text-center lg:text-start">
-            Angst ist eine natürliche Reaktion des Körpers – doch wenn sie
-            überhandnimmt, kann sie den Alltag stark belasten
+            Angst ist eine natürliche Reaktion des Körpers. Sie kann schützen,
+            warnen und aktivieren. Wenn Angst jedoch überhandnimmt, kann sie den
+            Alltag stark belasten.
           </h2>
           <p className="mb-4">
-            Panikattacken, soziale Ängste oder diffuse Anspannung ohne klaren
-            Grund – Angst zeigt sich auf viele Arten. Was sie gemeinsam haben:
-            Sie entsteht im Nervensystem und lässt sich dort auch gezielt
-            ansprechen.
+            Panikattacken, unterschiedlichste Ängste oder diffuse Anspannung
+            ohne klaren Grund können sich auf viele Arten zeigen. Was sie
+            gemeinsam haben: Sie entstehen im Nervensystem und lassen sich dort
+            auch gezielt ansprechen.
           </p>
           <p className="mb-8">
-            In unserer Arbeit lernen Sie, Ihre Angstreaktionen besser zu
-            verstehen und Schritt für Schritt zu regulieren. So gewinnen Sie
-            mehr innere Ruhe und Handlungsspielraum zurück.
+            In unserer gemeinsamen Arbeit lernen Sie, Ihre Angstreaktionen
+            besser zu verstehen und Schritt für Schritt zu regulieren. So
+            gewinnen Sie mehr Sicherheit, innere Stabilität und
+            Handlungsspielraum zurück.
           </p>
           <ContactBtn className="self-center lg:self-start" />
+        </div>
+      </section>
+      <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-12 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
+        <div className="lg:flex-1 relative mt-24 lg:mt-0">
+          <Image
+            src={"/images/stress.jpg"}
+            alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
+            width={800}
+            height={800}
+            className="object-cover lg:rounded-xl mx-auto"
+          />
+        </div>
+        <div className="px-4 sm:px-16 lg:px-0 pt-24 lg:pt-0 flex flex-col lg:flex-1">
+          <span className="font-light text-sm mx-auto lg:mx-0">
+            Umgang mit Druck lernen
+          </span>
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue">
+            Stress bewältigen
+          </h1>
+          <h2 className="text-center lg:text-start">
+            Wenn der Alltag zu viel wird
+          </h2>
+          <p className="mb-4">
+            Stress ist eine der häufigsten Ursachen für Schlafprobleme,
+            Erschöpfung und emotionale Belastung. Er entsteht oft schleichend –
+            und bleibt, wenn er keine Ventile findet. Genau hier setzen wir an.
+          </p>
+          <p className="mb-8">
+            In meiner Praxis begleite ich Sie dabei, Stressauslöser zu erkennen,
+            das Nervensystem gezielt zu beruhigen und langfristig mehr innere
+            Ruhe in den Alltag zu bringen – mit erprobten Methoden wie
+            Atemtechniken, EMDR und Hypnose.
+          </p>
+          <ContactBtn className="self-center lg:self-start" />
+        </div>
+      </section>
+      <section className="pt-24 sm:px-16 lg:pt-32 xl:pt-48 lg:px-32">
+        <div className="flex flex-col px-4 lg:px-0">
+          <span className="mx-auto font-light text-sm">
+            Ruhige Nächte, klare Morgen
+          </span>
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue text-center">
+            Mehr Energie durch besseren Schlaf
+          </h1>
+          <p className="max-w-4xl lg:text-center mx-auto">
+            Ausreichend gesunder Schlaf ist elementar für unser Wohlbefinden. Er
+            garantiert Erholung und Leistungsfähigkeit. Oftmals sind belastende
+            Situationen, permanenter Stress oder falsche Angewohnheiten für
+            schlechten Schlaf verantwortlich.
+          </p>
+        </div>
+        <div className="flex flex-col lg:flex-row-reverse lg:flex-row gap-16 mt-12 lg:mt-16 xl:mt-32">
+          <div className="lg:flex-1">
+            <Image
+              src="/images/portraits/buero_0.png"
+              alt="Business environment in the office"
+              width={800}
+              height={800}
+              className="object-cover lg:rounded-xl mx-auto lg:mx-0"
+            />
+          </div>
+          <AccordeonClean className="lg:flex-1" />
         </div>
       </section>
       <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-24 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
@@ -124,7 +190,6 @@ export default function Home() {
                 className="lg:hidden mx-auto"
               />
             </div>
-
             <Image
               src="/images/roadmap_2.png"
               alt="Graphik zum Ablauf der Zusammenarbeit"
@@ -166,66 +231,22 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="pt-24 sm:px-16 lg:pt-32 xl:pt-48 lg:px-32">
-        <div className="flex flex-col px-4 lg:px-0">
-          <span className="mx-auto font-light text-sm">
-            Ruhige Nächte, klare Morgen
+      <section className="sm:px-16 lg:px-32 pt-24 lg:pt-32 xl:pt-48">
+        <div className="text-center px-4 sm:px-0">
+          <span className="font-light text-sm mx-auto lg:mx-0">
+            Klare Vorgehensweise
           </span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue text-center">
-            Mehr Energie durch besseren Schlaf
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue">
+            Struktur statt endloser Therapie
           </h1>
-          <p className="max-w-4xl lg:text-center mx-auto">
-            Ausreichend gesunder Schlaf ist elementar für unser Wohlbefinden. Er
-            garantiert Erholung und Leistungsfähigkeit. Oftmals sind belastende
-            Situationen, permanenter Stress oder falsche Angewohnheiten für
-            schlechten Schlaf verantwortlich.
+          <p className="mb-8 max-w-4xl mx-auto">
+            Viele Menschen wünschen sich keine Therapie ohne absehbares Ende,
+            sondern eine klare, zeitlich überschaubare Begleitung.
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row-reverse lg:flex-row gap-16 mt-12 lg:mt-16 xl:mt-32">
-          <div className="lg:flex-1">
-            <Image
-              src="/images/portraits/buero_0.png"
-              alt="Business environment in the office"
-              width={800}
-              height={800}
-              className="object-cover lg:rounded-xl mx-auto lg:mx-0"
-            />
-          </div>
-          <AccordeonClean className="lg:flex-1" />
-        </div>
+        <FourBoxLayout data={therapyFourBox} />
       </section>
-      <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-12 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
-        <div className="lg:flex-1 relative mt-24 lg:mt-0">
-          <Image
-            src={"/images/stress.jpg"}
-            alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
-            width={800}
-            height={800}
-            className="object-cover lg:rounded-xl mx-auto"
-          />
-        </div>
-        <div className="px-4 sm:px-16 lg:px-0 pt-24 lg:pt-0 flex flex-col lg:flex-1">
-          <span className="font-light text-sm mx-auto lg:mx-0">Druck</span>
-          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue">
-            Stress reduzieren
-          </h1>
-          <h2 className="text-center lg:text-start">
-            Wenn der Alltag zu viel wird
-          </h2>
-          <p className="mb-4">
-            Stress ist eine der häufigsten Ursachen für Schlafprobleme,
-            Erschöpfung und emotionale Belastung. Er entsteht oft schleichend –
-            und bleibt, wenn er keine Ventile findet. Genau hier setzen wir an.
-          </p>
-          <p className="mb-8">
-            In meiner Praxis begleite ich Sie dabei, Stressauslöser zu erkennen,
-            das Nervensystem gezielt zu beruhigen und langfristig mehr innere
-            Ruhe in den Alltag zu bringen – mit erprobten Methoden wie
-            Atemtechniken, EMDR und Hypnose.
-          </p>
-          <ContactBtn className="self-center lg:self-start" />
-        </div>
-      </section>
+
       <section className="flex flex-col gap-12 lg:gap-16 lg:flex-row lg:items-center pt-24 lg:pt-32 lg:px-32 xl:pt-48">
         <div className="flex-1 flex flex-col ">
           <span className="font-light text-sm mx-auto lg:mx-0">
@@ -234,14 +255,14 @@ export default function Home() {
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue text-center lg:text-start">
             Unterstützung während der Therapieplatzsuche
           </h1>
-          <div className="flex flex-col items-center lg:flex-row lg:items-start gap-8 pt-8">
-            <div className="flex-1 flex flex-col items-end font-semibold text-custom-blue dark:text-darkmode-white">
+          <div className="flex flex-col items-center lg:flex-row lg:items-start gap-8 2xl:gap-16 pt-8">
+            <div className="flex-1 flex flex-col items-end 2xl:flex-0 font-semibold text-custom-blue dark:text-darkmode-white">
               <span className="text-9xl">3+</span>
               <span>
                 Monate <br /> Wartezeit
               </span>
             </div>
-            <p className="flex-2 lg:text-base/8 px-4 sm:px-16 lg:px-0">
+            <p className="flex-2 lg:text-base/8 px-4 sm:px-16 lg:px-0 2xl:max-w-xl">
               Lange Wartezeiten auf einen kassengestützten Psychotherapieplatz
               sind leider die Regel. Bei Ängsten, Panik, Schlafproblemen, Stress
               oder belastenden Gedanken wünschen sich viele Betroffene schnelle
