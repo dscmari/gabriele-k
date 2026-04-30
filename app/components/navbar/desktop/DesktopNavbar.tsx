@@ -38,10 +38,10 @@ export default function DesktopNavbar({ className }: Props) {
               href={"angst-regulieren"}
               className="font-semibold hover:underline underline-offset-4"
             >
-              Ängste & Panik regulieren 
+              Ängste & Panik regulieren
             </Link>
             <Link
-              href={"stress-bewältigen"}
+              href={"stress-bewaeltigen"}
               className="font-semibold hover:underline underline-offset-4"
             >
               Stress bewältigen
