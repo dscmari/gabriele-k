@@ -75,6 +75,106 @@ export const faqsHome = [
   },
 ];
 
+export const faqsStress = [
+  {
+    id: "faq-1",
+    question: "Woran erkenne ich, dass Stress mich zu stark belastet?",
+    answer:
+      "Stress wird oft dann zur Belastung, wenn Erholung kaum noch gelingt. Mögliche Anzeichen sind Schlafprobleme, Erschöpfung, innere Unruhe, Gereiztheit oder das Gefühl, ständig unter Druck zu stehen. Auch wenn Sie morgens schon müde aufwachen oder abends nicht mehr abschalten können, kann professionelle Unterstützung sinnvoll sein.",
+  },
+  {
+    id: "faq-2",
+    question: "Warum reagiere ich so empfindlich auf Druck?",
+    answer:
+      "Empfindliche Reaktionen auf Druck können ein Hinweis darauf sein, dass Körper und Psyche bereits stark belastet sind. Wenn Stress länger anhält, kann das Nervensystem schneller in Alarmbereitschaft geraten. In meiner Praxis schauen wir gemeinsam, welche Stressmuster bei Ihnen wirken und wie Sie Ihre Reaktionen besser verstehen und steuern können.",
+  },
+  {
+    id: "faq-3",
+    question: "Was sind typische Stressauslöser im Alltag?",
+    answer:
+      "Stress entsteht häufig, wenn der Tag voller Anforderungen ist und Sie kaum noch Ruhe finden. Typische Auslöser können Zeitdruck, Konflikte, hohe Erwartungen, ständige Erreichbarkeit oder das Gefühl sein, allem gerecht werden zu müssen. In meiner Praxis unterstütze ich Sie dabei, Ihre persönlichen Stressauslöser klarer zu erkennen und Wege zu entwickeln, Ihr Nervensystem wieder besser zu regulieren.",
+  },
+  {
+    id: "faq-4",
+    question: "Was hilft, wenn Stress akut zu viel wird?",
+    answer:
+      "Wenn Stress akut zu viel wird, kann ein kurzer Moment der bewussten Unterbrechung helfen. Atmen Sie bewusst in den Bauch, verlängern Sie die Ausatmung und nehmen Sie wahr, was Sie gerade sehen, hören und spüren. In meiner Praxis unterstütze ich Sie unter anderem dabei, solche stabilisierenden Schritte einzuüben und besser zu erkennen, was Ihnen in belastenden Momenten gut tut.",
+  },
+  {
+    id: "faq-5",
+    question: "Wie kann ich lernen, besser mit Stress umzugehen?",
+    answer:
+      "Ein wirkungsvoller Umgang mit Stress beginnt damit, die eigenen Stressmuster besser zu verstehen. Dazu gehört, typische Auslöser zu erkennen und Ihre Reaktionen bewusster wahrzunehmen. Daraus können neue Wege entstehen, mit Druck souveräner und erfolgricher umzugehen. In meiner Praxis begleite ich Sie dabei, Schritt für Schritt klarer, stabiler und leistungsfähiger mit belastenden Situationen umzugehen.",
+  },
+];
+
+export const faqsSleep = [
+  {
+    id: "faq-1",
+    question: "Wann spricht man von einer Schlafstörung?",
+    answer:
+      "Von einer Schlafstörung spricht man, wenn Schlafprobleme über längere Zeit bestehen, regelmäßig auftreten und Sie tagsüber spürbar belasten. Dazu gehören zum Beispiel Einschlafprobleme, häufiges nächtliches Aufwachen, frühes Erwachen oder Schlaf, der sich nicht erholsam anfühlt. Fachlich wird dabei vor allem auf Dauer, Häufigkeit und die Auswirkungen im Alltag geschaut. In meiner Praxis schauen wir gemeinsam, was Ihren Schlaf beeinflussen kann und welche Schritte für Sie sinnvoll sind.",
+  },
+  {
+    id: "faq-2",
+    question: "Warum kann ich nicht einschlafen, obwohl ich müde bin?",
+    answer:
+      "Müde sein bedeutet leider nicht immer, dass der Körper auch gut in den Schlaf findet. Stress, Grübeln, innere Anspannung oder der Druck, jetzt endlich schlafen zu müssen, können das Einschlafen erschweren. In meiner Praxis schauen wir gemeinsam, was Sie abends wach hält und welche Schritte Ihnen helfen können, leichter zur Ruhe zu kommen.",
+  },
+  {
+    id: "faq-3",
+    question: "Was kann ich tun, wenn ich nachts immer wieder aufwache?",
+    answer:
+      "Nächtliches Aufwachen ist erst einmal nichts Ungewöhnliches. Oftmals bekommen wir das bewusst gar nicht mit. Belastend wird es oft dann, wenn Sie danach nicht mehr zur Ruhe finden oder sofort ins Grübeln kommen. Hilfreich kann sein, den Druck herauszunehmen, ruhig in den Bauch zu atmen und den Blick nicht ständig auf die Uhr zu richten. In meiner Praxis schauen wir gemeinsam, was Ihre Nächte unruhig macht und welche Schritte Ihnen wieder mehr Sicherheit im Umgang mit dem Schlaf geben können.",
+  },
+  {
+    id: "faq-4",
+    question: "Was hilft, wenn Stress akut zu viel wird?",
+    answer:
+      "Wenn Stress akut zu viel wird, kann ein kurzer Moment der bewussten Unterbrechung helfen. Atmen Sie bewusst in den Bauch, verlängern Sie die Ausatmung und nehmen Sie wahr, was Sie gerade sehen, hören und spüren. In meiner Praxis unterstütze ich Sie unter anderem dabei, solche stabilisierenden Schritte einzuüben und besser zu erkennen, was Ihnen in belastenden Momenten gut tut.",
+  },
+  {
+    id: "faq-5",
+    question: "Wie kann ich lernen, besser mit Stress umzugehen?",
+    answer:
+      "Ein wirkungsvoller Umgang mit Stress beginnt damit, die eigenen Stressmuster besser zu verstehen. Dazu gehört, typische Auslöser zu erkennen und Ihre Reaktionen bewusster wahrzunehmen. Daraus können neue Wege entstehen, mit Druck souveräner und erfolgricher umzugehen. In meiner Praxis begleite ich Sie dabei, Schritt für Schritt klarer, stabiler und leistungsfähiger mit belastenden Situationen umzugehen.",
+  },
+];
+
+export const faqsAnxiety = [
+  {
+    id: "faq-1",
+    question: "Woran erkenne ich, ob meine Angst behandlungsbedürftig ist?",
+    answer:
+      "Angst gehört grundsätzlich zum Leben. Wenn sie sehr häufig auftritt, unverhältnismäßig stark ist oder Ihren Alltag deutlich einschränkt, kann sie behandlungsbedürftig sein. Ein Hinweis kann auch sein, wenn Sie Situationen vermeiden, sich stark zurückziehen oder ständig mit der nächsten Angstreaktion rechnen. In solchen Fällen kann eine psychotherapeutische Abklärung sinnvoll sein.",
+  },
+  {
+    id: "faq-2",
+    question: "Welche körperlichen Symptome können bei Angst auftreten?",
+    answer:
+      "Angst kann sich deutlich körperlich zeigen. Häufig sind Herzrasen, Engegefühl in der Brust, Atemnot, Schwindel, Zittern, Schwitzen, Übelkeit oder innere Unruhe. Diese Symptome können sehr belastend sein, sind aber typische Reaktionen des Körpers auf Angst und Anspannung.",
+  },
+  {
+    id: "faq-3",
+    question:
+      "Was ist der Unterschied zwischen Angst, Panikattacke und Panikstörung?",
+    answer:
+      "Angst ist eine normale Reaktion auf empfundene Gefahr. Eine Panikattacke ist eine zeitlich begrenzte Phase von sehr intensiver Angst mit starken körperlichen Symptomen. Sie kann bei verschiedenen Angststörungen auftreten. Von einer Panikstörung spricht man, wenn wiederholt unerwartete Panikattacken auftreten und Betroffene anhaltend Angst vor weiteren Attacken oder deren Folgen entwickeln.",
+  },
+  {
+    id: "faq-4",
+    question: "Warum fühlt sich Angst so bedrohlich an?",
+    answer:
+      "Angst aktiviert den Körper sehr stark. Herzschlag, Atmung, Muskeln und Aufmerksamkeit stellen sich auf Gefahr ein. Diese körperlichen Reaktionen können sich beängstigend anfühlen, besonders wenn sie plötzlich auftreten oder als gefährlich bewertet werden. Dadurch kann sich die Angst weiter verstärken.",
+  },
+  {
+    id: "faq-5",
+    question: "Was kann ich bei einer akuten Panikattacke tun?",
+    answer:
+      "Eine Panikattacke ist sehr unangenehm, geht aber in der Regel wieder vorüber. Hilfreich kann eine ruhige Bauchatmung sein: langsam einatmen und etwas länger durch den MundNächst ausatmen. Zusätzlich kann es unterstützen, die Aufmerksamkeit bewusst auf den gegenwärtigen Moment zu lenken und wahrzunehmen, was Sie gerade sehen, hören oder spüren.",
+  },
+];
+
 export const faqsHypnosis = [
   {
     id: "faq-1",
@@ -90,8 +190,7 @@ export const faqsHypnosis = [
   },
   {
     id: "faq-3",
-    question:
-      "Wie läuft eine Hypnosesitzung bei Ihnen ab?",
+    question: "Wie läuft eine Hypnosesitzung bei Ihnen ab?",
     answer:
       "Am Anfang steht immer ein sorgfältiges Gespräch. Ich möchte verstehen, was Sie belastet, was Sie verändern möchten und ob Hypnose in Ihrem Fall passend eingesetzt werden kann. Erst danach folgt die eigentliche Hypnose. Ich begleite Sie Schritt für Schritt durch den Prozess. Anschließend besprechen wir gemeinsam, was für Sie wichtig war und wie es weitergehen kann. So ist die Hypnose in eine fundierte therapeutische Begleitung eingebettet.",
   },
@@ -106,5 +205,5 @@ export const faqsHypnosis = [
     question: "Ist Hypnose sicher?",
     answer:
       "Bei fachgerechter Anwendung kann Hypnose eine bewährte therapeutische Methode sein. Entscheidend ist, dass sie verantwortungsvoll, passend zum Anliegen und in einem sicheren Rahmen eingesetzt wird. Genau deshalb steht bei mir die gründliche Einschätzung am Anfang. Ich arbeite achtsam, transparent und mit Blick auf das, was für Sie hilfreich und angemessen ist.",
-  }
+  },
 ];

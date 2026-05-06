@@ -84,6 +84,11 @@ export default function Navbar({ className }: Props) {
                   Gesund abnehmen
                 </Link>
               </div>
+                  <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
+                <Link href={"#"} className="text-right">
+                  Coaching
+                </Link>
+              </div>
               <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
                 <Link href={"methoden"} className="text-right">
                   Methoden

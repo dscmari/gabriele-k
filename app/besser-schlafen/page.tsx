@@ -5,7 +5,7 @@ import Features from "../components/Features";
 import { sleep } from "../data/FeaturesData";
 import Accordeon from "../components/Accordeon";
 import Newsletter from "../components/newsletter/Newsletter";
-import { faqsHome } from "../data/FAQsData";
+import { faqsHome, faqsSleep } from "../data/FAQsData";
 import Hero_leftOrientated from "../components/Hero_leftOrientated";
 
 export default function page() {
@@ -26,7 +26,7 @@ export default function page() {
         intro={intro}
       />
       <section className="lg:p-32 pt-24 sm:px-16 flex flex-col gap-8 lg:flex-row-reverse lg:gap-16 lg:items-center">
-                <div className="lg:flex-1 relative ">
+        <div className="lg:flex-1 relative ">
           <Image
             src={"/images/portraits/gaby_2.jpg"}
             alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
@@ -56,7 +56,6 @@ export default function page() {
           </p>
           <ContactBtn className="self-center lg:self-start" />
         </div>
-
       </section>
       <section className="bg-custom-blue text-white p-4 py-24 dark:py-0 mt-16 md:p-16 lg:p-32 scroll-mt-24">
         <Features data={sleep} />
@@ -111,7 +110,7 @@ export default function page() {
           </p>
         </div>
         <div className="px-4 sm:px-16 lg:px-32 pt-12 lg:pt-24">
-          <Accordeon faqs={faqsHome} />
+          <Accordeon faqs={faqsSleep} />
         </div>
       </section>
       <section className="px-4 sm:px-16 pt-24 pb-24 lg:px-32 lg:pt-32 xl:pt-48 lg:pb-32 xl:pb-48">

@@ -7,7 +7,7 @@ import { stressFeatures } from "../data/FeaturesData";
 import Features from "../components/Features";
 import Accordeon from "../components/Accordeon";
 import Newsletter from "../components/newsletter/Newsletter";
-import { faqsHome } from "../data/FAQsData";
+import { faqsStress } from "../data/FAQsData";
 
 export default function page() {
   const hero = {
@@ -99,11 +99,11 @@ export default function page() {
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
             Hier kriegst du einen Überblick über häufig gestellte Fragen zur
             Zusammenarbeit mit Gabriela Kramer, Heilpraktikerin für
-            Psychothrapie.
+            Psychotherapie.
           </p>
         </div>
         <div className="px-4 sm:px-16 lg:px-32 pt-12 lg:pt-24">
-          <Accordeon faqs={faqsHome} />
+          <Accordeon faqs={faqsStress} />
         </div>
       </section>
       <section className="px-4 sm:px-16 pt-24 pb-24 lg:px-32 lg:pt-32 xl:pt-48 lg:pb-32 xl:pb-48">

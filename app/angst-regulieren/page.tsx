@@ -7,7 +7,7 @@ import Accordeon from "../components/Accordeon";
 import ContactBtn from "../components/buttons/ContactBtn";
 import Blog from "../components/Blog";
 import Newsletter from "../components/newsletter/Newsletter";
-import { faqsHome } from "../data/FAQsData";
+import { faqsAnxiety, faqsHome } from "../data/FAQsData";
 import Hero_leftOrientated from "../components/Hero_leftOrientated";
 
 export default function page() {
@@ -127,7 +127,7 @@ export default function page() {
           </p>
         </div>
         <div className="px-4 sm:px-16 lg:px-32 pt-12 lg:pt-24">
-          <Accordeon faqs={faqsHome} />
+          <Accordeon faqs={faqsAnxiety} />
         </div>
       </section>
       <section className="px-4 sm:px-16 pt-24 pb-24 lg:px-32 lg:pt-32 xl:pt-48 lg:pb-32 xl:pb-48">

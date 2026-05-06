@@ -10,7 +10,7 @@ type Props = {
 
 export default function DesktopNavbar({ className }: Props) {
   return (
-    <div className={`mx-auto p-8 ${className}`}>
+    <div className={`mx-auto p-8 pb-4 ${className}`}>
       <div className="flex gap-4 justify-end text-sm font-light pb-4">
         <div className="flex items-center gap-2">
           <Phone className="shrink-0 size-4" />
@@ -33,7 +33,7 @@ export default function DesktopNavbar({ className }: Props) {
           />
         </Link>
         <div className="flex items-center justify-between w-full text-custom-blue dark:text-darkmode-white">
-          <div className="flex items-center xl:gap-4 2xl:gap-8">
+          <div className="flex items-start gap-x-12 gap-y-2 flex-wrap px-8">
             <Link
               href={"angst-regulieren"}
               className="font-semibold hover:underline underline-offset-4"
@@ -57,6 +57,12 @@ export default function DesktopNavbar({ className }: Props) {
               className="font-semibold hover:underline underline-offset-4"
             >
               Gesund abnehmen
+            </Link>
+            <Link
+              href={"#"}
+              className="font-semibold hover:underline underline-offset-4"
+            >
+              Coaching
             </Link>
             <Link
               href={"ueber-mich"}
