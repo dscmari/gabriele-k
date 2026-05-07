@@ -5,7 +5,7 @@ import SixBoxLayout from "../components/SixBoxLayout";
 import { weightSixBoxData } from "../data/SixBoxData";
 import Accordeon from "../components/Accordeon";
 import Newsletter from "../components/newsletter/Newsletter";
-import { faqsHome } from "../data/FAQsData";
+import { faqsWeight } from "../data/FAQsData";
 
 export default function page() {
   const hero = {
@@ -69,22 +69,26 @@ export default function page() {
           <span className="font-light text-sm mx-auto lg:mx-0">
             Viele Ebenen
           </span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 max-w-5xl !font-bold">
+          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 max-w-4xl !font-bold">
             Gewicht im Gleichgewicht - Unterstützung bei allen Aspekten des
             Abnehmens
           </h1>
-          <h2 className="max-w-5xl">
+          <h2 className="max-w-4xl">
             Abnehmen ist mehr als eine Frage der Disziplin – es berührt Ihr
             Verhältnis zu Ihnen selbst, zu Essen, zu Ihrem Körper und oft auch
             zu Ihrer Geschichte
           </h2>
-          <p className="">
-            Gewicht im Gleichgewicht ist mehr als ein reines Abnehmprogramm. Es
-            geht nicht um starre Regeln, sondern um Orientierung, persönliche
-            Begleitung und um Schritte, die sich stimmig in Ihr Leben einfügen
-            lassen.Wenn Sie Ihr Wohlfühlgewicht nicht nur mit noch mehr Druck
-            erreichen möchten, sondern die Hintergründe Ihres Essverhaltens
-            besser verstehen wollen, begleite ich Sie gern.
+          <p className="max-w-5xl">
+            Gewicht im Gleichgewicht ist mehr als ein klassisches
+            Abnehmprogramm. Es geht nicht um starre Regeln, Verbote oder einen
+            Einheitsplan. Im Mittelpunkt stehen Ihr Essverhalten, Ihre
+            Gewohnheiten, Ihre Belastungen und Ihr Umgang mit sich selbst. Mit
+            Hypnose und mentalen Strategien unterstütze ich Sie dabei, innere
+            Auslöser bewusster wahrzunehmen und gewohnte Muster besser zu
+            verstehen. Daraus können wirkungsvolle Veränderungen für Ihren
+            Alltag entstehen. Wenn Sie Ihr Wohlfühlgewicht nicht mit noch mehr
+            Druck erreichen möchten, begleite ich Sie gern. Gemeinsam entwickeln
+            wir einen neuen Zugang zu Essen, Gewicht und sich selbst.
           </p>
         </div>
         <SixBoxLayout boxes={weightSixBoxData} className="pt-12 lg:pt-24" />
@@ -104,21 +108,24 @@ export default function page() {
             Vorgehensweise
           </span>
           <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
-            Unser Ablauf
+            So arbeiten wir zusammen
           </h1>
-          <h2 className="text-center lg:text-start">Am Anfang steht ein ausführliches Erstgespräch</h2>
+          <h2 className="text-center lg:text-start">
+            Am Anfang steht ein ausführliches Erstgespräch
+          </h2>
           <p className="mb-4">
-            Es bietet Raum, Ihre bisherige Entwicklung, Ihre Gewohnheiten,
-            mögliche Belastungsfaktoren und Ihre aktuelle Lebenssituation in
-            Ruhe zu betrachten. Auf dieser Grundlage wird die weitere Begleitung
-            individuell auf Sie abgestimmt.
+            Wir nehmen uns Zeit für Ihre bisherige Entwicklung, Ihre
+            Gewohnheiten, mögliche Belastungsfaktoren und Ihre aktuelle
+            Lebenssituation. Auf dieser Grundlage stimme ich die weitere
+            Begleitung individuell auf Sie ab.
           </p>
           <p className="mb-8">
-            Im weiteren Verlauf arbeite ich schwerpunktmäßig mit Hypnose. Sie
-            kann dabei unterstützen, innere Prozesse bewusster wahrzunehmen,
-            eingefahrene Muster zu reflektieren und neue hilfreiche Impulse für
-            den Alltag zu entwickeln. Welche Schritte für Sie passend sind,
-            orientiert sich immer an Ihrem persönlichen Anliegen.
+            Im weiteren Verlauf arbeite ich schwerpunktmäßig mit Hypnose und
+            mentalen Strategien. Dabei geht es darum, innere Auslöser bewusster
+            wahrzunehmen, eingefahrene Muster besser zu verstehen und neue
+            hilfreiche Impulse für den Alltag zu entwickeln. Welche Schritte für
+            Sie passend sind, orientiert sich immer an Ihrem persönlichen
+            Anliegen.
           </p>
           <ContactBtn className="self-center lg:self-start" />
         </div>
@@ -136,7 +143,7 @@ export default function page() {
           </p>
         </div>
         <div className="px-4 sm:px-16 lg:px-32 pt-12 lg:pt-24">
-          <Accordeon faqs={faqsHome} />
+          <Accordeon faqs={faqsWeight} />
         </div>
       </section>
       <section className="px-4 sm:px-16 pt-24 pb-24 lg:px-32 lg:pt-32 xl:pt-48 lg:pb-32 xl:pb-48">

@@ -126,19 +126,7 @@ export const faqsSleep = [
     question: "Was kann ich tun, wenn ich nachts immer wieder aufwache?",
     answer:
       "Nächtliches Aufwachen ist erst einmal nichts Ungewöhnliches. Oftmals bekommen wir das bewusst gar nicht mit. Belastend wird es oft dann, wenn Sie danach nicht mehr zur Ruhe finden oder sofort ins Grübeln kommen. Hilfreich kann sein, den Druck herauszunehmen, ruhig in den Bauch zu atmen und den Blick nicht ständig auf die Uhr zu richten. In meiner Praxis schauen wir gemeinsam, was Ihre Nächte unruhig macht und welche Schritte Ihnen wieder mehr Sicherheit im Umgang mit dem Schlaf geben können.",
-  },
-  {
-    id: "faq-4",
-    question: "Was hilft, wenn Stress akut zu viel wird?",
-    answer:
-      "Wenn Stress akut zu viel wird, kann ein kurzer Moment der bewussten Unterbrechung helfen. Atmen Sie bewusst in den Bauch, verlängern Sie die Ausatmung und nehmen Sie wahr, was Sie gerade sehen, hören und spüren. In meiner Praxis unterstütze ich Sie unter anderem dabei, solche stabilisierenden Schritte einzuüben und besser zu erkennen, was Ihnen in belastenden Momenten gut tut.",
-  },
-  {
-    id: "faq-5",
-    question: "Wie kann ich lernen, besser mit Stress umzugehen?",
-    answer:
-      "Ein wirkungsvoller Umgang mit Stress beginnt damit, die eigenen Stressmuster besser zu verstehen. Dazu gehört, typische Auslöser zu erkennen und Ihre Reaktionen bewusster wahrzunehmen. Daraus können neue Wege entstehen, mit Druck souveräner und erfolgricher umzugehen. In meiner Praxis begleite ich Sie dabei, Schritt für Schritt klarer, stabiler und leistungsfähiger mit belastenden Situationen umzugehen.",
-  },
+  }
 ];
 
 export const faqsAnxiety = [
@@ -205,5 +193,39 @@ export const faqsHypnosis = [
     question: "Ist Hypnose sicher?",
     answer:
       "Bei fachgerechter Anwendung kann Hypnose eine bewährte therapeutische Methode sein. Entscheidend ist, dass sie verantwortungsvoll, passend zum Anliegen und in einem sicheren Rahmen eingesetzt wird. Genau deshalb steht bei mir die gründliche Einschätzung am Anfang. Ich arbeite achtsam, transparent und mit Blick auf das, was für Sie hilfreich und angemessen ist.",
+  },
+];
+
+
+export const faqsWeight = [
+  {
+    id: "faq-1",
+    question: "Kann Hypnose beim Abnehmen unterstützen?",
+    answer:
+      "Hypnose kann beim Abnehmen unterstützend eingesetzt werden, besonders wenn Essverhalten, Gewohnheiten, Stress oder emotionale Auslöser eine Rolle spielen. In der hypnosebasierten Arbeit können bewusste Gedanken, unbewusste Muster, innere Bilder, Gefühle und Körperempfinden einbezogen werden. Ziel ist es, persönliche Zusammenhänge besser zu verstehen und neue, alltagstaugliche Schritte im Umgang mit Essen, Gewicht und sich selbst zu entwickeln.",
+  },
+  {
+    id: "faq-2",
+    question: "Wie funktioniert Abnehmen mit Hypnose?",
+    answer:
+      "In der Hypnose richtet sich Ihre Aufmerksamkeit stärker auf Ihr inneres Erleben. Dabei können innere Bilder, Körperempfinden und Suggestionen einbezogen werden. So können Essgewohnheiten, emotionale Auslöser und persönliche Ziele in einem ruhigen, fokussierten Zustand betrachtet werden. Die hypnosebasierte Arbeit setzt dort an, wo Essen nicht nur mit Hunger, sondern auch mit Gewohnheit, Stress, Belohnung oder Entlastung verbunden ist.",
+  },
+  {
+    id: "faq-3",
+    question: "Für wen ist Gewicht im Gleichgewicht geeignet?",
+    answer:
+      "Gewicht im Gleichgewicht ist für Menschen geeignet, die ihr Essverhalten nicht nur über Regeln, Disziplin oder den nächsten Ernährungsplan verändern möchten. Es richtet sich an Sie, wenn Sie merken, dass Stress, Gewohnheiten, emotionale Belastungen, Heißhunger oder Selbstkritik Ihr Essverhalten beeinflussen. Das Angebot kann passend sein, wenn Sie Ihr Wohlfühlgewicht auf eine neue Weise angehen möchten und bereit sind, die Hintergründe Ihres Essverhaltens genauer zu betrachten.",
+  },
+  {
+    id: "faq-4",
+    question: "Wie viele Sitzungen sind sinnvoll?",
+    answer:
+      "Die Anzahl der Sitzungen hängt von Ihrem Anliegen, Ihrer persönlichen Situation und den Themen ab, die Sie bearbeiten möchten. Manche Menschen wünschen sich zunächst wenige Impulse, andere profitieren von einer längeren Begleitung. In der Regel klären wir nach dem Erstgespräch gemeinsam, welcher Rahmen für Sie passend ist. Dabei geht es nicht um ein starres Programm, sondern um eine Begleitung, die sich an Ihrem Ziel, Ihrem Alltag und Ihrem Tempo orientiert.",
+  },
+  {
+    id: "faq-5",
+    question: "Bin ich während der Hypnose bei Bewusstsein?",
+    answer:
+      "Ja. Hypnose ist kein Schlaf und kein Zustand der Willenlosigkeit. Sie bleiben ansprechbar und behalten die Kontrolle. Viele Menschen erleben Hypnose als einen ruhigen, konzentrierten Zustand. Die Aufmerksamkeit richtet sich stärker nach innen, während äußere Reize mehr in den Hintergrund treten können. Therapeutische Hypnose hat nichts mit Show-Hypnose zu tun. Sie findet in einem geschützten Rahmen statt und orientiert sich an Ihrem persönlichen Anliegen.",
   },
 ];

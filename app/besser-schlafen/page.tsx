@@ -1,19 +1,18 @@
-import Hero from "../components/Hero";
 import Image from "next/image";
 import ContactBtn from "../components/buttons/ContactBtn";
 import Features from "../components/Features";
 import { sleep } from "../data/FeaturesData";
 import Accordeon from "../components/Accordeon";
 import Newsletter from "../components/newsletter/Newsletter";
-import { faqsHome, faqsSleep } from "../data/FAQsData";
+import { faqsSleep } from "../data/FAQsData";
 import Hero_leftOrientated from "../components/Hero_leftOrientated";
 
 export default function page() {
   const hero = {
     title: "Gesund und erholsam schlafen",
-    subtitle: "Hilfe bei Ein- und Durchschlafstörungen",
+    subtitle: "Hilfe bei Schlafstörungen",
     intro:
-      "Sie sind abends hundemüde, liegen im Bett und können trotzdem nicht einschlafen. Oder Sie wachen nachts immer wieder auf und finden nicht mehr in den Schlaf. Wenn Sie unter Ein- und Durchschlafstörungen leiden, kann das sehr belastend sein.",
+      "Sie sind abends hundemüde, liegen im Bett und kommen trotzdem nicht einschlafen. Sie wachen nachts immer wieder auf oder werden viel zu früh wach. Oder Sie fühlen sich morgens erschöpft, obwohl Sie geschlafen haben. Das kann sehr belastend sein.",
     imgPathDesktop: "/images/portraits/buero_0.png",
   };
   const { title, subtitle, intro, imgPathDesktop } = hero;
@@ -40,7 +39,7 @@ export default function page() {
             Ruhige Nächte, klare Morgen
           </span>
           <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
-            Besser schlafen
+            Endlich wieder ausgeschlafen
           </h1>
           <h2 className="text-center lg:text-start">
             Als Heilpraktikerin für Psychotherapie unterstütze ich Sie dabei,
@@ -72,15 +71,15 @@ export default function page() {
         </div>
         <div className="px-4 sm:px-16 pt-24 lg:p-0 flex flex-col lg:flex-1">
           <span className="font-light text-sm mx-auto lg:mx-0">
-            Hol dir einen Schlaf zurück
+            Schlaf und Erholung wieder stärken
           </span>
           <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
-            Schlafstörungen überwinden
+            Unterstützung bei Schlafstörungen
           </h1>
           <h2>
-            In meiner Praxis unterstütze ich Sie dabei, die möglichen
-            Zusammenhänge Ihrer Schlafstörungen besser zu verstehen und passende
-            Schritte für Ihre persönliche Situation zu entwickeln
+            In meiner Praxis begleite ich Sie dabei, mögliche Zusammenhänge und
+            Hintergründe Ihrer Schlafstörungen besser einzuordnen. Gemeinsam
+            entwickeln wir passende Schritte für Ihre persönliche Situation
           </h2>
           <p className="mb-4 font-light text-sm">
             Gemeinsam erarbeiten wir Lösungen, die realistisch und im Alltag gut

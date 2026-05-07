@@ -15,7 +15,7 @@ export default function page() {
     subtitle:
       "Wenn Stress zum Dauerzustand wird und Sie nur noch weiter machen",
     intro:
-      "Stress gehört zum Leben – aber wenn er nicht mehr aufhört, wenn Sie morgens schon erschöpft aufwachen und abends nicht abschalten können, wird er zur Belastung. Hier finden Sie Unterstützung, um wieder Boden unter den Füßen zu spüren.",
+      "Stress gehört zum Leben. Wenn er jedoch nicht mehr nachlässt, Sie morgens schon erschöpft aufwachen und abends kaum zur Ruhe kommen, wird er zur Belastung. In meiner Praxis begleite ich Sie dabei, wieder mehr Boden unter den Füßen zu spüren, klarer mit Druck umzugehen und Ihre Leistungsfähigkeit zu erhalten.",
     imgPathDesktop: "/images/portraits/buero_1.jpg",
   };
   const { title, subtitle, intro, imgPathDesktop } = hero;

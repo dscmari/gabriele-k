@@ -3,16 +3,13 @@ import {
   ShieldCheck,
   BadgeEuro,
   SearchCheck,
- Infinity,
-  Moon,
+  Infinity,
   Plane,
   TrendingUp,
   RefreshCcw,
-  CloudRain,
   Earth,
   GitBranch,
   Shell,
-  FileQuestionMark,
   Check,
   Swords,
   HeartCrack,
@@ -20,6 +17,7 @@ import {
   ScanEye,
   Wind,
   Bug,
+  BedDouble,
 } from "lucide-react";
 
 export const smoke = {
@@ -82,29 +80,29 @@ export const anxietyFeatures = {
 
 export const sleep = {
   headline: "Schlafstörungen verstehen",
-  subheader: "Jetzt Schlafstörungen bekämpfen",
+  subheader: "Jetzt Schlafstörungen gezielt angehen",
   intro:
-    "Wenn Sie unter Ein- und Durchschlafstörungen leiden, kann das sehr belastend sein. Schlafstörungen rauben Kraft, mindern die Konzentration und wirken sich oft auch auf Stimmung, Belastbarkeit und den Alltag aus.",
+    "Wenn Ihr Schlaf über längere Zeit nicht mehr erholsam ist, kann das sehr belastend sein. Schlafstörungen rauben Kraft, mindern die Konzentration und wirken sich oft auch auf Stimmung, Belastbarkeit und den Alltag aus.",
   bullets: [
     {
       icon: <TrendingUp className="shrink-0" size={36} />,
       header: "Schleichender Beginn",
-      text: "Ein- und Durchschlafstörungen entwickeln sich häufig schleichend. Vielleicht gab es in letzter Zeit vermehrten Stress, berufliche Belastungen, private Sorgen oder anhaltenden inneren Druck.",
+      text: "Schlafstörungen entstehen häufig nicht von heute auf morgen. Oft verändern sich die Nächte allmählich: Das Einschlafen dauert länger, das Durchschlafen wird unruhiger oder der Schlaf fühlt sich weniger erholsam an. Das wird oft so lange hingenommen, bis die fehlende Erholung im Alltag deutlich spürbar wird.",
     },
     {
       icon: <RefreshCcw className="shrink-0" size={36} />,
-      header: "Gedankenkarussell",
-      text: "Irgendwann wird das Einschlafen selbst zum Thema. Viele Menschen mit Schlafstörungen kennen das Gedankenkarussell am Abend, die innere Anspannung oder den nächtlichen Blick auf die Uhr.",
+      header: "Wenn Schlafen zum Muss wird",
+      text: "Irgendwann wird das Schlafen selbst zum Thema. Viele Menschen kennen dann das Gedankenkarussell am Abend, die innere Anspannung oder den nächtlichen Blick auf die Uhr. Je stärker der Gedanke wird, jetzt endlich einschlafen zu müssen, desto mehr gerät der Körper in Alarmbereitschaft.",
     },
     {
-      icon: <CloudRain className="shrink-0" size={36} />,
-      header: "Psychische Belastung",
-      text: "Häufig stehen dabei nicht körperliche Ursachen im Mittelpunkt, sondern innere Unruhe, Grübeln, Stress oder seelische Belastungen.",
+      icon: <BedDouble className="shrink-0" size={36} />,
+      header: "Schlafgewohnheiten & Schlafumgebung",
+      text: "Auch äußere Bedingungen und abendliche Gewohnheiten können den Schlaf beeinflussen. Dazu gehören zum Beispiel unregelmäßige Schlafzeiten, ungünstiges Licht, spätes Essen, langes Wachliegen im Bett oder zu viel Aktivierung am Abend.",
     },
     {
       icon: <Earth className="shrink-0" size={36} />,
       header: "Ganzheitliche Betrachtung",
-      text: "Auch belastende Gedanken, Stressmuster und die aktuelle Lebenssituation spielen häufig eine wichtige Rolle bei Schlafproblemen.",
+      text: "Bei nichtorganischen Schlafstörungen geht es selten nur um die Nacht selbst. Häufig spielen Stress, Sorgen, innere Antreiber, belastende Gedanken oder die aktuelle Lebenssituation eine wichtige Rolle. Deshalb betrachten wir nicht nur den Schlaf, sondern auch das, was ihn im Alltag beeinflusst.",
     },
   ],
 };
@@ -115,12 +113,12 @@ export const methodsFeatures = {
   intro:
     "Individuell abgestimmte Verfahren, die gezielt auf Ihre Bedürfnisse eingehen – für nachhaltige Veränderung und mehr Lebensqualität.",
   bullets: [
-        {
+    {
       icon: <Shell className="shrink-0" size={36} />,
       header: "Hypnose",
       text: "Hypnose versetzt Sie in einen Zustand tiefer Entspannung, in dem unbewusste Muster leichter zugänglich werden – so können festgefahrene Reaktionen sanft und nachhaltig verändert werden.",
     },
-       {
+    {
       icon: <ScanEye className="shrink-0" size={36} />,
       header: "EMDR",
       text: "Eye Movement Desensitization and Reprocessing ist eine psychotherapeutische Methode, die ursprünglich zur Behandlung von Traumata entwickelt wurde.",
@@ -131,7 +129,6 @@ export const methodsFeatures = {
       text: "Die Verhaltenstherapie hilft Ihnen belastende Gedanken und Verhaltensmuster zu erkennen und gezielt zu verändern – durch praktische Übungen und konkrete Strategien.",
     },
 
- 
     {
       icon: <Wind className="shrink-0" size={36} />,
       header: "Atemtechniken",
@@ -168,4 +165,3 @@ export const stressFeatures = {
     },
   ],
 };
-

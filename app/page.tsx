@@ -79,7 +79,7 @@ export default function Home() {
         </div>
         <div className="px-4 sm:px-16 lg:px-0 pt-24 lg:pt-0 flex flex-col lg:flex-1">
           <span className="font-light text-sm mx-auto lg:mx-0">
-            Umgang mit Druck lernen
+            Innere Stärke bewahren und leistungsfähig bleiben
           </span>
           <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue">
             Stress bewältigen
@@ -88,15 +88,19 @@ export default function Home() {
             Wenn der Alltag zu viel wird
           </h2>
           <p className="mb-4">
-            Stress ist eine der häufigsten Ursachen für Schlafprobleme,
-            Erschöpfung und emotionale Belastung. Er entsteht oft schleichend –
-            und bleibt, wenn er keine Ventile findet. Genau hier setzen wir an.
+            Stress entsteht oft dort, wo Verantwortung, Erwartungen und innere
+            Ansprüche dauerhaft aufeinandertreffen. Wenn kaum Raum zum
+            Durchatmen bleibt, kann daraus ein Druck entstehen, der Körper und
+            Seele spürbar belastet.
           </p>
           <p className="mb-8">
-            In meiner Praxis begleite ich Sie dabei, Stressauslöser zu erkennen,
-            das Nervensystem gezielt zu beruhigen und langfristig mehr innere
-            Ruhe in den Alltag zu bringen – mit erprobten Methoden wie
-            Atemtechniken, EMDR und Hypnose.
+            In meiner Praxis begleite ich Sie in einem strukturierten Prozess
+            dabei, Ihre persönlichen Stressauslöser und Stressmuster besser zu
+            verstehen. Dabei geht es nicht darum, Stress vollständig zu
+            vermeiden. Sie lernen, Ihre eigenen Reaktionen bewusster
+            wahrzunehmen und besser zu steuern. So können Sie mit Druck
+            bewusster umgehen und auch in belastenden Phasen klar, stabil und
+            leistungsfähig bleiben.
           </p>
           <ContactBtn className="self-center lg:self-start" />
         </div>
@@ -141,28 +145,34 @@ export default function Home() {
         </div>
         <div className="px-4 pt-24 lg:pt-0 sm:px-16 lg:px-0 flex flex-col lg:flex-1">
           <span className="font-light text-sm mx-auto lg:mx-0">
-            Erreiche dein Wohlfühlgewicht
+            Bewusst abnehmen
           </span>
           <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
-            Gesund abnehmen
+            Hypnose und mentale Strategien für Ihr Wohlfühlgewicht
           </h1>
           <h2 className="text-center lg:text-start">
-            Gewicht im Gleichgewicht - Ihr Weg zum Wohlfühlgewicht!
+            Essverhalten und Emotionen klarer einordnen, Gewohnheiten gezielt
+            verändern
           </h2>
           <p className="mb-4">
-            Abnehmen beginnt oft nicht auf dem Teller, sondern im Kopf. Denn
+            Abnehmen beginnt oft nicht nur auf dem Teller, sondern im Kopf. Denn
             Essverhalten, Stress, Gewohnheiten und emotionale Belastungen hängen
             häufig eng zusammen. Mit Gewicht im Gleichgewicht begleite ich Sie
-            dabei, diese Zusammenhänge besser zu verstehen und neue,
-            alltagstaugliche Wege zu entwickeln.
+            dabei, diese Zusammenhänge besser einzuordnen und neue,
+            alltagstaugliche Schritte zu entwickeln.
           </p>
           <p className="mb-4">
-            Im Fokus stehen keine starren Regeln, sondern ein bewussterer Umgang
-            mit sich selbst, dem Essen und den eigenen Belastungen.
+            Hypnose und mentale Strategien können Sie dabei unterstützen,
+            gewohnte Muster bewusster wahrzunehmen und innere Auslöser besser zu
+            verstehen. Daraus lassen sich neue Handlungsmöglichkeiten für Ihren
+            Umgang mit Essen und Gewicht entwickeln.
           </p>
           <p className="mb-8">
-            Für Menschen, die ihr Wohlfühlgewicht erreichen möchten und dabei
-            mehr suchen als das nächste Abnehmprogramm.
+            Sie suchen kein weiteres Diätprogramm, sondern einen bewussteren
+            Umgang mit sich selbst, dem Essen und Ihren persönlichen
+            Belastungen. Dieses Angebot begleitet Sie dabei, Ihr Wohlfühlgewicht
+            mit einem neuen Blick auf Essen, Gewohnheiten und innere Muster
+            anzugehen.
           </p>
           <ContactBtn className="self-center lg:self-start" />
         </div>
@@ -250,10 +260,10 @@ export default function Home() {
       <section className="flex flex-col gap-12 lg:gap-16 lg:flex-row lg:items-center pt-24 lg:pt-32 lg:px-32 xl:pt-48">
         <div className="flex-1 flex flex-col ">
           <span className="font-light text-sm mx-auto lg:mx-0">
-            Schnelle Hilfe
+            Wartezeit sinnvoll überbrücken
           </span>
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue text-center lg:text-start">
-            Unterstützung während der Therapieplatzsuche
+            Begleitung bis zum kassengestützten Therapieplatz
           </h1>
           <div className="flex flex-col items-center lg:flex-row lg:items-start gap-8 2xl:gap-16 pt-8">
             <div className="flex-1 flex flex-col items-end 2xl:flex-0 font-semibold text-custom-blue dark:text-darkmode-white">
@@ -264,10 +274,12 @@ export default function Home() {
             </div>
             <p className="flex-2 lg:text-base/8 px-4 sm:px-16 lg:px-0 2xl:max-w-xl">
               Lange Wartezeiten auf einen kassengestützten Psychotherapieplatz
-              sind leider die Regel. Bei Ängsten, Panik, Schlafproblemen, Stress
-              oder belastenden Gedanken wünschen sich viele Betroffene schnelle
-              Orientierung und Unterstützung. In meiner Praxis für
-              Psychotherapie in Kaufering biete ich Ihnen zeitnah Hilfe.
+              sind leider die Regel. Wenn Ängste, Panik, Schlafprobleme, Stress
+              oder belastende Gedanken den Alltag erschweren, wünschen sich
+              viele Betroffene schnelle Orientierung und Unterstützung. In
+              meiner Praxis für Psychotherapie in Kaufering biete ich Ihnen
+              zeitnahe therapeutische Begleitung zur Überbrückung der Wartezeit
+              auf einen Therapieplatz.
             </p>
           </div>
         </div>

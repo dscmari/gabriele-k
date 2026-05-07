@@ -52,7 +52,7 @@ export const weightSixBoxData = [
   {
     icon: <Utensils className="shrink-0 text-custom-blue dark:text-darkmode-white" size={48} />,
     title: "Belastende Essgewohnheiten",
-    text: "Essen aus Frust, Langeweile oder Trost – viele kennen das. Essgewohnheiten sind oft tief verwurzelt und haben wenig mit Hunger zu tun.",
+    text: "Essen aus Frust, Langeweile, Gewohnheit oder Trost kennen viele Menschen. Essgewohnheiten sind oft tief verwurzelt und haben wenig mit Hunger zu tun.",
   },
   {
     icon: <Heart className="shrink-0 text-custom-blue dark:text-darkmode-white" size={48} />,
@@ -62,17 +62,17 @@ export const weightSixBoxData = [
   {
     icon: <BatteryLow className="shrink-0 text-custom-blue dark:text-darkmode-white" size={48} />,
     title: "Stress und innere Unruhe",
-    text: "Wenn die Müdigkeit nicht mehr verschwindet, egal wie viel Sie schlafen – das ist mehr als nur ein schlechter Tag. Anhaltende Erschöpfung ist ein Zeichen, dass Körper und Geist dringend Unterstützung brauchen.",
+    text: "Stress wirkt auf mehreren Ebenen. Er kann dazu führen, dass Sie aus Anspannung, Frust oder zur Beruhigung essen. Gleichzeitig beeinflusst anhaltender Stress über Stresshormone wie Cortisol auch körperliche Prozesse.",
   },
   {
     icon: <RefreshCw className="shrink-0 text-custom-blue dark:text-darkmode-white" size={48} />,
     title: "Frust nach gescheiterten Diätversuchen",
-    text: "Wieder angefangen, wieder aufgehört – das kennen viele. Dieser Frust ist kein Versagen, sondern ein Zeichen dass der bisherige Ansatz nicht gepasst hat.",
+    text: "Wieder angefangen, wieder aufgehört. Kennen Sie das? Dieser Frust ist kein Versagen, sondern ein Zeichen, dass der bisherige Ansatz nicht gepasst hat.",
   },
   {
     icon: <Brain className="shrink-0 text-custom-blue dark:text-darkmode-white" size={48} />,
     title: "Hinderliche Gedanken und Selbstkritik",
-    text: '"Ich schaffe das sowieso nicht" – solche Gedanken sabotieren mehr als jede Diät. Wer lernt, milder mit sich zu sein, kommt nachhaltiger ans Ziel.',
+    text: 'Wenn Sie lernen, weniger streng mit sich zu sein, kann der Weg zu ihrem Wohlfühlgewicht leichter und nachhaltiger werden.',
   },
   {
     icon: <Sparkles className="shrink-0 text-custom-blue dark:text-darkmode-white" size={48} />,
