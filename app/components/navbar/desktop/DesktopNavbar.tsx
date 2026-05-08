@@ -11,8 +11,8 @@ type Props = {
 export default function DesktopNavbar({ className }: Props) {
   return (
     <div className={`mx-auto p-8 pb-4 ${className}`}>
-      <div className="flex gap-4 justify-end text-sm font-light pb-4">
-        <div className="flex items-center gap-2">
+      <div className="flex gap-4 justify-end text-sm font-light pb-4 !text-custom-blue">
+        <div className="flex items-center gap-2 ">
           <Phone className="shrink-0 size-4" />
           <span>+49 1520 2076952</span>
         </div>
