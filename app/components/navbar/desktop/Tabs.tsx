@@ -25,7 +25,7 @@ const Tabs = () => {
 
   const TABS = [
     {
-      title: "Leistungen",
+      title: "Meine Schwerpunkte",
       Component: NavServices,
     },
     {
