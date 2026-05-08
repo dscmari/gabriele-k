@@ -25,7 +25,7 @@ const NavServices = () => {
             Besser schlafen
           </Link>
           <Link
-            href="/gesund-abnehemen/"
+            href="/gesund-abnehmen/"
             className="font-semibold hover:underline"
           >
             Gesund abnehmen
