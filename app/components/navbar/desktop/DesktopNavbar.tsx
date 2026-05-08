@@ -71,10 +71,16 @@ export default function DesktopNavbar({ className }: Props) {
               Über mich
             </Link>
             <Link
-              href={"methoden"}
+              href={"/methoden/"}
               className="font-semibold hover:underline underline-offset-4"
             >
               Methoden
+            </Link>
+            <Link
+              href={"/blog/"}
+              className="font-semibold hover:underline underline-offset-4"
+            >
+              Blog
             </Link>
           </div>
           <div className="flex items-center gap-8">
