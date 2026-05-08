@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ContactBtn from "../../buttons/ContactBtn";
 import { Mail, Phone } from "lucide-react";
+import { ShiftingDropDown } from "./ShiftingDropDown";
 
 type Props = {
   className?: string;
@@ -32,7 +33,8 @@ export default function DesktopNavbar({ className }: Props) {
             className="w-36"
           />
         </Link>
-        <div className="flex items-center justify-between w-full text-custom-blue dark:text-darkmode-white">
+          <ShiftingDropDown />
+        {/* <div className="flex items-center justify-between w-full text-custom-blue dark:text-darkmode-white">
           <div className="flex items-start gap-x-12 gap-y-2 flex-wrap px-8">
             <Link
               href={"/angst-regulieren/"}
@@ -86,8 +88,12 @@ export default function DesktopNavbar({ className }: Props) {
           <div className="flex items-center gap-8">
             <ContactBtn className="hover:bg-gold" />
           </div>
-        </div>
+        </div> */}
+          <div className="flex items-center gap-8">
+            <ContactBtn className="hover:bg-gold" />
+          </div>
       </div>
+         
     </div>
   );
 }
