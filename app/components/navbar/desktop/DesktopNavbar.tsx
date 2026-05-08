@@ -35,25 +35,25 @@ export default function DesktopNavbar({ className }: Props) {
         <div className="flex items-center justify-between w-full text-custom-blue dark:text-darkmode-white">
           <div className="flex items-start gap-x-12 gap-y-2 flex-wrap px-8">
             <Link
-              href={"angst-regulieren"}
+              href={"/angst-regulieren/"}
               className="font-semibold hover:underline underline-offset-4"
             >
               Ängste & Panik regulieren
             </Link>
             <Link
-              href={"stress-bewaeltigen"}
+              href={"/stress-bewaeltigen/"}
               className="font-semibold hover:underline underline-offset-4"
             >
               Stress bewältigen
             </Link>
             <Link
-              href={"besser-schlafen"}
+              href={"/besser-schlafen/"}
               className="font-semibold hover:underline underline-offset-4"
             >
               Besser schlafen
             </Link>
             <Link
-              href={"gesund-abnehmen"}
+              href={"/gesund-abnehmen/"}
               className="font-semibold hover:underline underline-offset-4"
             >
               Gesund abnehmen
@@ -65,7 +65,7 @@ export default function DesktopNavbar({ className }: Props) {
               Coaching
             </Link>
             <Link
-              href={"ueber-mich"}
+              href={"/ueber-mich/"}
               className="font-semibold hover:underline underline-offset-4"
             >
               Über mich

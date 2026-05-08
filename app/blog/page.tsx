@@ -31,7 +31,17 @@ export default async function Blog() {
     <div className="">
       <Breadcrumbs className="hidden md:block pt-4 px-4 lg:px-32 font-semibold" />
       <div className="pt-12 lg:px-32 px-4 lg:pt-32 lg:pb-16 xl:max-w-3/4 2xl:max-w-2/3">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia mollitia ipsam sunt laudantium maxime officiis voluptate. Ipsam debitis, rerum laboriosam quam ex sunt ut id, voluptates, sequi ipsum illum voluptate?
+                  <span className="font-light text-sm mx-auto lg:mx-0">
+            Wieder mehr Sicherheit im Alltag erleben
+          </span>
+          <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
+            Ängste & Panik regulieren
+          </h1>
+          <h2 className="text-center lg:text-start">
+            Angst ist eine natürliche Reaktion des Körpers. Sie kann schützen,
+            warnen und aktivieren. Wenn Angst jedoch überhandnimmt, kann sie den
+            Alltag stark belasten.
+          </h2>
       </div>
       <div className="grid lg:grid-cols-2 gap-24 lg:gap-12 m-8 mt-24 lg:m-32">
         {posts.map((post) => (

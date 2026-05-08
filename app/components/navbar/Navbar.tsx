@@ -65,17 +65,17 @@ export default function Navbar({ className }: Props) {
                 </Link>
               </div>
               <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"angst-regulieren"} className="text-right">
+                <Link href={"/angst-regulieren/"} className="text-right">
                   Ängste & Panik regulieren
                 </Link>
               </div>
               <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"stress-bewaeltigen"} className="text-right">
+                <Link href={"/stress-bewaeltigen/"} className="text-right">
                   Stress bewältigen
                 </Link>
               </div>
               <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"besser-schlafen"} className="text-right">
+                <Link href={"/besser-schlafen/"} className="text-right">
                   Besser schlafen
                 </Link>
               </div>
@@ -90,13 +90,18 @@ export default function Navbar({ className }: Props) {
                 </Link>
               </div>
               <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"methoden"} className="text-right">
+                <Link href={"/methoden/"} className="text-right">
                   Methoden
                 </Link>
               </div>
               <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"ueber-mich"} className="text-right">
+                <Link href={"/ueber-mich/"} className="text-right">
                   Über Mich
+                </Link>
+              </div>
+                      <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
+                <Link href={"/blog/"} className="text-right">
+                  Blog
                 </Link>
               </div>
               <ContactBtn />
