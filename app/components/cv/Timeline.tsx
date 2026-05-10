@@ -4,12 +4,14 @@ type Props = {
 
 export default function Timeline({ className }: Props) {
   const items = [
-    "Ängste & Panik mindern",
-    "Stress reduzieren",
+    "Ängste & Panik regulieren",
+    "Stress bewältigen",
     "Besser schlafen",
     "Gesund abnehmen",
-    "Über mich",
+    "Coaching",
     "Methoden",
+    "Über mich",
+    "Blog",
   ];
 
   return (
@@ -27,7 +29,9 @@ export default function Timeline({ className }: Props) {
             className={`text-custom-blue dark:text-darkmode-white text-sm text-right ${item === "Über mich" ? "!text-2xl font-semibold" : ""}`}
           >
             {item}{" "}
-            {item === "Über mich" && <span className="text-custom-blue">—</span>}
+            {item === "Über mich" && (
+              <span className="text-custom-blue">—</span>
+            )}
           </span>
         </div>
       ))}

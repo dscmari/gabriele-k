@@ -173,8 +173,25 @@ span:nth-child(3) {
   text-decoration: underline;
 }
 
-
 .sanity-container ul {
   list-style: disc;
   padding-left: 1rem;
+}
+
+/* ViewTransition */
+::view-transition-old(hero) {
+  animation: 300ms ease-in both slide-out;
+}
+::view-transition-new(hero) {
+  animation: 500ms ease-out 100ms both slide-in;
+}
+
+@keyframes slide-out {
+  from { transform: translateX(0); }
+  to   { transform: translateX(100vw); }
+}
+
+@keyframes slide-in {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(0); }
 }

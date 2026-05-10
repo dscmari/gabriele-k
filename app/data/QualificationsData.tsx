@@ -21,13 +21,13 @@ export const jobs = [
       date: "2009",
       title: "Trainerin für Vertriebstraining im Automobilhandel",
       description:
-        "Trainerin / Beraterin Automobilhandel für Vertriebstraining PKW für die Marke VW - Screen GmbH, Düsseldorf",
+        "Trainerin für Vertriebstraining PKW für die Marke VW - Screen GmbH, Düsseldorf",
     },
             {
       date: "1985 - 2008",
       title: "Verkäuferin für Mercedes-Benz PKW",
       description:
-        "Verkäuferin für Mercedes-Benz PKW im Innen- und Außendienst mit Gebietsverantwortung",
+        "Zertifizierte Verkäuferin für Mercedes-Benz PKW im Innen- und Außendienst mit Gebietsverantwortung",
     },
   ];
 
@@ -44,6 +44,13 @@ export const educations = [
       description:
         "EMDR, EMDR bei Ängsten & Phobien Verhaltenstherapie Therapeutische Meditation",
     },
+        {
+      date: "2020",
+      title: "Businesstrainerin & Coach",
+      description:
+        "Michl Group – BDVT",
+    },
+
     {
       date: "ab 2018",
       title: "Hypnose (TMI)",

@@ -10,73 +10,96 @@ type Props = {
 export default function Footer({ className }: Props) {
   const pathname = usePathname();
   return (
-    <footer className={`text-white bg-custom-blue dark:border-t-2 border-slate-500 ${className}`}>
+    <footer
+      className={`text-white bg-custom-blue dark:border-t-2 border-slate-500 ${className}`}
+    >
       <div className="p-4 lg:pt-32 lg:px-32 grid grid-cols-1 gap-12 lg:grid-cols-4">
         <div className="flex flex-col items-center lg:items-start gap-2 order-2 lg:order-1">
           <span>Gabriela Kramer</span>
           <span>www.gabrielakramer.de</span>
           <span>+49 1520 2076952</span>
           <span>info@gabrielakramer.de</span>
-          <Link href="https://goo.gl/maps/DNSXZJcXVabSeL1K6" target="_blank" className="underline underline-offset-4 text-center lg:text-start">
-              Franz-Senn-Weg 3a, <br/> 86916 Kaufering
-					</Link>
-					
+          <Link
+            href="https://goo.gl/maps/DNSXZJcXVabSeL1K6"
+            target="_blank"
+            className="underline underline-offset-4 text-center lg:text-start"
+          >
+            Franz-Senn-Weg 3a, <br /> 86916 Kaufering
+          </Link>
         </div>
         <div className="flex flex-col gap-8 order-3 mb-12 lg:mb-0 lg:order-2">
           <div className="flex flex-col items-center lg:items-start gap-2">
             <Link
-              href={"#"}
+              href={"angst-regulieren"}
               className="font-semibold underline underline-offset-4"
             >
-              Angst & Panik mindern
+              Ängste & Panik regulieren
             </Link>
             <Link
-              href={"#"}
+              href={"/gesund-abnehmen/"}
               className="font-semibold underline underline-offset-4"
             >
-              Rauchfrei werden
+              Gesund abnehmen
             </Link>
             <Link
-              href={"#"}
+              href={"/besser-schlafen/"}
               className="font-semibold underline underline-offset-4"
             >
               Besser schlafen
             </Link>
             <Link
-              href={"#"}
+              href={"/coaching/"}
               className="font-semibold underline underline-offset-4"
             >
-              Die Praxis
+              Coaching
             </Link>
             <Link
-              href={"#"}
+              href={"/methoden/"}
+              className="font-semibold underline underline-offset-4"
+            >
+              Methoden
+            </Link>
+            <Link
+              href={"/ueber-mich/"}
               className="font-semibold underline underline-offset-4"
             >
               Über Mich
             </Link>
+            <Link
+              href={"/blog"}
+              className="font-semibold underline underline-offset-4"
+            >
+              Blog
+            </Link>
           </div>
         </div>
         <div className="lg:col-span-2 order-1 lg:order-3 mt-12 lg:mt-0 flex flex-col ">
-          <h1 className="text-center lg:text-start !text-darkmode-white"> Heilpraktikerin für Psychotherapie in Kaufering</h1>
+          <h1 className="text-center lg:text-start !text-darkmode-white">
+            {" "}
+            Heilpraktikerin für Psychotherapie in Kaufering
+          </h1>
           <p className="mb-2 !text-darkmode-white text-center lg:text-start">
             Ich bin Gabriela Kramer, Ihre Heilpraktikerin für Psychotherapie in
             Kaufering und der Region Landsberg am Lech.
           </p>
           <p className="mb-2 !text-darkmode-white text-center lg:text-start">
-            In meiner Praxis unterstütze ich Sie bei Ängsten, Stressbewältigung,
-            Schlafproblemen und anderen mentalen Belastungen.
+            In meiner Praxis für Psychotherapie und Hypnose unterstütze ich Sie
+            bei Ängsten, Stressbewältigung, Schlafproblemen und anderen mentalen
+            Belastungen. Ich biete Ihnen eine entspannte und vertrauensvolle
+            Arbeitsatmosphäre sowie flexible Behandlungszeiten – auch am Abend
+            oder am Wochenende.
           </p>
-          <ContactBtn className="bg-custom-bronce mt-8 self-center lg:self-start"/>
+          <ContactBtn className="bg-custom-bronce mt-8 self-center lg:self-start" />
         </div>
       </div>
       <div className="px-4 lg:px-32 pt-4 lg:pt-16 flex flex-col lg:flex-row items-center lg:justify-center gap-2 lg:gap-8">
         {/* <Link href={"#"} className="underline">
           Allgemeine Geschäftsbedingungen
         </Link> */}
-        <Link href={"datenschutz"} className="underline">
+        <Link href={"/datenschutz/"} className="underline">
           Datenschutzerklärung
         </Link>
-        <Link href={"impressum"} className="underline">
+        <Link href={"/impressum/"} className="underline">
           Impressum
         </Link>
       </div>

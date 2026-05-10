@@ -7,8 +7,9 @@ const NavServices = () => {
         <div className="flex flex-col gap-4 text-custom-blue underline-offset-4">
           {/* <h3 className="text-xl  mb-2 font-medium">Google Platz 1</h3> */}
           <Link
-            href="/angst-regulieren/"
+            href="/angst-regulieren/" 
             className="font-semibold hover:underline"
+  
           >
             Ängste & Panik regulieren
           </Link>
@@ -19,7 +20,7 @@ const NavServices = () => {
             Stress bewältigen
           </Link>
           <Link
-            href="/besser schlafen/"
+            href="/besser-schlafen/"
             className="font-semibold hover:underline"
           >
             Besser schlafen

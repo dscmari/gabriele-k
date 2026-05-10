@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Hero from "../components/Hero";
 import Features from "../components/Features";
 import { anxietyFeatures } from "../data/FeaturesData";
 import { anxietyBlog } from "../data/BlogData";
@@ -14,7 +13,7 @@ export default function page() {
   const hero = {
     title: "Ängste & Panik regulieren",
     subtitle:
-      "Angst ist eine natürliche Reaktion des Körpers. Sie kann schützen, warnen und aktivieren. Wenn Angst jedoch überhandnimmt, kann sie den Alltag stark belasten",
+      "Angst ist eine natürliche Reaktion des Körpers. Wenn Angst jedoch überhandnimmt, kann sie den Alltag stark belasten",
     intro:
       "In unserer gemeinsamen Arbeit lernen Sie, Ihre Angstreaktionen besser zu verstehen und Schritt für Schritt zu regulieren. So gewinnen Sie mehr innere Ruhe und Handlungsspielraum zurück.",
     imgPathDesktop: "/images/portraits/vr_gk.jpg",

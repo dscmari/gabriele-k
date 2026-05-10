@@ -85,7 +85,7 @@ export default function Navbar({ className }: Props) {
                 </Link>
               </div>
                   <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"#"} className="text-right">
+                <Link href={"/coaching/"} className="text-right">
                   Coaching
                 </Link>
               </div>

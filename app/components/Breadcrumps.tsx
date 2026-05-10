@@ -34,7 +34,7 @@ export default function Breadcrumbs({ className }: Props) {
               {last ? (
                 // Die letzte Seite ist aktiv und nicht klickbar
                 <span className="text-custom-red p-2 rounded-md">
-                  {displayName}
+                  {displayName === "UEBER MICH" ? "ÜBER MICH" : `${displayName}`}
                 </span>
               ) : (
                 <Link href={to} className="hover:bg-slate-200 p-2 rounded-md">

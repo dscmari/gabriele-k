@@ -3,6 +3,7 @@ import Image from "next/image";
 import Breadcrumbs from "./Breadcrumps";
 import ContactBtn from "./buttons/ContactBtn";
 import { usePathname } from "next/navigation";
+import { ViewTransition } from "react";
 
 type Props = {
   className?: string;
@@ -38,7 +39,9 @@ export default function Hero({
         <div className="absolute translate-y-1/3 flex flex-col z-10 text-white">
           <h1 className="!text-3xl mt-12 !text-white text-center">{title}</h1>
           <ContactBtn className="self-center mt-12" />
-          <p className="mt-12 text-center font-light px-4 !text-white">{intro}</p>
+          <p className="mt-12 text-center font-light px-4 !text-white">
+            {intro}
+          </p>
         </div>
       </div>
       {/* tablet */}
@@ -87,11 +90,12 @@ export default function Hero({
         </div>
       </div>
       {/* desktop */}
+
       <div className="hidden lg:block  h-screen relative">
         {imgPathDesktop && (
           <div>
             <Image
-              src={imgPathDesktop}
+              src={"/images/portraits/buero_0.png"}
               alt={"Hintergrund Bild von einem Büro"}
               fill
               className="object-cover"
@@ -100,19 +104,19 @@ export default function Hero({
             <div className="absolute inset-0 bg-black/20"></div>
           </div>
         )}
-
-        <div className="flex flex-col p-8 bg-custom-beige/90 rounded-xl max-w-4/5 xl:max-w-3/5 absolute top-1/2 -translate-y-1/2 left-1/8 text-custom-blue">
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide dark:!text-custom-blue">
-            {title}
-          </h1>
-          <h2 className="lg:!text-xl xl:!text-4xl/12 dark:!text-custom-blue">
-            {subtitle}
-          </h2>
-          <p className="mb-8 xl:text-lg dark:!text-custom-blue">{intro}</p>
-          <ContactBtn className="self-start" />
-        </div>
+        <ViewTransition name="hero">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 xl:left-1/8 xl:-translate-x-0 -translate-y-1/2 xl:h-[512px] xl:max-w-4/5 2xl:max-w-3/5 flex flex-col justify-center p-8 bg-custom-beige/90 rounded-xl  text-custom-blue">
+            <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide dark:!text-custom-blue">
+              {title}
+            </h1>
+            <h2 className="lg:!text-xl xl:!text-4xl/12 dark:!text-custom-blue">
+              {subtitle}
+            </h2>
+            <p className="mb-8 xl:text-lg dark:!text-custom-blue">{intro}</p>
+            <ContactBtn className="self-start" />
+          </div>
+        </ViewTransition>
       </div>
-
       <Breadcrumbs className="block px-4 pt-8 sm:px-16 lg:px-32 lg:pt-16 font-semibold" />
     </div>
   );

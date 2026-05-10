@@ -31,23 +31,23 @@ const Tabs = () => {
     {
       title: "Coaching",
       Component: NavPricing,
-      link: "/#/",
+      link: "/coaching/",
+    },
+    {
+      title: "Methoden",
+      Component: NavWorkshops,
+      link: "/methoden/",
     },
     {
       title: "Über Mich",
       Component: NavReferences,
       link: "/ueber-mich/",
     },
-        {
-      title: "Methoden",
-      Component: NavWorkshops,
-      link: "/methoden/",
-    },
     {
       title: "Blog",
       Component: NavVideos,
       link: "/blog/",
-    }
+    },
   ].map((n, idx) => ({ ...n, id: idx + 1 }));
 
   return (
