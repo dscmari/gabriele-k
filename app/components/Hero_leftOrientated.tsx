@@ -36,7 +36,7 @@ export default function Hero({
           className="object-cover h-full w-full absolute"
         />
         <div className="absolute inset-0 bg-black/50"></div>
-        <div className="absolute translate-y-1/3 flex flex-col z-10 text-white">
+        <div className="absolute translate-y-1/3 flex flex-col z-10 text-white px-4">
           <h1 className="!text-3xl mt-12 !text-white text-center">{title}</h1>
           <ContactBtn className="self-center mt-12" />
           <p className="mt-12 text-center font-light px-4 !text-white">
