@@ -8,6 +8,7 @@ import Blog from "../components/Blog";
 import Newsletter from "../components/newsletter/Newsletter";
 import { faqsAnxiety, faqsHome } from "../data/FAQsData";
 import Hero_leftOrientated from "../components/Hero_leftOrientated";
+import Link from "next/link";
 
 export default function page() {
   const hero = {
@@ -87,16 +88,86 @@ export default function page() {
             hinter den Ängsten steckt und was wir gemeinsam in meiner Praxis in
             Kaufering für Sie tun können
           </h2>
-          <p className="mb-8">
+          <p className="mb-4">
             In meiner Praxis in Kaufering finden Sie einen geschützten Rahmen,
             in dem Ihre Angst ernst genommen wird. Gemeinsam schauen wir, was
             Sie belastet, was Ihre Angst aufrechterhält und welche Schritte Sie
             in Ihrem Tempo unterstützen können.
           </p>
+          <p className="mb-8">
+            Mehr Infos zu Phobien finden Sie{" "}
+            <Link href="/blog" className="underline">
+              hier
+            </Link>
+            .
+          </p>
           <ContactBtn className="self-center lg:self-start" />
         </div>
       </section>
-      <section className="pt-24 lg:pt-32 xl:pt-48 px-4 sm:px-16 lg:px-32">
+      <section className="lg:pt-32 xl:pt-48 lg:px-32 pt-24 flex flex-col gap-8 2xl:flex-row lg:gap-16 xl:gap-32 ">
+        <div className="xl:flex-1 flex flex-col max-w-5xl">
+          <div className="px-4 sm:px-16 lg:px-0 flex flex-col  pt-24 lg:pt-0">
+            <span className="font-light text-sm mx-auto lg:mx-0">
+              Kontrollverlust
+            </span>
+            <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
+              Panikstörung – wenn die Angst plötzlich über Sie hereinbricht
+            </h1>
+            <h2 className="text-center lg:text-start">
+              Eine Panikstörung kann sich so anfühlen, als würde Ihr Körper
+              plötzlich völlig außer Kontrolle geraten. Ihr Herz rast, die Brust
+              wird eng und der Atem flach. Häufig kommen auch Schwindel,
+              Zittern, Schwitzen oder das beängstigende Gefühl hinzu, gleich
+              ohnmächtig zu werden.
+            </h2>
+            <p className="mb-4">
+              Viele Betroffene erleben in solchen Momenten große Angst und
+              denken, es könnte etwas Schlimmes passieren. Typisch ist, dass
+              eine Panikattacke sehr plötzlich beginnt und meist nach einiger
+              Zeit wieder abklingt.
+            </p>
+            <p className="mb-8">
+              Mehr Infos zu Panikstörungen finden Sie{" "}
+              <Link href="/blog" className="underline">
+                hier
+              </Link>
+              .
+            </p>
+          </div>
+          <ContactBtn className="self-center lg:self-start lg:mt-auto" />
+        </div>
+        <div className="xl:flex-1 flex flex-col max-w-5xl">
+          <div className="px-4 sm:px-16 lg:px-0 flex flex-col  pt-24 lg:pt-0">
+            <span className="font-light text-sm mx-auto lg:mx-0">
+              Ständige Angst
+            </span>
+            <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
+              Generalisierte Angststörung – wenn ständige Sorgen zur Belastung
+              werden und den Alltag stark belasten
+            </h1>
+            <h2 className="text-center lg:text-start">
+              Vielleicht kennen Sie das: Ihre Gedanken kreisen ständig um
+              mögliche Probleme. Sie machen sich Sorgen um die Familie, den
+              Beruf, finanzielle Themen oder um Dinge, die vielleicht irgendwann
+              passieren könnten.
+            </h2>
+            <p className="mb-4">
+              Auch wenn es im Moment keinen konkreten Anlass gibt, fühlt sich
+              die Anspannung sehr real an. Eine generalisierte Angststörung kann
+              sich genau so zeigen. Anhaltende Sorgen lassen sich oft nur schwer
+              beruhigen.
+            </p>
+            <p className="mb-8">
+              Mehr Infos zu generalisierten Angstörungen finden finden Sie{" "}
+              <Link href="/blog" className="underline">
+                hier
+              </Link>
+            </p>
+          </div>
+          <ContactBtn className="self-center lg:self-start" />
+        </div>
+      </section>
+      {/* <section className="pt-24 lg:pt-32 xl:pt-48 px-4 sm:px-16 lg:px-32">
         <div className="flex flex-col px-4 lg:px-0">
           <span className="mx-auto font-light text-sm">Ängste verstehen</span>
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-center">
@@ -112,7 +183,7 @@ export default function page() {
           </p>
         </div>
         <Blog data={anxietyBlog} />
-      </section>
+      </section> */}
       <section className="pt-24 lg:pt-32 xl:pt-48 lg:px-32">
         <div className="flex flex-col px-4 sm:px-16 text-center lg:px-0">
           <span className="mx-auto font-light text-sm">FAQs</span>
