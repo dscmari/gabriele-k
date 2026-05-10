@@ -2,9 +2,11 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { motion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
 import DesktopNavbar from "./desktop/DesktopNavbar";
 import ContactBtn from "../buttons/ContactBtn";
+import { div } from "motion/react-client";
+import { ChevronDown } from "lucide-react";
 
 type Props = {
   className?: string;
@@ -12,6 +14,7 @@ type Props = {
 
 export default function Navbar({ className }: Props) {
   const [showMenu, setShowMenu] = useState(false);
+  const [isSelected, setIsSelected] = useState(false);
 
   const toggleMenu = () => {
     toggleX();
@@ -52,61 +55,102 @@ export default function Navbar({ className }: Props) {
           </div>
         </div>
         {showMenu ? (
-          <motion.div
-            initial={{ opacity: 0, y: -30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ ease: "easeOut", duration: 1 }}
-            onClick={toggleMenu}
-          >
-            <div className="flex flex-col items-end  gap-4 py-12 font-semibold text-custom-blue">
-              <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"/"} className="text-right">
-                  Home
-                </Link>
-              </div>
-              <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"/angst-regulieren/"} className="text-right">
-                  Ängste & Panik regulieren
-                </Link>
-              </div>
-              <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"/stress-bewaeltigen/"} className="text-right">
-                  Stress bewältigen
-                </Link>
-              </div>
-              <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"/besser-schlafen/"} className="text-right">
-                  Besser schlafen
-                </Link>
-              </div>
-              <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"/gesund-abnehmen/"} className="text-right">
-                  Gesund abnehmen
-                </Link>
-              </div>
-                  <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"/coaching/"} className="text-right">
-                  Coaching
-                </Link>
-              </div>
-              <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"/methoden/"} className="text-right">
-                  Methoden
-                </Link>
-              </div>
-              <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"/ueber-mich/"} className="text-right">
-                  Über Mich
-                </Link>
-              </div>
-                      <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-end">
-                <Link href={"/blog/"} className="text-right">
-                  Blog
-                </Link>
-              </div>
-              <ContactBtn />
+          <div>
+            <div
+              className={`flex items-center gap-4 pt-12 ${
+                isSelected
+                  ? "border-t border-slate-200"
+                  : "border-b-2 border-slate-200"
+              }`}
+              onClick={() => setIsSelected((prev) => !prev)}
+            >
+              <span className="font-semibold pb-2 text-custom-blue">
+                Meine Schwerpunkte
+              </span>
+              <ChevronDown
+                className={`transition-transform shrink-0 text-custom-blue ${
+                  isSelected ? "scale-y-[-1]" : ""
+                }`}
+              />
             </div>
-          </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: -30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ ease: "easeOut", duration: 1 }}
+              onClick={toggleMenu}
+            >
+              <AnimatePresence>
+                {isSelected && (
+                  <motion.ol
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: "auto", opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.3, ease: "easeInOut" }}
+                    className={`pl-4 pb-8 flex flex-col gap-4  ${
+                      isSelected ? "" : ""
+                    }`}
+                  >
+                    <div className="flex flex-col gap-4 mr-8 mt-4 text-custom-blue/60 font-semibold">
+                      <div
+                      className="pt-4 pb-1 border-b-2 border-slate-200 w-full flex justify-start"
+                        onClick={() => setShowMenu((prev) => !prev)}
+                      >
+                        <Link href="/angst-regulieren/">
+                          Ängste & Panik regulieren
+                        </Link>
+                      </div>
+                      <div
+                        className="pb-1 border-b-2 border-slate-200"
+                        onClick={() => setShowMenu((prev) => !prev)}
+                      >
+                        <Link
+                          href="/stress-bewaeltigen/"
+                        >
+                          Stress bewältigen
+                        </Link>
+                      </div>
+                      <div
+                        className="pb-1 border-b-2 border-slate-200"
+                        onClick={() => setShowMenu((prev) => !prev)}
+                      >
+                        <Link href="/besser-schlafen/">Besser schlafen</Link>
+                      </div>
+                      <div
+                        className="pb-1 border-b-2 border-slate-200 w-full flex justify-start"
+                        onClick={() => setShowMenu((prev) => !prev)}
+                      >
+                        <Link href="/gesund-abnehmen/">Gesund abnehmen</Link>
+                      </div>
+                    </div>
+                  </motion.ol>
+                )}
+              </AnimatePresence>
+              <div className="flex flex-col items-start  gap-4 pb-12 font-semibold text-custom-blue">
+                <div className="pt-4 pb-1 border-b-2 border-slate-200 w-full flex justify-start">
+                  <Link href={"/coaching/"} className="text-right">
+                    Coaching
+                  </Link>
+                </div>
+                <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-start">
+                  <Link href={"/methoden/"} className="text-right">
+                    Methoden
+                  </Link>
+                </div>
+                <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-start">
+                  <Link href={"/ueber-mich/"} className="text-right">
+                    Über Mich
+                  </Link>
+                </div>
+                <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-start">
+                  <Link href={"/blog/"} className="text-right">
+                    Blog
+                  </Link>
+                </div>
+                <ContactBtn />
+              </div>
+            </motion.div>
+          </div>
         ) : null}
       </div>
       {/* Desktop */}
