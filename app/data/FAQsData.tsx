@@ -3,7 +3,7 @@ export const faqsHome = [
     id: "faq-1",
     question: "Was genau macht eine Heilpraktikerin für Psychotherapie?",
     answer:
-      "Als Heilpraktikerin für Psychotherapie verfüge ich über die Heilerlaubnis nach dem Heilpraktikergesetz und diagnostiziere und behandele psychische Beschwerden und Erkrankungen. In meiner Praxis arbeite ich mit wissenschaftlich fundierten Methoden, unter anderem mit Interventionen aus der Verhaltenstherapie, Hypnose und EMDR. Mein Ziel ist es, belastende Denk- und Verhaltensmuster zu verändern und Sie dabei zu unterstützen, wieder mehr Stabilität, Klarheit und Handlungsspielraum in Ihrem Leben zu gewinnen.",
+      "Als Heilpraktikerin für Psychotherapie begleite ich Menschen bei psychischen und psychosomatischen Belastungen. Dazu gehören zum Beispiel Ängste, Panik, Stressfolgen, Schlafprobleme, innere Unruhe oder belastende Gedanken- und Verhaltensmuster. In meiner Praxis arbeite ich auf Grundlage des Heilpraktikergesetzes mit psychotherapeutischen Methoden. Dazu gehören unter anderem Hypnose, EMDR und weitere bewährte Verfahren. Ich bin keine Ärztin und darf keine Medikamente verschreiben. Bei akuten Krisen oder schweren psychischen Erkrankungen ist eine andere fachliche Unterstützung notwendig. Wenn eine ärztliche oder psychiatrische Abklärung sinnvoll ist, empfehle ich Ihnen, diese einzubeziehen.",
   },
   {
     id: "faq-2",
@@ -22,7 +22,7 @@ export const faqsHome = [
     id: "faq-4",
     question: "Wie läuft ein erstes Kennenlerngespräch bei Ihnen ab?",
     answer:
-      "Das erste Kennenlerngespräch findet telefonisch statt, dauert etwa 20 Minuten und ist für Sie kostenlos. In dieser Zeit klären wir Ihr Anliegen, Ihre aktuelle Situation und schauen gemeinsam, ob die Zusammenarbeit für Sie stimmig ist. Bitte vereinbaren Sie Ihren Termin online über meine Webseite.",
+      "Das erste Kennenlerngespräch findet telefonisch statt, dauert etwa 15 Minuten und ist für Sie kostenlos. In dieser Zeit klären wir Ihr Anliegen, Ihre aktuelle Situation und schauen gemeinsam, ob die Zusammenarbeit für Sie stimmig ist. Bitte vereinbaren Sie Ihren Termin online über meine Webseite.",
   },
   {
     id: "faq-5",
@@ -41,7 +41,7 @@ export const faqsHome = [
     question:
       "Was ist der Unterschied zwischen einer Heilpraktikerin für Psychotherapie und einem psychologischen Psychotherapeuten?",
     answer:
-      "Psychologische Psychotherapeuten sind approbierte Behandler und an die Vorgaben des Kassensystems gebunden. Als Heilpraktikerin für Psychotherapie kann ich meine Begleitung freier und individueller auf Ihre persönliche Situation abstimmen. Zudem ist es oft möglich, zeitnah einen Termin zu vereinbaren.",
+      "Als Heilpraktikerin für Psychotherapie arbeite ich auf Grundlage des Heilpraktikergesetzes. Psychologische Psychotherapeuten verfügen über eine Approbation und arbeiten im Rahmen des gesetzlich geregelten psychotherapeutischen Versorgungssystems. Meine Leistungen werden von gesetzlichen Krankenkassen in der Regel nicht übernommen. Private Krankenversicherungen oder Zusatzversicherungen können je nach Vertrag anteilig erstatten. In meiner Praxis sind häufig auch kurzfristige Termine möglich.",
   },
   {
     id: "faq-8",
@@ -98,7 +98,7 @@ export const faqsStress = [
     id: "faq-4",
     question: "Was hilft, wenn Stress akut zu viel wird?",
     answer:
-      "Wenn Stress akut zu viel wird, kann ein kurzer Moment der bewussten Unterbrechung helfen. Atmen Sie bewusst in den Bauch, verlängern Sie die Ausatmung und nehmen Sie wahr, was Sie gerade sehen, hören und spüren. In meiner Praxis unterstütze ich Sie unter anderem dabei, solche stabilisierenden Schritte einzuüben und besser zu erkennen, was Ihnen in belastenden Momenten gut tut.",
+      "Wenn Stress akut zu viel wird, hilft oft zunächst eine bewusste Unterbrechung. Statt weiter zu funktionieren, geht es darum, den Druck wahrzunehmen und kurz Abstand zu gewinnen. Danach kann der nächste Schritt bewusster gewählt werden. In meiner Praxis unterstütze ich Sie dabei, Ihre persönlichen Stresssignale früher zu erkennen und passende Strategien für belastende Situationen zu entwickeln.",
   },
   {
     id: "faq-5",
@@ -159,7 +159,7 @@ export const faqsAnxiety = [
     id: "faq-5",
     question: "Was kann ich bei einer akuten Panikattacke tun?",
     answer:
-      "Eine Panikattacke ist sehr unangenehm, geht aber in der Regel wieder vorüber. Hilfreich kann eine ruhige Bauchatmung sein: langsam einatmen und etwas länger durch den MundNächst ausatmen. Zusätzlich kann es unterstützen, die Aufmerksamkeit bewusst auf den gegenwärtigen Moment zu lenken und wahrzunehmen, was Sie gerade sehen, hören oder spüren.",
+      "Eine Panikattacke ist sehr unangenehm, geht aber in der Regel wieder vorüber. Hilfreich kann eine ruhige Bauchatmung sein: langsam einatmen und etwas länger durch den Mund ausatmen. Zusätzlich kann es unterstützen, die Aufmerksamkeit bewusst auf den gegenwärtigen Moment zu lenken und wahrzunehmen, was Sie gerade sehen, hören oder spüren.",
   },
 ];
 
@@ -178,18 +178,12 @@ export const faqsHypnosis = [
   },
   {
     id: "faq-3",
-    question: "Wie läuft eine Hypnosesitzung bei Ihnen ab?",
-    answer:
-      "Am Anfang steht immer ein sorgfältiges Gespräch. Ich möchte verstehen, was Sie belastet, was Sie verändern möchten und ob Hypnose in Ihrem Fall passend eingesetzt werden kann. Erst danach folgt die eigentliche Hypnose. Ich begleite Sie Schritt für Schritt durch den Prozess. Anschließend besprechen wir gemeinsam, was für Sie wichtig war und wie es weitergehen kann. So ist die Hypnose in eine fundierte therapeutische Begleitung eingebettet.",
-  },
-  {
-    id: "faq-4",
     question: "Wie viele Sitzungen sind nötig?",
     answer:
       "Das hängt stark vom Anliegen ab. Manche Themen sind klar umrissen, andere haben eine längere Vorgeschichte und brauchen mehr Zeit. Eine seriöse Antwort ist deshalb nur individuell möglich. Mir ist wichtig, Ihnen keine pauschalen Versprechen zu machen. Stattdessen schauen wir gemeinsam, welcher Weg für Ihr Anliegen realistisch und sinnvoll ist.",
   },
   {
-    id: "faq-5",
+    id: "faq-4",
     question: "Ist Hypnose sicher?",
     answer:
       "Bei fachgerechter Anwendung kann Hypnose eine bewährte therapeutische Methode sein. Entscheidend ist, dass sie verantwortungsvoll, passend zum Anliegen und in einem sicheren Rahmen eingesetzt wird. Genau deshalb steht bei mir die gründliche Einschätzung am Anfang. Ich arbeite achtsam, transparent und mit Blick auf das, was für Sie hilfreich und angemessen ist.",
@@ -220,7 +214,7 @@ export const faqsWeight = [
     id: "faq-4",
     question: "Wie viele Sitzungen sind sinnvoll?",
     answer:
-      "Die Anzahl der Sitzungen hängt von Ihrem Anliegen, Ihrer persönlichen Situation und den Themen ab, die Sie bearbeiten möchten. Manche Menschen wünschen sich zunächst wenige Impulse, andere profitieren von einer längeren Begleitung. In der Regel klären wir nach dem Erstgespräch gemeinsam, welcher Rahmen für Sie passend ist. Dabei geht es nicht um ein starres Programm, sondern um eine Begleitung, die sich an Ihrem Ziel, Ihrem Alltag und Ihrem Tempo orientiert.",
+      "Die Anzahl der Sitzungen hängt von Ihrem Anliegen, Ihrer persönlichen Situation und den Themen ab, die Sie bearbeiten möchten. Manche Menschen wünschen sich zunächst wenige Impulse, andere profitieren von einer längeren Begleitung. In der Regel klären wir nach dem Erstgespräch gemeinsam, welcher Rahmen für Sie geeignet ist. Dabei geht es nicht um ein  Standardprogramm, sondern um eine maßgeschneiderte Begleitung, die sich an Ihrem Ziel, Ihrem Alltag und Ihrem Tempo orientiert.",
   },
   {
     id: "faq-5",

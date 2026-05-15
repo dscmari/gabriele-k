@@ -1,10 +1,8 @@
 import Image from "next/image";
 import Features from "../components/Features";
 import { anxietyFeatures } from "../data/FeaturesData";
-import { anxietyBlog } from "../data/BlogData";
 import Accordeon from "../components/Accordeon";
 import ContactBtn from "../components/buttons/ContactBtn";
-import Blog from "../components/Blog";
 import Newsletter from "../components/newsletter/Newsletter";
 import { faqsAnxiety, faqsHome } from "../data/FAQsData";
 import Hero_leftOrientated from "../components/Hero_leftOrientated";
@@ -78,7 +76,7 @@ export default function page() {
         </div>
         <div className="px-4 sm:px-16 lg:px-0 flex flex-col lg:flex-1 pt-24 lg:pt-0">
           <span className="font-light text-sm mx-auto lg:mx-0">
-            Deine Angst hat einen Namen
+            Ihre Angst hat einen Namen
           </span>
           <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Phobien erkennen und überwinden
@@ -191,7 +189,7 @@ export default function page() {
             Häufig gestellte Fragen
           </h1>
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
-            Hier kriegst du einen Überblick über häufig gestellte Fragen zur
+            Hier kriegen Sie einen Überblick über häufig gestellte Fragen zur
             Zusammenarbeit mit Gabriela Kramer, Heilpraktikerin für
             Psychothrapie.
           </p>

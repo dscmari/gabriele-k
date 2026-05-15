@@ -17,7 +17,7 @@ export default function Home() {
     subtitle:
       "Ich bin Gabriela Kramer, Ihre Heilpraktikerin für Psychotherapie in Kaufering und der Region Landsberg am Lech",
     intro:
-      "In meiner Praxis für Psychotherapie und Hypnose unterstütze ich Sie bei Ängsten, Stressbewältigung, Schlafproblemen und anderen mentalen Belastungen. Ich biete Ihnen eine entspannte und vertrauensvolle Arbeitsatmosphäre sowie flexible Behandlungszeiten – auch am Abend oder am Wochenende.",
+      "In meiner Praxis für Psychotherapie, Hypnose & Coaching unterstütze ich Sie bei Ängsten, Stressbewältigung, Schlafproblemen und anderen mentalen Belastungen.  Mein Angebot richtet sich besonders an Menschen mit Verantwortung, die im Beruf oder Alltag viel leisten und innerlich zunehmend unter Druck geraten.",
     imgPathDesktop: "/images/portraits/buero_0.png",
   };
   const { title, subtitle, intro, imgPathDesktop } = hero;
@@ -88,12 +88,14 @@ export default function Home() {
             Wenn der Alltag zu viel wird
           </h2>
           <p className="mb-4">
-            Stress entsteht oft dort, wo Verantwortung, Erwartungen und innere
-            Ansprüche dauerhaft aufeinandertreffen. Wenn kaum Raum zum
-            Durchatmen bleibt, kann daraus ein Druck entstehen, der Körper und
-            Seele spürbar belastet.
+            Stress ist eine natürliche und sinnvolle Reaktion des Körpers. Er
+            kann aktivieren, antreiben und kurzfristig leistungsfähig machen.
+            Treffen Verantwortung, Erwartungen und innere Ansprüche dauerhaft
+            aufeinander, kann daraus ein innerer Druck entstehen, der Körper und
+            Psyche spürbar beansprucht. Kritisch wird es, wenn Anspannung zum
+            Dauerzustand wird und Erholung kaum noch gelingt.
           </p>
-          <p className="mb-8">
+          <p className="mb-4">
             In meiner Praxis begleite ich Sie in einem strukturierten Prozess
             dabei, Ihre persönlichen Stressauslöser und Stressmuster besser zu
             verstehen. Dabei geht es nicht darum, Stress vollständig zu
@@ -101,6 +103,11 @@ export default function Home() {
             wahrzunehmen und besser zu steuern. So können Sie mit Druck
             bewusster umgehen und auch in belastenden Phasen klar, stabil und
             leistungsfähig bleiben.
+          </p>
+          <p className="mb-8">
+            So können Sie mit Druck bewusster umgehen, Ihre innere Balance
+            stärken und auch in belastenden Phasen klarer, stabiler und
+            handlungsfähiger bleiben.
           </p>
           <ContactBtn className="self-center lg:self-start" />
         </div>
@@ -157,7 +164,7 @@ export default function Home() {
           <p className="mb-4">
             Abnehmen beginnt oft nicht nur auf dem Teller, sondern im Kopf. Denn
             Essverhalten, Stress, Gewohnheiten und emotionale Belastungen hängen
-            häufig eng zusammen. Mit Gewicht im Gleichgewicht begleite ich Sie
+            häufig eng zusammen. Mit meinem Programm "Gewicht im Gleichgewicht" begleite ich Sie
             dabei, diese Zusammenhänge besser einzuordnen und neue,
             alltagstaugliche Schritte zu entwickeln.
           </p>
@@ -303,7 +310,7 @@ export default function Home() {
             Häufig gestellte Fragen
           </h1>
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
-            Hier kriegst du einen Überblick über häufig gestellte Fragen zur
+            Hier kriegen Sie einen Überblick über häufig gestellte Fragen zur
             Zusammenarbeit mit Gabriela Kramer, Heilpraktikerin für
             Psychothrapie.
           </p>

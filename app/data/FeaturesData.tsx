@@ -116,12 +116,12 @@ export const methodsFeatures = {
     {
       icon: <Shell className="shrink-0" size={36} />,
       header: "Hypnose",
-      text: "Hypnose versetzt Sie in einen Zustand tiefer Entspannung, in dem unbewusste Muster leichter zugänglich werden – so können festgefahrene Reaktionen sanft und nachhaltig verändert werden.",
+      text: "Hypnose kann einen Zustand vertiefter Entspannung und erhöhter innerer Aufmerksamkeit ermöglichen. Dabei können unbewusste Prozesse und persönliche Ressourcen leichter zugänglich werden. Festgefahrene Reaktionsmuster können behutsam betrachtet und neue innere Lösungswege angeregt werden.",
     },
     {
       icon: <ScanEye className="shrink-0" size={36} />,
       header: "EMDR",
-      text: "Eye Movement Desensitization and Reprocessing ist eine psychotherapeutische Methode, die ursprünglich zur Behandlung von Traumata entwickelt wurde.",
+      text: "Eye Movement Desensitization and Reprocessing (auf Deutsch: Desensibilisierung und Verarbeitung durch Augenbewegungen) ist eine psychotherapeutische Methode, die ursprünglich zur Behandlung von Traumata entwickelt wurde.",
     },
     {
       icon: <GitBranch className="shrink-0" size={36} />,

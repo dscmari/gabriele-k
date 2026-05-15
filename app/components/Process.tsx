@@ -47,7 +47,7 @@ export default function Process({ className }: Props) {
 
   return (
       <div className="bg-slate-100 dark:bg-custom-blue lg:rounded-2xl md:p-8 text-custom-blue dark:text-darkmode-white">
-      <p className="font-light">Wie läuft eine Hypnosesitzung ab?</p>
+      <p className="px-4 pt-4 font-light">Wie läuft eine Hypnosesitzung ab?</p>
       <div className="relative mt-8">
         <div className="absolute left-6 sm:left-8 mt-8 -translate-x-1/2 top-0 bottom-0 w-[1px] bg-custom-beige border border-custom-blue border-dashed" />
 

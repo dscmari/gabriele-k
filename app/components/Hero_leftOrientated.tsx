@@ -106,10 +106,10 @@ export default function Hero({
         )}
         <ViewTransition name="hero">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 xl:left-1/8 xl:-translate-x-0 -translate-y-1/2 xl:h-[512px] xl:max-w-4/5 2xl:max-w-3/5 flex flex-col justify-center p-8 bg-custom-beige/90 rounded-xl  text-custom-blue">
-            <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold tracking-wide dark:!text-custom-blue">
+            <h1 className="mb-8 lg:!text-3xl/12 xl:!text-4xl !font-bold tracking-wide dark:!text-custom-blue">
               {title}
             </h1>
-            <h2 className="lg:!text-xl xl:!text-4xl/12 dark:!text-custom-blue">
+            <h2 className="lg:!text-xl xl:!text-3xl/12 dark:!text-custom-blue">
               {subtitle}
             </h2>
             <p className="mb-8 xl:text-lg dark:!text-custom-blue">{intro}</p>

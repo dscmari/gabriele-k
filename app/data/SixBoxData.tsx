@@ -166,7 +166,7 @@ export const coaching = [
       />
     ),
     title: "Stress regulieren",
-    text: "Entwickeln Sie einen bewussteren, stimmigeren Umgang mit Stress und verbessern Sie Ihre Stressresistenz.",
+    text: "Entwickeln Sie einen bewussteren, stimmigeren Umgang mit Stress und verbessern Sie Ihre Stresskompetenz.",
   },
   {
     icon: (

@@ -19,7 +19,7 @@ export const therapyFourBox = [
   {
     icon: <Clock color={therapyIconColor} size="3rem" />,
     title: "Sitzungsdauer",
-    text: "Eine Therapiesitzung dauert in der Regel 50 Minuten. Termine sind auch am Abends oder am Wochenende möglich.",
+    text: "Eine Therapiesitzung dauert in der Regel 60 Minuten. Termine sind auch am Abends oder am Wochenende möglich.",
     link: "",
   },
   {

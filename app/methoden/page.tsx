@@ -14,9 +14,9 @@ export default function page() {
   const hero = {
     title: "Therapeutische Verfahren",
     subtitle:
-      "Erprobte Methoden, die ich in meiner Heilpraktiker für Psychotherapie Praxis einsetze",
+      "Erprobte Methoden, die ich in meiner Praxis für Psychotherapie einsetze",
     intro:
-      "Jeder Mensch ist anders — und so ist auch jede Therapie anders. Ich arbeite nicht nach Schema, sondern wähle die Methoden, die zu Ihnen, Ihrem Thema und Ihrem Tempo passen. Was mich dabei leitet: Erfahrung, Fingerspitzengefühl und der Wunsch, dass Sie sich wirklich gesehen fühlen.",
+      "Jeder Mensch ist anders. Deshalb ist auch jede therapeutische Begleitung individuell. Ich arbeite nicht nach Schema, sondern wähle die Methoden, die zu Ihnen, Ihrem Anliegen und Ihrem Tempo passen. Was mich dabei leitet: Erfahrung, fachliche Sorgfalt und ein respektvoller Blick auf Ihre persönliche Situation.",
     imgPathDesktop: "/images/office_bg.jpg",
   };
   const { title, subtitle, intro, imgPathDesktop } = hero;
@@ -138,8 +138,8 @@ export default function page() {
             belastende Erinnerungen neu zu verarbeiten und emotional zu
             entlasten. Was sich ungewöhnlich anhört, ist gut erforscht – die WHO
             empfiehlt EMDR ausdrücklich zur Behandlung von Traumafolgestörungen.
-            Inzwischen wird die Methode auch bei Ängsten, Phobien und anderen
-            psychischen Belastungen erfolgreich eingesetzt.
+            Inzwischen wird die Methode auch bei Ängsten, Phobien, anderen
+            psychischen Belastungen sowie im Coaching erfolgreich eingesetzt.
           </p>
           <ContactBtn className="self-center lg:self-start" />
         </div>
@@ -157,11 +157,11 @@ export default function page() {
             Die Verhaltenstherapie ist ein gut strukturiertes
             psychotherapeutisches Verfahren, das sich mit erlernten Denk- und
             Verhaltensmustern beschäftigt. In meiner Praxis in Kaufering nutze
-            ich diesen Ansatz, um gemeinsam mit Ihnen nachvollziehbare und
-            alltagstaugliche Schritte zu entwickeln.
+            ich diesen Ansatz unter anderem, um gemeinsam mit Ihnen
+            nachvollziehbare und alltagstaugliche Schritte zu entwickeln.
           </p>
         </div>
-        <Blog data={methodsBlog} />
+        {/* <Blog data={methodsBlog} /> */}
       </section>
       <section className="xl:pt-48 pt-24 lg:pt-32 lg:px-32 pt-12 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
         <div className="lg:flex-1 relative ">
@@ -207,7 +207,7 @@ export default function page() {
             Häufig gestellte Fragen
           </h1>
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
-            Hier kriegst du einen Überblick über häufig gestellte Fragen zur
+            Hier kriegen Sie einen Überblick über häufig gestellte Fragen zur
             Zusammenarbeit mit Gabriela Kramer, Heilpraktikerin für
             Psychothrapie.
           </p>

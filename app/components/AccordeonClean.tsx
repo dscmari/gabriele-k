@@ -1,5 +1,6 @@
 "use client";
 import { Frown, OctagonAlert, RefreshCcw, Sun } from "lucide-react";
+import ContactBtn from "./buttons/ContactBtn";
 
 type Props = {
   className?: string;
@@ -20,7 +21,7 @@ export default function AccordeonClean({ className }: Props) {
       bullet: "Vermehrt emotionale Probleme",
       text: "Emotionale Auswirkungen wie Reizbarkeit und Angstzustände wirken sich auf die Familie, die Partnerschaft und das Arbeitsleben aus.",
     },
-       {
+    {
       id: "3",
       icon: <RefreshCcw />,
       bullet: "Gedankenkarussell & innere Unruhe stoppen",
@@ -32,37 +33,42 @@ export default function AccordeonClean({ className }: Props) {
       bullet: "Lebensqualität zurückgewinnen",
       text: "Zusammen finden wir heraus, welche neuen Gedanken oder Verhaltensweisen hilfreich für Sie sind – damit Sie wieder himmlisch schlafen und einer anhaltenden Schlafstörung entgegenwirken können.",
     },
- 
   ];
 
   return (
     <div className={`flex flex-col gap-4 ${className}`}>
-      {home.map((e, index) => (
-        <div key={e.id} className="group border-b border-slate-300 dark:border-slate-600">
-          <input
-            type="checkbox"
-            id={e.id}
-            className="peer hidden"
-            defaultChecked={index === 0}
-          />
-          <label
-            htmlFor={e.id}
-            className="flex items-center gap-4 p-4 cursor-pointer font-semibold select-none text-custom-blue dark:text-darkmode-white"
+      <div>
+        {home.map((e, index) => (
+          <div
+            key={e.id}
+            className="group border-b border-slate-300 dark:border-slate-600"
           >
-            {e.icon}
-            <h2 className="pointer-events-none !text-base lg:!text-xl !m-0">
-              {e.bullet}
-            </h2>
-          </label>
-          <div className="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out group-has-[:checked]:grid-rows-[1fr]">
-            <div className="overflow-hidden">
-              <div className="p-4 lg:pl-12">
-                <p className="whitespace-pre-line">{e.text}</p>
+            <input
+              type="checkbox"
+              id={e.id}
+              className="peer hidden"
+              defaultChecked={index === 0}
+            />
+            <label
+              htmlFor={e.id}
+              className="flex items-center gap-4 p-4 cursor-pointer font-semibold select-none text-custom-blue dark:text-darkmode-white"
+            >
+              {e.icon}
+              <h2 className="pointer-events-none !text-base lg:!text-xl !m-0">
+                {e.bullet}
+              </h2>
+            </label>
+            <div className="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out group-has-[:checked]:grid-rows-[1fr]">
+              <div className="overflow-hidden">
+                <div className="p-4 lg:pl-12">
+                  <p className="whitespace-pre-line">{e.text}</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
+      <ContactBtn className="mt-8 self-center lg:self-start " />
     </div>
   );
 }

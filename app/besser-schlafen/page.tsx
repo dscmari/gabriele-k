@@ -103,7 +103,7 @@ export default function page() {
             Häufig gestellte Fragen
           </h1>
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
-            Hier kriegst du einen Überblick über häufig gestellte Fragen zur
+            Hier kriegen Sie einen Überblick über häufig gestellte Fragen zur
             Zusammenarbeit mit Gabriela Kramer, Heilpraktikerin für
             Psychothrapie.
           </p>

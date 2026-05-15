@@ -57,7 +57,7 @@ export default function page() {
         </div>
         <div className="px-4 sm:px-16 lg:px-0 pt-24 lg:pt-0 flex flex-col lg:flex-1">
           <span className="font-light text-sm mx-auto lg:mx-0">
-            Finde deine Ruhe
+            Finden Sie Ihre Ruhe
           </span>
           <h1 className="text-center lg:text-start mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Haltung zu Stress entwickeln
@@ -97,9 +97,9 @@ export default function page() {
             Häufig gestellte Fragen
           </h1>
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
-            Hier kriegst du einen Überblick über häufig gestellte Fragen zur
+            Hier kriegen Sie einen Überblick über häufig gestellte Fragen zur
             Zusammenarbeit mit Gabriela Kramer, Heilpraktikerin für
-            Psychotherapie.
+            Psychothrapie.
           </p>
         </div>
         <div className="px-4 sm:px-16 lg:px-32 pt-12 lg:pt-24">

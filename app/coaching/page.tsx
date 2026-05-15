@@ -10,7 +10,7 @@ export default function page() {
     title: "Coaching für mentale Gesundheit",
     subtitle: "Stabil bleiben. Klar handeln. Sich weiterentwickeln.",
     intro:
-      "Coaching für mentale Gesundheit ist ein klarer, strukturierter Rahmen für persönliche oder berufliche Entwicklung. Coaching für mentale Gesundheit ist für Sie geeignet, wenn Sie keine Therapie benötigen, aber Ihre mentale Stabilität stärken, bewusster mit Belastung umgehen und in Beruf oder Alltag handlungsfähig bleiben möchten. Im Mittelpunkt steht nicht die Behandlung psychischer Erkrankungen, sondern der Aufbau von Kompetenzen, die Sie im Alltag und Beruf stärken.",
+      "Coaching für mentale Gesundheit bietet Ihnen einen klaren und strukturierten Rahmen. Es unterstützt Sie bei persönlicher oder beruflicher Entwicklung. Das Angebot ist für Sie geeignet, wenn Sie keine Therapie benötigen. Sie möchten Ihre mentale Stabilität stärken, bewusster mit Belastung umgehen oder in Beruf und Alltag handlungsfähig bleiben. Im Mittelpunkt steht nicht die Behandlung psychischer Erkrankungen. Stattdessen geht es darum, Kompetenzen aufzubauen, die Sie im Alltag und Beruf stärken.",
     imgPathDesktop: "/images/portraits/vr_gk.jpg",
   };
   const { title, subtitle, intro, imgPathDesktop } = hero;
@@ -25,7 +25,7 @@ export default function page() {
       <section className="px-4 sm:px-16 lg:px-32 pt-24 lg:pt-32">
         <div className="text-center">
           <span className="font-light text-sm mx-auto lg:mx-0">
-            Für mehr innere Balance
+            Für mehr innere Stärke
           </span>
           <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">
             Coaching für mentale Gesundheit
@@ -58,7 +58,8 @@ export default function page() {
               Dabei geht es nicht um allgemeine Ratschläge. Sie entwickeln
               Lösungen, die zu Ihrer Situation, Ihren Zielen und Ihrem Alltag
               passen. Je nach Anliegen fließen Elemente aus Stressbewältigung,
-              Re
+              Resilienztraining, mentaler Selbstregulation, Kommunikation und
+              Selbstführung ein.
             </p>
             <h2 className="!mb-0 text-center lg:text-start">Meine Erfahrung</h2>
             <p>
@@ -103,7 +104,7 @@ export default function page() {
           </h1>
           <h2 className="text-center lg:text-start">Ihr nächster Schritt</h2>
           <p className="mb-4">
-            Sie möchten Ihre mentale Gesundheit stärken, Stress bewusster
+            Sie möchten Ihre mentale Gesundheit und Resilienz stärken, Stress bewusster
             bewältigen oder sich persönlich oder beruflich weiterentwickeln?
           </p>
           <p className="mb-8">
