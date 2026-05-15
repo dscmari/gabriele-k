@@ -53,6 +53,7 @@ const Tabs = () => {
   return (
     <div
       onMouseLeave={() => handleSetSelected(null)}
+      onClick={() => handleSetSelected(null)}
       className="relative flex h-fit gap-2"
     >
       {TABS.map((t) => {
