@@ -44,13 +44,6 @@ export const educations = [
       description:
         "EMDR, EMDR bei Ängsten & Phobien Verhaltenstherapie Therapeutische Meditation",
     },
-        {
-      date: "2020",
-      title: "Businesstrainerin & Coach",
-      description:
-        "Michl Group – BDVT",
-    },
-
     {
       date: "ab 2018",
       title: "Hypnose (TMI)",
@@ -67,5 +60,11 @@ export const educations = [
       date: "2012 - 2013",
       title: "Wirtschaftsmediation",
       description: "Wirtschaftsmediatorin – Steinbeis-Hochschule Berlin",
+    },
+            {
+      date: "2010",
+      title: "Businesstrainerin & Coach",
+      description:
+        "Michl Group – BDVT",
     },
   ];

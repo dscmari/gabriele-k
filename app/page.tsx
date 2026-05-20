@@ -33,10 +33,10 @@ export default function Home() {
       <section className="lg:px-32 lg:pt-32 pt-12 xl:pt-48 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center lg:flex-row-reverse">
         <div className="lg:flex-1">
           <Image
-            src={"/images/portraits/buero_1.jpg"}
-            alt="Bild einer Sitzung, in der eine VR-Brille verwendet wird"
-            width={800}
-            height={400}
+                 src={"/images/portraits/gaby_2.jpg"}
+            alt="Bild von Gaby Kramer, Heilpraktikerin für Psychotherapie"
+            width={400}
+            height={800}
             className="object-cover lg:rounded-xl  mx-auto"
           />
         </div>
@@ -266,14 +266,14 @@ export default function Home() {
 
       <section className="flex flex-col gap-12 lg:gap-16 lg:flex-row lg:items-center pt-24 lg:pt-32 lg:px-32 xl:pt-48">
         <div className="flex-1 flex flex-col ">
-          <span className="font-light text-sm mx-auto lg:mx-0">
+          <span className="font-light text-sm mx-auto">
             Wartezeit sinnvoll überbrücken
           </span>
-          <h1 className="mb-8 lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue text-center lg:text-start">
+          <h1 className="mb-8  lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue text-center">
             Begleitung bis zum kassengestützten Therapieplatz
           </h1>
-          <div className="flex flex-col items-center lg:flex-row lg:items-start gap-8 2xl:gap-16 pt-8">
-            <div className="flex-1 flex flex-col items-end 2xl:flex-0 font-semibold text-custom-blue dark:text-darkmode-white">
+          <div className="flex flex-col items-center lg:flex-row lg:items-start gap-8 2xl:gap-16 pt-8 mx-auto">
+            <div className="flex flex-col items-end font-semibold text-custom-blue dark:text-darkmode-white">
               <span className="text-9xl">3+</span>
               <span>
                 Monate <br /> Wartezeit
@@ -290,15 +290,15 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="lg:flex-1 sm:max-w-lg sm:mx-auto">
+        {/* <div className="lg:flex-1 sm:max-w-lg sm:mx-auto">
           <Image
-            src={"/images/portraits/gaby_2.jpg"}
-            alt="Bild von Gaby Kramer, Heilpraktikerin für Psychotherapie"
+            src={"/images/portraits/buero_1.jpg"}
+                 alt="Bild von Gaby Kramer, Heilpraktikerin für Psychotherapie"
             width={800}
             height={800}
             className="object-cover lg:rounded-xl mx-auto lg:mx-0"
           />
-        </div>
+        </div> */}
       </section>
       <section className="bg-custom-blue text-white px-4 py-12 md:p-16 lg:p-32 mt-12 lg:mt-32 xl:mt-48">
         <Features data={smoke} />

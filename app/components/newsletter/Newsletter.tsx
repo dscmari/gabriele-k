@@ -14,11 +14,11 @@ export default function WebsiteCheck({ isGeo, className }: Props) {
         <div className="hidden xl:block mx-auto">
           <div className="xl:relative">
             <Image
-              src="/images/portraits/gaby_4.jpg"
+              src="/images/portraits/portrait_stuhl_1305.jpg"
               alt="Portrait von Heilpraktikerin für Psychotherapie Gabriela Kramer"
               className="w-full rounded-tr-4xl rounded-b-4xl"
-              width={400}
-              height={200}
+              width={300}
+              height={600}
             />
             <div className="xl:absolute p-8 bottom-0 leading-8 font-semibold text-white">
               <h1 className="!text-white">

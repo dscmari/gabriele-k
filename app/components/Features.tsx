@@ -46,7 +46,7 @@ export default function Features({ classname, data }: Props) {
               <div className="flex gap-4 lg:flex-col !text-darkmode-white">
                 {bullet.icon}
 
-                <h2 className="!text-white">{bullet.header}</h2>
+                <h2 className="!text-darkmode-white">{bullet.header}</h2>
               </div>
               <p className="lg:text-base/8 !text-darkmode-white">{bullet.text}</p>
             </div>
