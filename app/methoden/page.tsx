@@ -77,7 +77,7 @@ export default function page() {
         </div>
         <div className="lg:flex-1 relative mt-24 lg:mt-0">
           <Image
-            src={"/images/portraits/gaby_2.jpg"}
+            src={"/images/portraits/gaby_5.jpg"}
             alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
             width={400}
             height={400}
@@ -209,7 +209,7 @@ export default function page() {
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
             Hier kriegen Sie einen Überblick über häufig gestellte Fragen zur
             Zusammenarbeit mit Gabriela Kramer, Heilpraktikerin für
-            Psychothrapie.
+            Psychotherapie.
           </p>
         </div>
         <div className="px-4 sm:px-16 lg:px-32 pt-12 lg:pt-24">

@@ -48,8 +48,8 @@ export default function page() {
       <section className="pt-24 lg:pt-32 lg:px-32 pt-12 xl:pt-48 flex flex-col gap-8 lg:flex-row lg:gap-16 lg:items-center lg:flex-row-reverse">
         <div className="lg:flex-1">
           <Image
-            src={"/images/portraits/gaby_2.jpg"}
-            alt="Bild einer Sitzung, in der eine VR-Brille verwendet wird"
+            src={"/images/portraits/gaby_5.jpg"}
+            alt="Portrait von Gabriela Kramer, Heilpraktikerin für Psychotherapie"
             width={400}
             height={800}
             className="object-cover lg:rounded-xl mx-auto"
@@ -99,7 +99,7 @@ export default function page() {
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
             Hier kriegen Sie einen Überblick über häufig gestellte Fragen zur
             Zusammenarbeit mit Gabriela Kramer, Heilpraktikerin für
-            Psychothrapie.
+            Psychotherapie.
           </p>
         </div>
         <div className="px-4 sm:px-16 lg:px-32 pt-12 lg:pt-24">

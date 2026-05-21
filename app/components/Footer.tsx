@@ -36,10 +36,10 @@ export default function Footer({ className }: Props) {
               Ängste & Panik regulieren
             </Link>
             <Link
-              href={"/gesund-abnehmen/"}
+              href={"/stress-bewaeltigen"}
               className="font-semibold underline underline-offset-4"
             >
-              Gesund abnehmen
+              Stress bewältigen
             </Link>
             <Link
               href={"/besser-schlafen/"}
@@ -48,16 +48,22 @@ export default function Footer({ className }: Props) {
               Besser schlafen
             </Link>
             <Link
-              href={"/coaching/"}
+              href={"/gesund-abnehmen/"}
               className="font-semibold underline underline-offset-4"
             >
-              Coaching
+              Gesund abnehmen
             </Link>
             <Link
               href={"/methoden/"}
               className="font-semibold underline underline-offset-4"
             >
               Methoden
+            </Link>
+            <Link
+              href={"/coaching/"}
+              className="font-semibold underline underline-offset-4"
+            >
+              Coaching
             </Link>
             <Link
               href={"/ueber-mich/"}
@@ -80,14 +86,14 @@ export default function Footer({ className }: Props) {
           </h1>
           <p className="mb-2 !text-darkmode-white text-center lg:text-start">
             Ich bin Gabriela Kramer, Ihre Heilpraktikerin für Psychotherapie in
-            Kaufering und der Region Landsberg am Lech.
+            Kaufering und der Region Landsberg am Lech
           </p>
           <p className="mb-2 !text-darkmode-white text-center lg:text-start">
-            In meiner Praxis für Psychotherapie und Hypnose unterstütze ich Sie
-            bei Ängsten, Stressbewältigung, Schlafproblemen und anderen mentalen
-            Belastungen. Ich biete Ihnen eine entspannte und vertrauensvolle
-            Arbeitsatmosphäre sowie flexible Behandlungszeiten – auch am Abend
-            oder am Wochenende.
+            In meiner Praxis für Psychotherapie, Hypnose & Coaching unterstütze
+            ich Sie bei Ängsten, Stressbewältigung, Schlafproblemen und anderen
+            mentalen Belastungen. Mein Angebot richtet sich besonders an
+            Menschen mit Verantwortung, die im Beruf oder Alltag viel leisten
+            und innerlich zunehmend unter Druck geraten.
           </p>
           <ContactBtn className="bg-custom-bronce mt-8 self-center lg:self-start" />
         </div>

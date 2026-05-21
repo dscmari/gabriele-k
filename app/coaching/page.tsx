@@ -77,7 +77,7 @@ export default function page() {
         </div>
         <div className="lg:flex-1 relative mt-24 lg:mt-0">
           <Image
-            src={"/images/portraits/gaby_2.jpg"}
+                  src={"/images/portraits/gaby_5.jpg"}
             alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
             width={400}
             height={400}
@@ -88,7 +88,7 @@ export default function page() {
       <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-24 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
         <div className="lg:flex-1 relative ">
           <Image
-            src={"/images/portraits/buero_2.jpg"}
+            src={"/images/praxis.jpg"}
             alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
             width={800}
             height={800}

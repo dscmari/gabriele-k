@@ -4,6 +4,7 @@ import Breadcrumbs from "./Breadcrumps";
 import ContactBtn from "./buttons/ContactBtn";
 import { usePathname } from "next/navigation";
 import { ViewTransition } from "react";
+import { sub } from "motion/react-client";
 
 type Props = {
   className?: string;
@@ -27,21 +28,21 @@ export default function Hero({
   return (
     <div className={`${className}`}>
       {/* mobile */}
-      <div className="sm:hidden h-screen w-full relative">
-        <Image
+      <div className="sm:hidden flex flex-col pt-12">
+        {/* <Image
           src={imgPathMobile ? imgPathMobile : "/images/portraits/gaby_4.jpg"}
           alt="Gabriele Kramer Logo"
           width={400}
           height={800}
           className="object-cover h-full w-full absolute"
-        />
-        <div className="absolute inset-0 bg-black/50"></div>
-        <div className="absolute translate-y-1/3 flex flex-col z-10 text-white px-4">
-          <h1 className="!text-3xl mt-12 !text-white text-center">{title}</h1>
-          <ContactBtn className="self-center mt-12" />
-          <p className="mt-12 text-center font-light px-4 !text-white">
-            {intro}
-          </p>
+        /> */}
+        {/* <div className="absolute inset-0 bg-black/50"></div> */}
+        <div className="flex flex-col gap-4 px-4">
+          <h1 className="!text-3xl mt-12  text-center">{title}</h1>
+          <h2 className="text-center">{subtitle}</h2>
+             <ContactBtn className="self-center" />
+          <p className="text-center text-sm font-light px-4 mt-12">{intro}</p>
+       
         </div>
       </div>
       {/* tablet */}

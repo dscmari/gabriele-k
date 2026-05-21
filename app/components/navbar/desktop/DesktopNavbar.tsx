@@ -13,9 +13,9 @@ export default function DesktopNavbar({ className }: Props) {
   return (
     <div className={`mx-auto p-8 pb-4 ${className}`}>
       <div className="flex gap-4 justify-end text-sm font-light pb-4 !text-custom-blue">
-        <Link href="tel:+4915202076952" className="flex items-center gap-2 ">
+        <Link href="tel: 015202076952" className="flex items-center gap-2 ">
           <Phone className="shrink-0 size-4" />
-          <span className="!cursor-pointer"> +49 1520 2076952</span>
+          <span className="!cursor-pointer"> 01520 2076952</span>
         </Link>
         <Link
           href="mailto:info@gabrielakramer.de"

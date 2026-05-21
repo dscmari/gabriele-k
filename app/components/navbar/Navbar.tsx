@@ -93,7 +93,7 @@ export default function Navbar({ className }: Props) {
                   >
                     <div className="flex flex-col gap-4 mr-8 mt-4 text-custom-blue/60 font-semibold">
                       <div
-                      className="pt-4 pb-1 border-b-2 border-slate-200 w-full flex justify-start"
+                        className="pt-4 pb-1 border-b-2 border-slate-200 w-full flex justify-start"
                         onClick={() => setShowMenu((prev) => !prev)}
                       >
                         <Link href="/angst-regulieren/">
@@ -104,9 +104,7 @@ export default function Navbar({ className }: Props) {
                         className="pb-1 border-b-2 border-slate-200"
                         onClick={() => setShowMenu((prev) => !prev)}
                       >
-                        <Link
-                          href="/stress-bewaeltigen/"
-                        >
+                        <Link href="/stress-bewaeltigen/">
                           Stress bewältigen
                         </Link>
                       </div>
@@ -127,14 +125,14 @@ export default function Navbar({ className }: Props) {
                 )}
               </AnimatePresence>
               <div className="flex flex-col items-start  gap-4 pb-12 font-semibold text-custom-blue">
-                <div className="pt-4 pb-1 border-b-2 border-slate-200 w-full flex justify-start">
-                  <Link href={"/coaching/"} className="text-right">
-                    Coaching
-                  </Link>
-                </div>
                 <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-start">
                   <Link href={"/methoden/"} className="text-right">
                     Methoden
+                  </Link>
+                </div>
+                <div className="pt-4 pb-1 border-b-2 border-slate-200 w-full flex justify-start">
+                  <Link href={"/coaching/"} className="text-right">
+                    Coaching
                   </Link>
                 </div>
                 <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-start">

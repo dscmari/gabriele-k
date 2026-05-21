@@ -117,7 +117,7 @@ export default function page() {
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
             Hier kriegen Sie einen Überblick über häufig gestellte Fragen zur
             Zusammenarbeit mit Gabriela Kramer, Heilpraktikerin für
-            Psychothrapie.
+            Psychotherapie.
           </p>
         </div>
         <div className="pt-12 lg:pt-24">

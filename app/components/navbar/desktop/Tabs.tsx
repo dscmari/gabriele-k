@@ -29,14 +29,14 @@ const Tabs = () => {
       Component: NavServices,
     },
     {
-      title: "Coaching",
-      Component: NavPricing,
-      link: "/coaching/",
-    },
-    {
       title: "Methoden",
       Component: NavWorkshops,
       link: "/methoden/",
+    },
+        {
+      title: "Coaching",
+      Component: NavPricing,
+      link: "/coaching/",
     },
     {
       title: "Über Mich",

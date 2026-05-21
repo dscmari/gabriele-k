@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Hero from "./components/Hero";
 import ContactBtn from "./components/buttons/ContactBtn";
 import AccordeonClean from "./components/AccordeonClean";
 import Features from "./components/Features";
@@ -33,7 +32,7 @@ export default function Home() {
       <section className="lg:px-32 lg:pt-32 pt-12 xl:pt-48 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center lg:flex-row-reverse">
         <div className="lg:flex-1">
           <Image
-                 src={"/images/portraits/gaby_2.jpg"}
+                 src={"/images/portraits/gaby_5.jpg"}
             alt="Bild von Gaby Kramer, Heilpraktikerin für Psychotherapie"
             width={400}
             height={800}
@@ -70,8 +69,8 @@ export default function Home() {
       <section className="xl:pt-48 lg:pt-32 lg:px-32 pt-12 flex flex-col gap-8 xl:gap-16 lg:flex-row lg:gap-16 lg:items-center">
         <div className="lg:flex-1 relative mt-24 lg:mt-0">
           <Image
-            src={"/images/stress.jpg"}
-            alt="Portraitfoto von Heilpraktikerin für Psychotherapie Gaby Kramer"
+            src={"/images/praxis.jpg"}
+            alt="Praxisräume von Heilpraktikerin für Psychotherapie Gabriela Kramer"
             width={800}
             height={800}
             className="object-cover lg:rounded-xl mx-auto"
@@ -130,7 +129,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row-reverse lg:flex-row gap-16 mt-12 lg:mt-16 xl:mt-32">
           <div className="lg:flex-1">
             <Image
-              src="/images/portraits/buero_0.png"
+              src="/images/portraits/buero_4.jpg"
               alt="Business environment in the office"
               width={800}
               height={800}
@@ -312,7 +311,7 @@ export default function Home() {
           <p className="max-w-4xl font-light text-sm lg:text-center mx-auto">
             Hier kriegen Sie einen Überblick über häufig gestellte Fragen zur
             Zusammenarbeit mit Gabriela Kramer, Heilpraktikerin für
-            Psychothrapie.
+            Psychotherapie.
           </p>
         </div>
         <div className="px-4 sm:px-16 lg:px-32 pt-12 lg:pt-24">
