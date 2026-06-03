@@ -7,7 +7,7 @@ import { Metadata } from "next";
 import { SquareArrowOutUpRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Videos, Podcast, Ratgeber rund um SEO, GEO & Ads",
+  title: "Blogartiker zu Themen der psychischen Gesundheit",
 };
 
 const POSTS_QUERY = `*[
