@@ -178,6 +178,17 @@ span:nth-child(3) {
   padding-left: 1rem;
 }
 
+@media (prefers-color-scheme: dark) {
+  .sanity p,
+  .sanity h1,
+  .sanity h2,
+  .sanity h3,
+  .sanity a,
+  .sanity ul,
+  .sanity li {
+    color: var(--color-darkmode-white);
+  }
+}
 /* ViewTransition */
 ::view-transition-old(hero) {
   animation: 300ms ease-in both slide-out;

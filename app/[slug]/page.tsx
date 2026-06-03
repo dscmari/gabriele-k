@@ -7,7 +7,6 @@ import { client } from "../../src/sanity/client";
 import Link from "next/link";
 import { Metadata } from "next";
 import Image from "next/image";
-import InfoBtn from "@/app/components/buttons/InfoBtn";
 import { ArrowLeft } from "lucide-react";
 
 export async function generateMetadata({

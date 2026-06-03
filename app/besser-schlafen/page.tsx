@@ -6,6 +6,11 @@ import Accordeon from "../components/Accordeon";
 import Newsletter from "../components/newsletter/Newsletter";
 import { faqsSleep } from "../data/FAQsData";
 import Hero_leftOrientated from "../components/Hero_leftOrientated";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Gesunder und erholsamer Schlaf",
+};
 
 export default function page() {
   const hero = {

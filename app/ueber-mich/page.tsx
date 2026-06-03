@@ -6,6 +6,11 @@ import Newsletter from "../components/newsletter/Newsletter";
 import { faqsHome } from "../data/FAQsData";
 import { educations, jobs } from "../data/QualificationsData";
 import Hero_leftOrientated from "../components/Hero_leftOrientated";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Über Gabriele Kramer",
+};
 
 export default function page() {
   const hero = {

@@ -8,6 +8,11 @@ import Features from "../components/Features";
 import Accordeon from "../components/Accordeon";
 import Newsletter from "../components/newsletter/Newsletter";
 import { faqsStress } from "../data/FAQsData";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Individuelle Hilfe bei Stress",
+};
 
 export default function page() {
   const hero = {

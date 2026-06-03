@@ -4,9 +4,14 @@ import { anxietyFeatures } from "../data/FeaturesData";
 import Accordeon from "../components/Accordeon";
 import ContactBtn from "../components/buttons/ContactBtn";
 import Newsletter from "../components/newsletter/Newsletter";
-import { faqsAnxiety, faqsHome } from "../data/FAQsData";
+import { faqsAnxiety} from "../data/FAQsData";
 import Hero_leftOrientated from "../components/Hero_leftOrientated";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Ängste und Panik regulieren",
+};
 
 export default function page() {
   const hero = {

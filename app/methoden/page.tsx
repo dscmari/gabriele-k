@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Hero_leftOrientated from "../components/Hero_leftOrientated";
-import { methodsBlog } from "../data/BlogData";
-import Blog from "../components/Blog";
 import Features from "../components/Features";
 import { methodsFeatures } from "../data/FeaturesData";
 import Accordeon from "../components/Accordeon";
@@ -9,6 +7,11 @@ import Newsletter from "../components/newsletter/Newsletter";
 import ContactBtn from "../components/buttons/ContactBtn";
 import { faqsHome, faqsHypnosis } from "../data/FAQsData";
 import Process from "../components/Process";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Therapeutische Verfahren",
+};
 
 export default function page() {
   const hero = {

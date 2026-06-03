@@ -4,6 +4,11 @@ import SixBoxLayout from "../components/SixBoxLayout";
 import { coaching } from "../data/SixBoxData";
 import ContactBtn from "../components/buttons/ContactBtn";
 import Newsletter from "../components/newsletter/Newsletter";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Coaching für mentale Gesundheit",
+};
 
 export default function page() {
   const hero = {

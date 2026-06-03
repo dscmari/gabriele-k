@@ -6,6 +6,11 @@ import { weightSixBoxData } from "../data/SixBoxData";
 import Accordeon from "../components/Accordeon";
 import Newsletter from "../components/newsletter/Newsletter";
 import { faqsWeight } from "../data/FAQsData";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Gesund abnehmen - Ihr Weg zum Wohlfühlgewicht",
+};
 
 export default function page() {
   const hero = {
