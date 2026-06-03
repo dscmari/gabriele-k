@@ -9,6 +9,12 @@ import { faqsHome } from "./data/FAQsData";
 import Hero_leftOrientated from "./components/Hero_leftOrientated";
 import FourBoxLayout from "./components/FourBoxLayout";
 import { therapyFourBox } from "./data/FourBoxData";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Therapeutische Praxis in Kaufering und der Region Landsberg am Lech",
+};
+
 
 export default function Home() {
   const hero = {
