@@ -76,6 +76,16 @@ export default function page() {
       <p>Geltungsbereich der Versicherung: Deutschland</p>
       <h2>Verantwortlich für den Inhalt</h2>
       <p>Gabriela Kramer</p>
+      <h2>Konzept, Design und Entwicklung</h2>
+      <p>Marian Nökel</p>
+      <p>Schlierseestrasse 10</p>
+      <p>81543 München</p>
+      <a href="https://www.namaste-websites.de/" target="_blank" className="underline text-custom-blue">www.namaste-websites.de</a>
+       <h2>SEO & Google Ads Beratung</h2>
+      <p>Jan Krösche</p>
+      <p>Obere Mühlstraße 6</p>
+      <p>86825 Bad Wörishofen</p>
+      <a href="https://www.jankroesche.de/" target="_blank" className="underline text-custom-blue">www.jankroesche.de</a>
       <h2>Bildnachweise</h2>
       <p>Alle auf dieser Website verwendeten Fotos sind privat erstellt und urheberrechtlich geschützt. Eine Verwendung durch Dritte ist ohne ausdrückliche Genehmigung nicht gestattet. © Gabriela Kramer</p>
       <h2>Mitgliedschaft im Verband</h2>
