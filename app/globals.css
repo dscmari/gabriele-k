@@ -27,7 +27,7 @@ body {
   --color-custom-beige: #f0ebe6;
   --color-darkmode-white: #ecf0f1;
   --color-darkmode-black: #2c3e50;
-  --color-cta: oklch(64.6% 0.222 41.116); /* cta */
+  --color-cta: #d12323; /* cta */
 }
 
 h1 {
