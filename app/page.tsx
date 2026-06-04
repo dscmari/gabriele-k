@@ -266,7 +266,7 @@ export default function Home() {
             sondern eine klare, zeitlich überschaubare Begleitung.
           </p>
         </div>
-        <FourBoxLayout data={therapyFourBox} />
+        <FourBoxLayout data={therapyFourBox} className="mx-4 lg:mx-0" />
       </section>
 
       <section className="flex flex-col gap-12 lg:gap-16 lg:flex-row lg:items-center pt-24 lg:pt-32 lg:px-32 xl:pt-48">
