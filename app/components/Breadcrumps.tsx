@@ -1,6 +1,7 @@
 'use client'
 
 import { ChevronRight, House } from "lucide-react";
+import { li } from "motion/react-client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -17,9 +18,12 @@ export default function Breadcrumbs({ className }: Props) {
     <div className={` ${className}`}>
       <ul className="flex flex-wrap lg:gap-4 text-custom-blue font-semibold items-center dark:text-darkmode-white">
         {/* Home Icon ist immer der Start */}
-        <Link href="/" className="flex gap-2 items-center p-2 pl-0">
+        <li>
+   <Link href="/" className="flex gap-2 items-center p-2 pl-0">
           <House className="hover:text-custom-red"/> <span className="hover:text-custom-red !cursor-pointer">HOME</span>
         </Link>
+        </li>
+     
         {pathnames.map((value, index) => {
           // 2. Den Link für dieses Segment zusammenbauen
           // Index 0: /geo-berater
@@ -29,7 +33,7 @@ export default function Breadcrumbs({ className }: Props) {
           // 3. Namen verschönern (Dashes entfernen & Großschreibung)
           const displayName = value.replace(/-/g, " ").toUpperCase();
           return (
-            <div key={to} className="flex items-center lg:gap-4">
+            <li key={to} className="flex items-center lg:gap-4">
               <ChevronRight />
               {last ? (
                 // Die letzte Seite ist aktiv und nicht klickbar
@@ -41,7 +45,7 @@ export default function Breadcrumbs({ className }: Props) {
                   {displayName}
                 </Link>
               )}
-            </div>
+            </li>
           );
         })}
       </ul>
