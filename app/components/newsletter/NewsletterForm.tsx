@@ -82,10 +82,10 @@ export default function WebsiteCheckForm() {
           </span>
         )}
       </label>
-      <div className="flex flex-col group relative">
+      <div className="flex flex-col ">
         <button
           type="submit"
-          className={`mt-4 lg:mt-0 bg-custom-bronce hover:bg-orange-600 hover:text-slate-500 hover:bg-slate-200 cursor-not-allowed px-4 py-2 text-white font-semibold tracking-tight rounded-xl inline-block whitespace-nowrap self-center lg:w-full`}
+          className={`mt-4 lg:mt-0 bg-custom-bronce hover:bg-orange-600 hover:text-slate-500 hover:bg-slate-200 cursor-not-allowed px-4 py-2 text-white font-semibold tracking-tight rounded-xl inline-block self-center`}
         >
           Die Anmeldung zum Newsletter ist in Kürze möglich
         </button>
