@@ -30,10 +30,11 @@ export default function WebsiteCheckForm() {
     >
       <div className="flex flex-col gap-4">
         <div className="flex flex-col gap-4 font-semibold lg:mt-4 text-custom-blue">
-          <label htmlFor="website" className="dark:text-darkmode-white">
+          <label htmlFor="name" className="dark:text-darkmode-white">
             Name<span>*</span>
           </label>
           <input
+            id="name"
             type="text"
             className={`rounded text-custom-black bg-slate-200 p-2 w-full ${errors.email ? "border-2 border-red-500 outline-none" : ""}`}
             {...register("name", { required: true })}
@@ -53,6 +54,7 @@ export default function WebsiteCheckForm() {
               required: true,
               pattern: /^\S+@\S+\.\S+$/,
             })}
+            id="email"
             className={`rounded text-custom-black bg-slate-200 p-2 w-full ${errors.email ? "border-2 border-red-500 outline-none" : ""}`}
           />
           {errors.email && (
