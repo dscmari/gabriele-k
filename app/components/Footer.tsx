@@ -8,7 +8,6 @@ type Props = {
 };
 
 export default function Footer({ className }: Props) {
-  const pathname = usePathname();
   return (
     <footer
       className={`text-white bg-custom-blue dark:border-t-2 border-slate-500 ${className}`}
@@ -17,7 +16,7 @@ export default function Footer({ className }: Props) {
         <div className="flex flex-col items-center lg:items-start gap-2 order-2 lg:order-1">
           <span>Gabriela Kramer</span>
           <span>www.gabrielakramer.de</span>
-          <span>+49 1520 2076952</span>
+          <span>01520 2076952</span>
           <span>info@gabrielakramer.de</span>
           <Link
             href="https://goo.gl/maps/DNSXZJcXVabSeL1K6"

@@ -8,6 +8,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import Image from "next/image";
 import { ArrowLeft } from "lucide-react";
+import ContactBtn from "../components/buttons/ContactBtn";
 
 export async function generateMetadata({
   params,
@@ -83,7 +84,7 @@ export default async function PostPage({
           <span className="font-light text-sm mx-auto mt-24 lg:mt-32">
             Blog
           </span>
-        <h1 className="mt-4 lg:mt-8 text-center lg:!text-3xl/12 xl:!text-5xl/14 !font-bold">{post.title}</h1>
+        <h1 className="mt-4 lg:mt-8 text-center lg:!text-3xl/12 xl:!text-5xl/14 lg:px-16 xl:px-32 !font-bold">{post.title}</h1>
         <p className="text-sm font-light text-center">
           {new Date(post.publishedAt).toLocaleDateString("de-DE", {
             day: "2-digit",
@@ -118,6 +119,7 @@ export default async function PostPage({
         <div className="mt-4 lg:mt-8 lg:px-16 xl:px-32 sanity-text">
           {Array.isArray(post.body_3) && <PortableText value={post.body_3} />}
         </div>
+          <ContactBtn className="lg:self-start lg:mx-16 xl:mx-32 " />
       </div>
     </main>
   );
