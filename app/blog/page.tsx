@@ -44,13 +44,13 @@ export default async function Blog() {
       </div>
       <div className="grid lg:grid-cols-2 gap-24 lg:gap-12 m-8 mt-24 lg:m-32">
         {posts.map((post) => (
-          <div key={post._id} className="bg-white dark rounded-xl">
+          <div key={post._id} className="bg-white dark rounded-xl dark:border">
             <Image
               src={post.imageUrl}
               alt={post.title}
               width={600}
               height={200}
-              className="h-80 w-auto mx-auto"
+              className="h-80 w-auto mx-auto rounded-t-xl"
             />
             <div className="mx-4 my-2 flex flex-col items-start">
               <Link
