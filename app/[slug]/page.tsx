@@ -62,14 +62,14 @@ export default async function PostPage({
     ? urlFor(post.image_3)?.width(550).height(310).url()
     : null;
 
-    //console.log(post)
+  //console.log(post)
   return (
     <main className="sanity-container pb-24 lg:pb-32">
       <Link
         href="/blog/"
         className="hidden lg:block mt-4 px-4  md:mt-8 md:px-8 lg:px-16 lg:px-32 font-light text-sm dark:text-custom-white"
       >
-        <ArrowLeft className="size-10 text-neutral-500"/>
+        <ArrowLeft className="size-10 text-neutral-500" />
       </Link>
       <div className="flex flex-col items-center max-w-4xl mx-4 lg:mx-auto">
         {postImageUrl && (
@@ -78,13 +78,13 @@ export default async function PostPage({
             alt={post.title}
             width={600}
             height={400}
-            className="rounded-xl mt-16 "
+            className="rounded-xl mt-16 dark:border dark:border-darkmode-white"
           />
         )}
-          <span className="font-light text-sm mx-auto mt-24 lg:mt-32">
-            Blog
-          </span>
-        <h1 className="mt-4 lg:mt-8 text-center lg:!text-3xl/12 xl:!text-5xl/14 lg:px-16 xl:px-32 !font-bold">{post.title}</h1>
+        <span className="font-light text-sm mx-auto mt-24 lg:mt-32">Blog</span>
+        <h1 className="mt-4 lg:mt-8 text-center lg:!text-3xl/12 xl:!text-5xl/14 lg:px-16 xl:px-32 !font-bold">
+          {post.title}
+        </h1>
         <p className="text-sm font-light text-center">
           {new Date(post.publishedAt).toLocaleDateString("de-DE", {
             day: "2-digit",
@@ -119,7 +119,7 @@ export default async function PostPage({
         <div className="mt-4 lg:mt-8 lg:px-16 xl:px-32 sanity-text">
           {Array.isArray(post.body_3) && <PortableText value={post.body_3} />}
         </div>
-          <ContactBtn className="lg:self-start lg:mx-16 xl:mx-32 " />
+        <ContactBtn className="lg:self-start lg:mx-16 xl:mx-32 " />
       </div>
     </main>
   );
