@@ -55,17 +55,17 @@ export default async function Blog() {
             <div className="mx-4 my-2 flex flex-col items-start">
               <Link
                 href={`/${post.slug.current}`}
-                className="gap-2 pt-4  underline font-semibold text-lg"
+                className="gap-2 pt-4  underline font-semibold text-lg text-custom-blue"
                 target="_blank"
               >
                 {post.title}
               </Link>
-              <p className="text-sm font-light">
+              <p className="text-sm font-light text-custom-blue dark:!text-custom-blue">
                 {post.excerpt?.substring(0, 140)}...
               </p>
               <Link
                 href={`/${post.slug.current}`}
-                className="flex gap-2 pt-4 items-center text-sm font-semibold"
+                className="flex gap-2 pt-4 items-center text-sm font-semibold text-custom-blue"
                 target="_blank"
               >
                 Zum Post
