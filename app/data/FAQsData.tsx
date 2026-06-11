@@ -22,7 +22,7 @@ export const faqsHome = [
     id: "faq-4",
     question: "Wie läuft ein erstes Kennenlerngespräch bei Ihnen ab?",
     answer:
-      "Das erste Kennenlerngespräch findet telefonisch statt, dauert etwa 15 Minuten und ist für Sie kostenlos. In dieser Zeit klären wir Ihr Anliegen, Ihre aktuelle Situation und schauen gemeinsam, ob die Zusammenarbeit für Sie stimmig ist. Bitte vereinbaren Sie Ihren Termin online über meine Webseite.",
+      "Das erste Kennenlerngespräch findet telefonisch statt, dauert etwa 20 Minuten und ist für Sie kostenlos. In dieser Zeit klären wir Ihr Anliegen, Ihre aktuelle Situation und schauen gemeinsam, ob die Zusammenarbeit für Sie stimmig ist. Bitte vereinbaren Sie Ihren Termin online über meine Webseite.",
   },
   {
     id: "faq-5",
@@ -159,31 +159,31 @@ export const faqsAnxiety = [
     id: "faq-5",
     question: "Was kann ich bei einer akuten Panikattacke tun?",
     answer:
-      "Eine Panikattacke ist sehr unangenehm, geht aber in der Regel wieder vorüber. Hilfreich kann eine ruhige Bauchatmung sein: langsam einatmen und etwas länger durch den Mund ausatmen. Zusätzlich kann es unterstützen, die Aufmerksamkeit bewusst auf den gegenwärtigen Moment zu lenken und wahrzunehmen, was Sie gerade sehen, hören oder spüren.",
+      "Eine Panikattacke ist sehr unangenehm, geht aber in der Regel wieder vorüber. Hilfreich kann eine ruhige Bauchatmung sein: langsam einatmen und etwas länger durch den Mund ausatmen. Zusätzlich kann es unterstützen, die Aufmerksamkeit bewusst nach außen zu richten: Schauen Sie sich langsam im Raum um. Benennen Sie innerlich fünf Dinge, die Sie sehen, vier Geräusche, die Sie hören, drei Farben oder Formen, zwei Gegenstände in Ihrer Nähe und einen sicheren Orientierungspunkt.",
   },
 ];
 
 export const faqsHypnosis = [
   {
-    id: "faq-1",
+    id: "faq-hypnosis-1",
     question: "Bekomme ich während der Hypnose noch mit, was passiert?",
     answer:
       "Ja. Die meisten Menschen nehmen während der Hypnose sehr wohl wahr, was geschieht. Sie hören meine Stimme, erleben innere Bilder oder Gedanken und können sich in der Regel auch an die Sitzung erinnern. Viele empfinden Hypnose als einen Zustand tiefer innerer Ruhe und Konzentration. Nicht spektakuläre Effekte sind entscheidend, sondern ob sich innerlich etwas lösen, ordnen oder neu ausrichten kann.",
   },
   {
-    id: "faq-2",
+    id: "faq-hypnosis-12",
     question: "Kann jeder hypnotisiert werden?",
     answer:
       "Viele Menschen können einen hypnotischen Zustand erreichen. Dafür müssen Sie kein besonders „leicht beeinflussbarer“ Mensch sein. Auch skeptische oder kontrollierte Menschen sind nicht automatisch ungeeignet. Wichtig ist vor allem, dass Sie bereit sind, sich auf den Prozess einzulassen. Ich arbeite nicht nach Schema, sondern passe die Begleitung an Sie und Ihr Anliegen an.",
   },
   {
-    id: "faq-3",
+    id: "faq-hypnosis-13",
     question: "Wie viele Sitzungen sind nötig?",
     answer:
       "Das hängt stark vom Anliegen ab. Manche Themen sind klar umrissen, andere haben eine längere Vorgeschichte und brauchen mehr Zeit. Eine seriöse Antwort ist deshalb nur individuell möglich. Mir ist wichtig, Ihnen keine pauschalen Versprechen zu machen. Stattdessen schauen wir gemeinsam, welcher Weg für Ihr Anliegen realistisch und sinnvoll ist.",
   },
   {
-    id: "faq-4",
+    id: "faq-hypnosis-14",
     question: "Ist Hypnose sicher?",
     answer:
       "Bei fachgerechter Anwendung kann Hypnose eine bewährte therapeutische Methode sein. Entscheidend ist, dass sie verantwortungsvoll, passend zum Anliegen und in einem sicheren Rahmen eingesetzt wird. Genau deshalb steht bei mir die gründliche Einschätzung am Anfang. Ich arbeite achtsam, transparent und mit Blick auf das, was für Sie hilfreich und angemessen ist.",

@@ -29,7 +29,7 @@ export default function Footer({ className }: Props) {
         <div className="flex flex-col gap-8 order-3 mb-12 lg:mb-0 lg:order-2">
           <div className="flex flex-col items-center lg:items-start gap-2">
             <Link
-              href={"angst-regulieren"}
+              href={"/angst-regulieren"}
               className="font-semibold underline underline-offset-4"
             >
               Ängste & Panik regulieren

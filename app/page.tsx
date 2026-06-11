@@ -105,9 +105,7 @@ export default function Home() {
             dabei, Ihre persönlichen Stressauslöser und Stressmuster besser zu
             verstehen. Dabei geht es nicht darum, Stress vollständig zu
             vermeiden. Sie lernen, Ihre eigenen Reaktionen bewusster
-            wahrzunehmen und besser zu steuern. So können Sie mit Druck
-            bewusster umgehen und auch in belastenden Phasen klar, stabil und
-            leistungsfähig bleiben.
+            wahrzunehmen und besser zu steuern.
           </p>
           <p className="mb-8">
             So können Sie mit Druck bewusster umgehen, Ihre innere Balance
@@ -201,8 +199,8 @@ export default function Home() {
             Begegnung bis zum Abschluss Sicherheit und Orientierung gibt.
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row lg:gap-16 pt-12">
-          <div className="lg:flex-1">
+        <div className="flex flex-col items-center lg:gap-16 pt-12">
+          <div className="lg:mx-auto">
             <div className="dark:bg-white px-4 sm:px-16 dark:py-24">
               <Image
                 src="/images/roadmap_mobile.png"
@@ -220,7 +218,7 @@ export default function Home() {
               className="hidden lg:block lg:w-4xl xl:w-6xl mx-auto"
             />
           </div>
-          <div className="pt-12 px-4 sm:px-0 flex flex-col lg:hidden">
+          <div className="pt-12 px-4 sm:px-0 flex flex-col max-w-3xl">
             <h2 className="text-center lg:text-start !mb-8">
               Was Sie erwartet
             </h2>
@@ -274,7 +272,7 @@ export default function Home() {
           <span className="font-light text-sm mx-auto">
             Wartezeit sinnvoll überbrücken
           </span>
-          <h1 className="mb-8  lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue text-center">
+          <h1 className="mb-8 px-4 lg:px-0  lg:!text-3xl/12 xl:!text-5xl/14 !font-bold text-custom-blue text-center">
             Begleitung bis zum kassengestützten Therapieplatz
           </h1>
           <div className="flex flex-col items-center lg:flex-row lg:items-start gap-8 2xl:gap-16 pt-8 mx-auto">

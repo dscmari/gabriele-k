@@ -7,9 +7,9 @@ export const jobs = [
     },
     {
       date: "2018 - 2019",
-      title: "Heilpraktikerin für Psychotherapie",
+      title: "Ausbildung und Überprüfung zur Heilpraktikerin für Psychotherapie",
       description:
-        "Ausbildung zur Heilpraktikerin für Psychotherapie an der Heilpraktikerschule Landsberg",
+        "Ausbildung an der Heilpraktikerschule Landsberg und Erwerb der Erlaubnis zur Ausübung der Heilkunde beschränkt auf das Gebiet der Psychotherapie, verliehen durch das Landratsamt Augsburg am 13.11.2019.",
     },
     {
       date: "2010 - 2015",
@@ -34,7 +34,7 @@ export const jobs = [
 export const educations = [
     {
       date: "ab 2021",
-      title: "Virtual Reality Brille",
+      title: "Virtual-Reality-gestützte Methoden",
       description:
         "Masterclass für Einsatz bei Psychotherapie & Coaching – Carola Epple, Lab E GmbH, Essslingen",
     },
@@ -42,13 +42,13 @@ export const educations = [
       date: "ab 2020",
       title: "Psychotherapeutische Fachausbildungen für Heilpraktiker (TMI)",
       description:
-        "EMDR, EMDR bei Ängsten & Phobien Verhaltenstherapie Therapeutische Meditation",
+        "EMDR, EMDR bei Ängsten & Phobien, Verhaltenstherapie ",
     },
     {
       date: "ab 2018",
       title: "Hypnose (TMI)",
       description:
-        "Grundkurs & Advanced Level, Medizinische Heilhypnose, Hypnose-Coaching",
+        "Grundkurs und Advanced Level, medizinische Heilhypnose, Hypnose-Coaching.Ergänzend vertiefende Fachausbildungen zu Ängsten, Zwängen und Phobien, Schlafstörungen, Depressionen, Burnout, Tiefenentspannung sowie weiteren hypnotherapeutischen Anwendungsbereichen",
     },
     {
       date: "2013 - 2014",

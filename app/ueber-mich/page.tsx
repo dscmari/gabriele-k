@@ -9,16 +9,16 @@ import Hero_leftOrientated from "../components/Hero_leftOrientated";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Über Gabriele Kramer",
+  title:
+    "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Über Gabriele Kramer",
 };
 
 export default function page() {
   const hero = {
     title: "Über Mich",
-    subtitle:
-      "Eine Frage wird mir immer wieder gestellt: Wie wird aus einer Automobilverkäuferin eine Heilpraktikerin für Psychotherapie?",
+    subtitle: "Vom Premiumvertrieb zur mentalen Gesundheit",
     intro:
-      "Nach über 20 Jahren bei Mercedes-Benz und einer Karriere als Business-Trainerin erkannte ich, dass hinter jedem beruflichen Erfolg ein gesunder Geist steht. Die Arbeit mit Menschen – das Zuhören, das Vertrauen, der Umgang mit Druck – führten mich schließlich ganz natürlich zur Ausbildung als Heilpraktikerin für Psychotherapie. Heute begleite ich Menschen nicht mehr auf dem Weg zum nächsten Geschäftsabschluss, sondern auf dem Weg zu sich selbst.",
+      "Was haben Premiumvertrieb, mentale Gesundheit und Psychotherapie miteinander zu tun? Für mich: sehr viel. Über 20 Jahre war ich im Premiumvertrieb tätig, in einem leistungsorientierten Umfeld, geprägt von Verantwortung, Kundenerwartungen und Veränderungsdruck. Eine ernsthafte körperliche Erkrankung hat meinen Blick auf Gesundheit, persönliche Grenzen und Stress deutlich geschärft. Daraus entstand mein Wunsch, Menschen im Bereich mentale Gesundheit fundiert zu unterstützen. Heute begleite ich Menschen nicht mehr auf dem Weg zum nächsten Abschluss, sondern zu mehr innerer Stabilität, Selbstregulation und Vertrauen in sich selbst.",
     imgPathDesktop: "/images/portraits/vr_gk.jpg",
   };
   const { title, subtitle, intro, imgPathDesktop } = hero;
@@ -50,35 +50,41 @@ export default function page() {
             </h1>
             <div className="flex flex-col gap-4">
               <p>
-                Ich war über 20 Jahre im Vertrieb der Marke Mercedes-Benz tätig.
-                Auf den ersten Blick ging es dort um Fahrzeuge. In Wirklichkeit
-                ging es oft um Menschen, Vertrauen, Wünsche, Fragen und darum,
-                wirklich zuzuhören. Leistung, Verantwortung und Druck waren mir
-                aus dieser Zeit sehr vertraut. Heute weiß ich: Stärke bedeutet
-                nicht nur, durchzuhalten. Sie bedeutet auch, rechtzeitig auf
-                sich selbst zu achten.
+                Mein beruflicher Weg begann in der Wirtschaft und hat sich
+                Schritt für Schritt weiterentwickelt. Viele Jahre war ich in
+                einem leistungsorientierten Umfeld tätig, geprägt von
+                Zielvorgaben, Verantwortung, Kundenerwartungen und
+                Veränderungsdruck. Ich weiß daher, wie viel Kraft es kosten
+                kann, dauerhaft präsent, belastbar und souverän zu bleiben.
               </p>
               <p>
-                Als Business-Trainerin und Coach stand später ein Ziel im
-                Mittelpunkt: Menschen beruflich erfolgreicher zu machen: durch
-                klare Kommunikation, sicheres Auftreten und den Aufbau von
-                Vertrauen. Mit der Zeit wurde daraus eine wichtige Erkenntnis:
-                Leistungsfähigkeit braucht mentale Gesundheit.
+                Auf dieser Grundlage habe ich später meine Kompetenz in
+                Beratung, Kommunikation und Konfliktklärung ausgebaut. Die
+                wichtigsten beruflichen Stationen und fachlichen Qualifikationen
+                finden Sie weiter unten auf dieser Seite.
               </p>
               <p>
-                2015 erkrankte ich körperlich schwer. Ergänzend zur
-                medizinischen Behandlung wurde mir bewusst, wie innere
-                Stabilität und mentale Selbstregulation die Gesundheit
-                unterstützen können. Heute begleite ich Menschen, die ihre
-                mentale Gesundheit stärken und erhalten möchten. Therapie setzt
-                dort an, wo psychische Beschwerden den Alltag belasten. Coaching
-                passt, wenn persönliche oder berufliche Entwicklung im
-                Vordergrund steht.
+                Eine ernsthafte körperliche Erkrankung brachte eine längere
+                Auszeit mit sich. Diese Zeit hat meinen Blick auf Gesundheit,
+                persönliche Grenzen und den Umgang mit Stress deutlich
+                geschärft. Daraus entstand der Wunsch, Menschen im Bereich
+                mentale Gesundheit fundiert zu unterstützen.
               </p>
               <p>
-                Ich verbinde therapeutisches Fachwissen und Coaching-Kompetenz
-                mit eigener Erfahrung aus der freien Wirtschaft. Daraus entsteht
-                ein klarer, menschlicher und lösungsorientierter Arbeitsstil.
+                Mir wurde bewusst: Manche Themen lassen sich im Coaching gut
+                begleiten. Andere reichen tiefer. Wenn Ängste, anhaltender
+                Stress, Schlafprobleme oder emotionales Essen auftreten, reichen
+                neue Strategien oft nicht aus. Dann braucht es den Blick auf
+                innere Muster, emotionale Belastungen und Selbstregulation.
+              </p>
+              <p>
+                Deshalb habe ich meinen beruflichen Weg um die
+                psychotherapeutische Arbeit erweitert und die Erlaubnis zur
+                Ausübung der Heilkunde auf dem Gebiet der Psychotherapie
+                erworben. Heute verbinde ich therapeutisches Fachwissen und
+                Coaching-Kompetenz mit eigener Erfahrung aus der freien
+                Wirtschaft. Daraus entsteht ein klarer, menschlicher und
+                lösungsorientierter Arbeitsstil.
               </p>
             </div>
           </div>
