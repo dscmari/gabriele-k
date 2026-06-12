@@ -82,7 +82,7 @@ export default async function PostPage({
           />
         )}
         <span className="font-light text-sm mx-auto mt-24 lg:mt-32">Blog</span>
-        <h1 className="mt-4 lg:mt-8 text-center lg:!text-3xl/12 xl:!text-5xl/14 lg:px-16 xl:px-32 !font-bold">
+        <h1 className="mt-4 lg:mt-8 text-center lg:!text-3xl/12 xl:!text-5xl/14 lg:px-16 !font-bold">
           {post.title}
         </h1>
         <p className="text-sm font-light text-center">

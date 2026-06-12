@@ -169,6 +169,10 @@ span:nth-child(3) {
   line-height: 1.625; /* leading-relaxed */
 }
 
+.sanity-text p + p {
+  margin-top: 1rem;
+}
+
 .sanity-text a {
   text-decoration: underline;
 }
@@ -189,6 +193,9 @@ span:nth-child(3) {
     color: var(--color-darkmode-white);
   }
 }
+
+
+
 /* ViewTransition */
 ::view-transition-old(hero) {
   animation: 300ms ease-in both slide-out;
