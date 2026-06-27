@@ -12,7 +12,7 @@ import { therapyFourBox } from "./data/FourBoxData";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Therapeutische Praxis in Kaufering und der Region Landsberg am Lech",
+  title: "Heilpraktikerin für Psychotherapie - Gabriela Kramer | Therapeutische Praxis in Kaufering und der Region Landsberg am Lech",
 };
 
 

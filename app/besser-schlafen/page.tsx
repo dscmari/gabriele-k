@@ -9,7 +9,7 @@ import Hero_leftOrientated from "../components/Hero_leftOrientated";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Gesunder und erholsamer Schlaf",
+  title: "Heilpraktikerin für Psychotherapie - Gabriela Kramer | Gesunder und erholsamer Schlaf",
 };
 
 export default function page() {

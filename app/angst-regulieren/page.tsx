@@ -10,7 +10,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Ängste und Panik regulieren",
+  title: "Heilpraktikerin für Psychotherapie - Gabriela Kramer | Ängste und Panik regulieren",
 };
 
 export default function page() {

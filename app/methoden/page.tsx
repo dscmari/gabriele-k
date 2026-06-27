@@ -10,7 +10,7 @@ import Process from "../components/Process";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Therapeutische Verfahren",
+  title: "Heilpraktikerin für Psychotherapie - Gabriela Kramer | Therapeutische Verfahren",
 };
 
 export default function page() {

@@ -7,7 +7,7 @@ import Newsletter from "../components/newsletter/Newsletter";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Coaching für mentale Gesundheit",
+  title: "Heilpraktikerin für Psychotherapie - Gabriela Kramer | Coaching für mentale Gesundheit",
 };
 
 export default function page() {

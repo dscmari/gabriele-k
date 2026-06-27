@@ -11,7 +11,7 @@ import { faqsStress } from "../data/FAQsData";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Individuelle Hilfe bei Stress",
+  title: "Heilpraktikerin für Psychotherapie - Gabriela Kramer | Individuelle Hilfe bei Stress",
 };
 
 export default function page() {

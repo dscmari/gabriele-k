@@ -10,7 +10,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Über Gabriele Kramer",
+    "Heilpraktikerin für Psychotherapie - Gabriela Kramer | Über Gabriele Kramer",
 };
 
 export default function page() {

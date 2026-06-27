@@ -9,7 +9,7 @@ import { faqsWeight } from "../data/FAQsData";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Gesund abnehmen - Ihr Weg zum Wohlfühlgewicht",
+  title: "Heilpraktikerin für Psychotherapie - Gabriela Kramer | Gesund abnehmen - Ihr Weg zum Wohlfühlgewicht",
 };
 
 export default function page() {

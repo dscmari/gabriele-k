@@ -7,7 +7,7 @@ import { Metadata } from "next";
 import { SquareArrowOutUpRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Heilpraktikerin für Psychotherapie - Gabriele Kramer | Blogartikel zu Themen der psychischen Gesundheit",
+  title: "Heilpraktikerin für Psychotherapie - Gabriela Kramer | Blogartikel zu Themen der psychischen Gesundheit",
 };
 
 const POSTS_QUERY = `*[
