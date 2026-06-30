@@ -5,6 +5,7 @@ import ContactBtn from "./buttons/ContactBtn";
 import { usePathname } from "next/navigation";
 import { ViewTransition } from "react";
 import { sub } from "motion/react-client";
+import { CheckCheck } from "lucide-react";
 
 type Props = {
   className?: string;
@@ -40,9 +41,18 @@ export default function Hero({
         <div className="flex flex-col gap-4 px-4">
           <h1 className="!text-3xl mt-12  text-center">{title}</h1>
           <h2 className="text-center">{subtitle}</h2>
-             <ContactBtn className="self-center" />
+          <div className="flex flex-col items-center justify-center gap-4 mb-8 font-semibold text-custom-blue dark:text-darkmode-white">
+            <div className="flex flex-nowrap gap-2">
+              <CheckCheck className="shrink-0" />
+              <span>Kostenloses Erstgespräch</span>
+            </div>
+            <div className="flex gap-2">
+              <CheckCheck className="shrink-0" />
+              <span>Schnelle Terminvergabe</span>
+            </div>
+          </div>
+          <ContactBtn className="self-center" />
           <p className="text-center text-sm font-light px-4 mt-12">{intro}</p>
-       
         </div>
       </div>
       {/* tablet */}
@@ -55,9 +65,19 @@ export default function Hero({
             {subtitle}
           </h2>
           <p className="mb-8 xl:text-lg dark:!text-custom-blue">{intro}</p>
+          <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 mb-8 font-semibold text-custom-blue">
+            <div className="flex flex-nowrap gap-2">
+              <CheckCheck className="shrink-0" />
+              <span>Kostenloses Erstgespräch</span>
+            </div>
+            <div className="flex gap-2">
+              <CheckCheck className="shrink-0" />
+              <span>Schnelle Terminvergabe</span>
+            </div>
+          </div>
           <ContactBtn className="self-center" />
         </div>
-        <div className="flex justify-around gap-8 px-16 ">
+        {/* <div className="flex justify-around gap-8 px-16 ">
           <div className="flex flex-col gap-4 flex-1">
             <div className="flex items-center gap-4">
               <span className="block w-6 h-1 bg-current" />
@@ -88,7 +108,7 @@ export default function Hero({
               verstehen.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
       {/* desktop */}
 
@@ -97,7 +117,9 @@ export default function Hero({
           <div>
             <Image
               src={"/images/portraits/buero_0.png"}
-              alt={"Hintergrund Bild von einem Büro"}
+              alt={
+                "Hintergrund Bild von einem Büro von Gabriela Kramer - Heilpraktikerin für Psychotherapie"
+              }
               fill
               className="object-cover"
               priority
@@ -113,7 +135,17 @@ export default function Hero({
             <h2 className="lg:!text-xl xl:!text-3xl/12 dark:!text-custom-blue">
               {subtitle}
             </h2>
-            <p className="mb-8 xl:text-lg dark:!text-custom-blue">{intro}</p>
+            <p className="mb-4 xl:text-lg dark:!text-custom-blue">{intro}</p>
+            <div className="flex gap-8 mb-8 font-semibold">
+              <div className="flex flex-nowrap gap-2">
+                <CheckCheck className="shrink-0 text-custom-blue" />
+                <span>Kostenloses Erstgespräch</span>
+              </div>
+              <div className="flex gap-2">
+                <CheckCheck className="shrink-0 text-custom-blue" />
+                <span>Schnelle Terminvergabe</span>
+              </div>
+            </div>
             <ContactBtn className="self-start" />
           </div>
         </ViewTransition>

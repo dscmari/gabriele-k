@@ -18,7 +18,7 @@ export default function page() {
         Heilleistungen sind von der Umsatzsteuer gemäß § 4 Nr. 14 a UStG
         befreit.
       </p>
-      <p>Für alle anderen Leistungen gilt die UST-ID: DE 268 3.98 616</p>
+      <p>Für alle anderen Leistungen gilt die UST-ID: DE268398616</p>
       <h2>Aufsichtsbehörde</h2>
       <ul className="text-custom-blue">
         <li>Gesundheitsamt Landsberg</li>
