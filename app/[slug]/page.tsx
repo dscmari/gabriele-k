@@ -9,6 +9,7 @@ import { Metadata } from "next";
 import Image from "next/image";
 import { ArrowLeft } from "lucide-react";
 import ContactBtn from "../components/buttons/ContactBtn";
+import { notFound } from "next/navigation";
 
 export async function generateMetadata({
   params,
@@ -51,6 +52,10 @@ export default async function PostPage({
     await params,
     options,
   );
+
+    if (!post) {
+    notFound();
+  }
 
   const postImageUrl = post.image
     ? urlFor(post.image)?.width(550).height(310).url()
