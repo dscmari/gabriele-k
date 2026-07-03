@@ -44,7 +44,7 @@ export default function Hero({
           <div className="flex flex-col items-center justify-center gap-4 mb-8 font-semibold text-custom-blue dark:text-darkmode-white">
             <div className="flex flex-nowrap gap-2">
               <CheckCheck className="shrink-0" />
-              <span>Kostenloses Erstgespräch</span>
+              <span>Kostenloses Kennenlerngespräch</span>
             </div>
             <div className="flex gap-2">
               <CheckCheck className="shrink-0" />
@@ -68,7 +68,7 @@ export default function Hero({
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 mb-8 font-semibold text-custom-blue">
             <div className="flex flex-nowrap gap-2">
               <CheckCheck className="shrink-0" />
-              <span>Kostenloses Erstgespräch</span>
+              <span>Kostenloses Kennenlerngespräch</span>
             </div>
             <div className="flex gap-2">
               <CheckCheck className="shrink-0" />
@@ -139,7 +139,7 @@ export default function Hero({
             <div className="flex gap-8 mb-8 font-semibold">
               <div className="flex flex-nowrap gap-2">
                 <CheckCheck className="shrink-0 text-custom-blue" />
-                <span>Kostenloses Erstgespräch</span>
+                <span>Kostenloses Kennenlerngespräch</span>
               </div>
               <div className="flex gap-2">
                 <CheckCheck className="shrink-0 text-custom-blue" />

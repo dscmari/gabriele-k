@@ -4,7 +4,6 @@ import AccordeonClean from "./components/AccordeonClean";
 import Features from "./components/Features";
 import { smoke } from "./data/FeaturesData";
 import Accordeon from "./components/Accordeon";
-import Newsletter from "./components/newsletter/Newsletter";
 import { faqsHome } from "./data/FAQsData";
 import Hero_leftOrientated from "./components/Hero_leftOrientated";
 import FourBoxLayout from "./components/FourBoxLayout";
@@ -12,7 +11,8 @@ import { therapyFourBox } from "./data/FourBoxData";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Heilpraktikerin für Psychotherapie - Gabriela Kramer | Therapeutische Praxis in Kaufering und der Region Landsberg am Lech",
+  title: "Heilpraktikerin Psychotherapie Kaufering: Sofort FREIE Termine",
+  description: "Ich bin Gabriela Kramer aus Kaufering & helfe Patienten bei Ängsten & psychischen. Belastungen. Sofort freie Praxis-Termine & kostenloses Kennenlerngespräch"
 };
 
 
