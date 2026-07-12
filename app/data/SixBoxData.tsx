@@ -1,5 +1,6 @@
 import {
   ActivitySquare,
+  AlertCircle,
   BatteryLow,
   Bot,
   Brain,
@@ -8,8 +9,10 @@ import {
   Focus,
   Heart,
   HeartPulse,
+  Moon,
   MoonStar,
   RefreshCw,
+  Scale,
   ScanEye,
   ShieldCheck,
   Sparkles,
@@ -207,5 +210,69 @@ export const coaching = [
     ),
     title: "Im Beruf und Alltag handlungsfähig bleiben",
     text: "Entwickeln Sie Strategien, die Ihnen helfen, auch in herausfordernden Phasen handlungsfähig, klar und fokussiert zu bleiben.",
+  },
+];
+
+//coaching
+export const psychotherapieSchwabmuenchen = [
+  {
+    icon: (
+      <AlertCircle
+        className="shrink-0 text-custom-blue dark:text-darkmode-white"
+        size={48}
+      />
+    ),
+    title: "Ängste, Panik und Phobien",
+    text: "In meiner Praxis in Kaufering finden Sie einen geschützten Rahmen, in dem Ihre Angst ernst genommen wird. ",
+  },
+  {
+    icon: (
+      <ActivitySquare
+        className="shrink-0 text-custom-blue dark:text-darkmode-white"
+        size={48}
+      />
+    ),
+    title: "Innere Unruhe und Anspannung",
+    text: "Entwickeln Sie einen bewussteren, stimmigeren Umgang mit Stress und verbessern Sie Ihre Stresskompetenz.",
+  },
+  {
+    icon: (
+      <HeartPulse
+        className="shrink-0 text-custom-blue dark:text-darkmode-white"
+        size={48}
+      />
+    ),
+    title: "Stress und Erschöpfung",
+    text: "Bauen Sie Ihre innere Stabilität und Resilienz im Umgang mit Belastungen aus.",
+  },
+  {
+    icon: (
+      <Moon
+        className="shrink-0 text-custom-blue dark:text-darkmode-white"
+        size={48}
+      />
+    ),
+    title: "Schlafprobleme und Grübeln",
+    text: "In meiner Praxis begleite ich Sie dabei, mögliche Zusammenhänge und Hintergründe Ihrer Schlafstörungen besser einzuordnen.",
+  },
+  {
+    icon: (
+      <Sprout
+        className="shrink-0 text-custom-blue dark:text-darkmode-white"
+        size={48}
+      />
+    ),
+    title: "Coaching für mentale Gesundheit",
+    text: "Entdecken Sie Ihre persönlichen Stärken und Kraftquellen und setzen sie diese gezielt im Alltag ein.",
+  },
+  {
+    icon: (
+      <Scale
+        className="shrink-0 text-custom-blue dark:text-darkmode-white"
+        size={48}
+      />
+    ),
+    title: "Beruflicher oder privater Druck",
+    text: "Es geht es nicht um allgemeine Ratschläge. Sie entwickeln Lösungen, die zu Ihrer Situation, Ihren Zielen und Ihrem Alltag passen.",
   },
 ];

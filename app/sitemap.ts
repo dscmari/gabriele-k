@@ -50,6 +50,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+     {
+      url: "https://www.gabrielakramer.de/psychotherapie-schwabmuenchen",
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
     {
       url: "https://www.gabrielakramer.de/ueber-mich/",
       lastModified: new Date(),

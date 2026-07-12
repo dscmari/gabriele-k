@@ -31,6 +31,12 @@ const NavServices = () => {
           >
             Gesund abnehmen
           </Link>
+              <Link
+            href="/coaching"
+            className="font-semibold hover:underline"
+          >
+            Coaching
+          </Link>
           {/* <LinkSeoCheck className="text-neutral-400" /> */}
           {/* <Link
             href="/seo-berater/kostenloser-seo-kurs/"

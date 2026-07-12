@@ -25,7 +25,7 @@ const Tabs = () => {
 
   const TABS = [
     {
-      title: "Meine Schwerpunkte",
+      title: "Schwerpunkte",
       Component: NavServices,
     },
     {
@@ -34,9 +34,9 @@ const Tabs = () => {
       link: "/methoden/",
     },
         {
-      title: "Coaching",
+      title: "Psychotherapie Schwabmünchen",
       Component: NavPricing,
-      link: "/coaching/",
+      link: "/psychotherapie-schwabmuenchen/",
     },
     {
       title: "Über Mich",

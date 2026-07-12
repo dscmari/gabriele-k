@@ -120,21 +120,28 @@ export default function Navbar({ className }: Props) {
                       >
                         <Link href="/gesund-abnehmen/">Gesund abnehmen</Link>
                       </div>
+                           <div
+                        className="pb-1 border-b-2 border-slate-200 w-full flex justify-start"
+                        onClick={() => setShowMenu((prev) => !prev)}
+                      >
+                        <Link href="/coaching/">Coaching</Link>
+                      </div>
                     </div>
                   </motion.ol>
                 )}
               </AnimatePresence>
               <div className="flex flex-col items-start gap-4 pb-4 font-semibold text-custom-blue">
-                <div className="pt-4 pb-1 border-b-2 border-slate-200 w-full flex justify-start">
+                     <div className="pt-4 pb-1 border-b-2 border-slate-200 w-full flex justify-start">
+                  <Link href={"/psychotherapie-schwabmuenchen/"} className="text-right">
+                    Psychotherapie Schwabmünchen
+                  </Link>
+                </div>
+                <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-start">
                   <Link href={"/methoden/"} className="text-right">
                     Methoden
                   </Link>
                 </div>
-                <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-start">
-                  <Link href={"/coaching/"} className="text-right">
-                    Coaching
-                  </Link>
-                </div>
+           
                 <div className="pb-1 border-b-2 border-slate-200 w-full flex justify-start">
                   <Link href={"/ueber-mich/"} className="text-right">
                     Über Mich
